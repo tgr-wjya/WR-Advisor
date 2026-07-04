@@ -1,0 +1,14 @@
+{
+  "name": "wild-rift-advisor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  }
+}
