@@ -1,6 +1,7 @@
 import type {
   AdvisorData,
   ChampionDossier,
+  ChampionKnowledgeProfile,
   DraftChampion,
   DraftInput,
   PickTag,
@@ -23,6 +24,29 @@ function patchScore(dossier: ChampionDossier): number {
 
 function collectTags(picks: DraftChampion[]): PickTag[] {
   return picks.flatMap((pick) => pick.tags ?? []);
+}
+
+function normalizeChampionId(champion: string): string {
+  return champion
+    .trim()
+    .toLowerCase()
+    .replace(/['’.\s]/g, "")
+    .replace(/[^a-z0-9-]/g, "");
+}
+
+function approvedProfileMap(profiles: ChampionKnowledgeProfile[]): Map<string, ChampionKnowledgeProfile> {
+  return new Map(
+    profiles
+      .filter((profile) => profile.status === "approved")
+      .map((profile) => [normalizeChampionId(profile.id), profile]),
+  );
+}
+
+function collectDraftTags(picks: DraftChampion[], profiles: Map<string, ChampionKnowledgeProfile>): PickTag[] {
+  return picks.flatMap((pick) => {
+    const profileTags = profiles.get(normalizeChampionId(pick.champion))?.tags ?? [];
+    return [...profileTags, ...(pick.tags ?? [])];
+  });
 }
 
 function applyRules(rules: TaggedRule[], tags: PickTag[]): { score: number; reasons: string[]; warnings: string[] } {
@@ -50,11 +74,15 @@ function blindPickScore(dossier: ChampionDossier, draft: DraftInput): { score: n
   return { score };
 }
 
-function buildRecommendation(dossier: ChampionDossier, draft: DraftInput): Recommendation {
-  const allyTags = collectTags(draft.allies);
-  const enemyTags = collectTags(draft.enemies);
+function buildRecommendation(
+  dossier: ChampionDossier,
+  draft: DraftInput,
+  profiles: Map<string, ChampionKnowledgeProfile>,
+): Recommendation {
+  const allyTags = collectDraftTags(draft.allies, profiles);
+  const enemyTags = collectDraftTags(draft.enemies, profiles);
   const support = draft.allies.find((ally) => ally.role === "support");
-  const supportTags = support?.tags ?? [];
+  const supportTags = support ? collectDraftTags([support], profiles) : [];
 
   const supportResult = applyRules(dossier.supportSynergies, supportTags);
   const enemyResult = applyRules(dossier.enemyThreatRules, enemyTags);
@@ -96,9 +124,10 @@ function buildRecommendation(dossier: ChampionDossier, draft: DraftInput): Recom
 
 export function recommendAdcs(data: AdvisorData, draft: DraftInput): RecommendationResult {
   const unavailable = new Set(draft.unavailableChampionIds);
+  const profiles = approvedProfileMap(data.championProfiles);
   const candidates = data.dossiers
     .filter((dossier) => !unavailable.has(dossier.id))
-    .map((dossier) => buildRecommendation(dossier, draft))
+    .map((dossier) => buildRecommendation(dossier, draft, profiles))
     .sort((left, right) => right.score - left.score || left.championName.localeCompare(right.championName));
 
   return {

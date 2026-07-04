@@ -84,9 +84,27 @@ export interface ChampionDossier {
   };
 }
 
+export type ChampionProfileStatus = "candidate" | "approved" | "rejected";
+
+export interface ChampionKnowledgeProfile {
+  id: string;
+  name: string;
+  status: ChampionProfileStatus;
+  roles: string[];
+  tags: PickTag[];
+  profile: {
+    draftIdentity: string;
+    synergyHooks: string[];
+    threatHooks: string[];
+    uncertainties: string[];
+  };
+  sources: string[];
+}
+
 export interface AdvisorData {
   playerProfile: PlayerProfile;
   dossiers: ChampionDossier[];
+  championProfiles: ChampionKnowledgeProfile[];
 }
 
 export interface ScoreBreakdown {

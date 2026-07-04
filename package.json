@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "research:cache": "bun run src/research/cache-official-sources.ts",
+    "profiles:generate": "bun run src/research/generate-champion-profile.ts",
     "test": "bun test"
   },
   "devDependencies": {},
