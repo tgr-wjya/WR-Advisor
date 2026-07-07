@@ -1,0 +1,52 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { loadAdvisorData } from "../data";
+
+const data = loadAdvisorData();
+// Ensure all profiles are approved in memory for the GUI
+const approvedData = {
+  ...data,
+  championProfiles: data.championProfiles.map((p) => ({
+    ...p,
+    status: "approved" as const,
+  })),
+};
+---
+<Layout title="Wild Rift Draft Advisor">
+  <main class="container">
+    <header class="app-header">
+      <h1>Wild Rift Advisor</h1>
+      <p class="subtitle">Premium Real-Time Draft Recommendation Engine</p>
+    </header>
+    <div id="advisor-app-mount">
+      <!-- DraftBoard component will go here in Task 3 -->
+      <p>Database loaded: {approvedData.championProfiles.length} champions active.</p>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  .app-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    margin: 0;
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle {
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+</style>
