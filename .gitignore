@@ -5,3 +5,4 @@ coverage/
 .bun/
 .env
 data/source-cache/
+.worktrees/
