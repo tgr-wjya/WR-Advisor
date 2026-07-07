@@ -252,7 +252,7 @@ export default function DraftBoard({ data }: Props) {
                   <div className="rec-section warnings-section">
                     <h4>Draft & Playstyle Warnings</h4>
                     <div className="warning-box">
-                      {rec.warnings.map((w, i) => <div key={i} className="warning-item">⚠ {w}</div>)}
+                      {rec.warnings.map((w, i) => <div key={i} className="warning-item">[Warning] {w}</div>)}
                     </div>
                   </div>
                 )}
