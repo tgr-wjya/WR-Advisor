@@ -1,0 +1,44 @@
+id: amumu
+name: Amumu
+status: candidate
+roles:
+  - jungle
+  - support
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable crowd-control initiator who can pull himself onto
+    targets and trap multiple enemies in place.
+  synergyHooks:
+    - Pairs well with magic damage allies who can capitalize on his passive
+      Curse bonus true damage from incoming magic damage.
+    - Works with teammates who can follow up on his stun and area ultimate to
+      convert his engage into teamfight damage.
+  threatHooks:
+    - Enemy teams with mobility or spacing tools may reduce the value of his
+      single-target Bandage Toss engage.
+    - He is most threatening when he can reach clustered enemies, so disengage
+      and spread formations can limit his ultimate impact.
+  uncertainties:
+    - The source does not explicitly state his lane priorities, so roles are
+      inferred conservatively from his kit; jungle and support are both
+      reasonable fits for a champion with strong engage and teamfight lockdown.
+    - Engage and lockdown are valid because Bandage Toss stuns and pulls Amumu
+      to the target, and Curse of the Sad Mummy prevents enemies from attacking
+      or moving.
+    - Tank is valid because Tantrum permanently reduces physical damage taken,
+      giving him a clear defensive steroid.
+    - Waveclear is valid because Despair and Tantrum both deal repeated or area
+      damage to surrounding enemies, which is substantial AoE damage.
+    - ShortRange is valid because the kit is centered on melee proximity and
+      close-range area effects, and the source provides no long-range attack
+      pattern.
+    - No dive/assassin tag was added because although Bandage Toss is a mobility
+      tool, the profile does not present Amumu as an assassin and the requested
+      tag set did not include it.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/amumu/

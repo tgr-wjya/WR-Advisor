@@ -1,0 +1,45 @@
+id: gragas
+name: Gragas
+status: candidate
+roles:
+  - jungle
+  - top
+  - mid
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable melee initiator who can start fights with a dash-stun
+    and displacement while offering some self-sustain and area damage.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his Body Slam stun or
+      Explosive Cask displacement.
+    - Benefits from teammates who can capitalize on clustered enemies after he
+      forces them together.
+  threatHooks:
+    - Can be punished by long-range poke or kiting if he cannot reach priority
+      targets.
+    - His engage is more telegraphed than instant, so enemies with mobility or
+      disengage can reduce his impact.
+  uncertainties:
+    - The engage and lockdown tags are valid because Body Slam explicitly
+      charges to a location and stuns enemies, while Explosive Cask adds
+      knockback displacement.
+    - The tanks tag is supported by Drunken Rage reducing damage received, plus
+      his passive healing provides sustain, though the source text does not give
+      full defensive scaling details.
+    - "The waveclear tag is justified by multiple AoE damage sources: Barrel
+      Roll, Body Slam hitting nearby enemies, Drunken Rage empowering an AoE
+      basic attack, and Explosive Cask."
+    - The shortRange tag is appropriate because Gragas is a melee champion and
+      his kit centers on close-range combat.
+    - No dive/assassin tag was added because the rules require mobility such as
+      dashes, blinks, or leaps; Body Slam is a charge to a location and does
+      count as mobility, but the profile is not primarily an assassin and the
+      existing tags already capture his main draft function.
+    - The roles array is already non-empty and remains unchanged.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/gragas/

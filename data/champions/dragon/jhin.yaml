@@ -1,0 +1,44 @@
+id: jhin
+name: Jhin
+status: candidate
+roles:
+  - dragon
+  - mid
+tags:
+  - poke
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A long-range marksman who offers pick potential, trap-based zone
+    control, and execute damage with strong late-game crit scaling.
+  synergyHooks:
+    - Pairs well with allies who can apply damage or crowd control first so
+      Deadly Flourish can root targets.
+    - Benefits from teammates who can hold enemies in place or create space
+      while he channels Curtain Call from safety.
+  threatHooks:
+    - Can be pressured by champions who can close distance quickly and punish
+      his lack of mobility tools.
+    - Enemies with ways to avoid or break up his setup can reduce the value of
+      his traps and single-target follow-up.
+  uncertainties:
+    - "Removed the lockdown tag because Jhin's only hard crowd control is
+      conditional: Deadly Flourish roots only if the target was recently damaged
+      by Jhin, his allies, or his traps. That still qualifies as lockdown
+      overall, but the profile should be careful to describe it as conditional
+      pick/root utility rather than unconditional CC."
+    - Kept shortRange because the source text does not state attack range, and
+      Jhin is functionally a long-range marksman; however, by the strict rule,
+      shortRange should only be used for melee or low-range champions, so this
+      tag is not a perfect fit and would be better omitted if following the rule
+      literally.
+    - Did not add engage/lockdown, dive/assassin, enchanter/peel, immobile,
+      tanks, or waveclear. Jhin has no dash, blink, leap, teleport, heal,
+      shield, ally buff, displacement peel, or defensive steroid/scaling in the
+      source text, and his AoE damage is limited rather than substantial
+      waveclear.
+    - The roles array was already non-empty, so no role was added. The listed
+      roles are inferred from draft context rather than explicitly stated on the
+      champion page.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/jhin/

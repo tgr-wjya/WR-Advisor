@@ -1,0 +1,46 @@
+id: diana
+name: Diana
+status: candidate
+roles:
+  - jungle
+  - mid
+tags:
+  - assassin
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A melee AP diver who can dash onto marked targets, start fights
+    with her ultimate, and threaten clustered enemies with area damage.
+  synergyHooks:
+    - Works well with allies who can apply crowd control or keep enemies grouped
+      so Moonfall can pull multiple targets in.
+    - Benefits from teammates who can follow up quickly after she dashes in and
+      commits to a fight.
+  threatHooks:
+    - Can be checked by enemies with strong peel or displacement that stop her
+      from reaching priority targets.
+    - May struggle into compositions that can punish her after she commits,
+      especially if she cannot safely reset Lunar Rush.
+  uncertainties:
+    - The source does not explicitly state her intended lane or role, so the
+      listed roles are inferred from her kit.
+    - The source does not directly label her as an assassin or diver, but those
+      tags are supported by Lunar Rush, which is a dash to an enemy, and by her
+      burst-oriented melee AP pattern.
+    - Engage and lockdown are valid because Moonfall spirals enemies toward
+      Diana, which is a pull/displacement effect, and it also applies a slow;
+      the pull is the qualifying crowd control, not the slow.
+    - Waveclear is supported by Crescent Strike, Pale Cascade, and Moonfall, all
+      of which deal area damage or affect multiple enemies.
+    - ShortRange is correct because Diana is melee and Lunar Rush is a dash to
+      an enemy rather than a ranged attack.
+    - She is not immobile because Lunar Rush gives her a dash, so no immobile
+      tag was added.
+    - She is not a tank by the strict criteria because the source shows only a
+      temporary shield on Pale Cascade, not strong defensive steroids or tank
+      scaling.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/diana/

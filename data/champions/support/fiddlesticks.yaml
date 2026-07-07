@@ -1,0 +1,43 @@
+id: fiddlesticks
+name: Fiddlesticks
+status: candidate
+roles:
+  - jungle
+  - support
+tags:
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: An ambush-oriented crowd-control mage that can start fights with
+    fear and punish clustered enemies with sustained area damage.
+  synergyHooks:
+    - Pairs well with allies who can follow up on fear and silence to secure
+      kills on locked-down targets.
+    - Benefits from teammates who can hold enemies in place so Crowstorm and
+      Bountiful Harvest can deal full damage.
+  threatHooks:
+    - Threatened by enemies who can reveal, interrupt, or disengage before he
+      channels his damage.
+    - Can struggle against teams that spread out and avoid grouping inside his
+      area damage.
+  uncertainties:
+    - The source text supports engage/lockdown because Terrify fears targets and
+      Reap silences enemies in the center, but it does not support adding any
+      stronger hard-CC tag beyond that.
+    - Waveclear is supported by Crowstorm and Reap as substantial area damage
+      spells, and shortRange is reasonable because the kit is entirely
+      close-range/nearby-area focused with no long-range attack or spell range
+      stated.
+    - No mobility skills are listed in the source text, so dive/assassin is not
+      added.
+    - No heals, shields, ally buffs, or ally displacement are present, so
+      enchanter/peel is not added.
+    - No strong defensive steroids, shields, or defense scaling are shown, so
+      tank is not added.
+    - Roles are kept as jungle and support because the source text does not
+      specify a lane, and these are the most defensible inferred roles from the
+      ambush and crowd-control kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/fiddlesticks/

@@ -1,0 +1,43 @@
+id: skarner
+name: Skarner
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable engage jungler who can force picks with a terrain-based
+    stun and a suppression ultimate, while also bringing a shield and some area
+    damage.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his stun and suppression to
+      secure kills.
+    - Benefits from teammates who can capitalize on forced movement and extended
+      crowd control.
+  threatHooks:
+    - Threatened by champions who can avoid or interrupt his forward engage
+      before he reaches priority targets.
+    - Can struggle into teams that can disengage or punish his short-range
+      approach.
+  uncertainties:
+    - The source text does not explicitly assign a lane role, so jungle and top
+      are conservative role choices based on kit pattern.
+    - Engage and lockdown are valid because Ixtal's Impact stuns and Impale
+      suppresses; slows alone would not be enough, but Skarner has hard CC.
+    - Tanks is supported by Seismic Bastion's shield, but the source text does
+      not show strong defense scaling beyond that, so this is a
+      moderate-confidence tag.
+    - Waveclear was removed because the source only confirms some area damage
+      from Seismic Bastion and Upheaval, not clearly substantial AoE waveclear.
+    - Scaling was removed because the only explicit scaling-like effect is
+      passive max Health damage, which does not by itself justify a general
+      scaling tag.
+    - ShortRange is retained because the kit is clearly melee-oriented and
+      relies on close-range engage, even though the source does not list exact
+      attack range.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/skarner/

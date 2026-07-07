@@ -1,0 +1,43 @@
+id: teemo
+name: Teemo
+status: candidate
+roles:
+  - top
+  - mid
+tags:
+  - poke
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A slippery ranged harasser who uses poison, blinds, and traps to
+    pressure lanes and punish enemies over time.
+  synergyHooks:
+    - Works well with allies who can keep enemies in place so mushrooms and
+      poison can tick for longer.
+    - Benefits from teammates who can create space while he uses camouflage and
+      movement speed to reposition.
+  threatHooks:
+    - Can be pressured by enemies who can reach him quickly despite his movement
+      speed and camouflage.
+    - May struggle against opponents who can avoid or clear his trap zones and
+      force direct fights.
+  uncertainties:
+    - Removed the assassin tag because the official source gives Teemo a short
+      forward roll on Move Quick, but his kit does not support a true
+      dive/assassin classification under the strict mobility requirement.
+    - Kept shortRange because Teemo is a ranged champion with no melee profile,
+      but he is not an immobile champion because Move Quick includes a forward
+      dash/roll.
+    - Kept waveclear as a reasonable tag because Noxious Trap provides area
+      damage over time in a zone, though the source does not explicitly describe
+      strong lane-clearing power.
+    - "Did not add engage/lockdown or enchanter/peel: Blinding Dart is a blind,
+      not a stun/root/knockup/pull/suppress, and the kit does not provide ally
+      heals, shields, or buffs."
+    - "Did not add tank: the source text does not show defensive steroids,
+      shields, or defense scaling."
+    - Roles were left as top and mid because the source does not specify a
+      mandatory role, and the existing roles are plausible for Teemo.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/teemo/

@@ -1,0 +1,43 @@
+id: aurelion-sol
+name: Aurelion Sol
+status: candidate
+roles:
+  - mid
+tags:
+  - engage
+  - lockdown
+  - poke
+  - scaling
+  - waveclear
+  - dive
+profile:
+  draftIdentity: Aurelion Sol is a scaling mid mage with long-range damage, area
+    control, and strong crowd control for teamfights.
+  synergyHooks:
+    - Works well with allies who can keep enemies inside Singularity or follow
+      up on his stun and knockup.
+    - Benefits from teammates who can help him reach extended fights where
+      Stardust and repeated spell casts matter.
+  threatHooks:
+    - Can be pressured by champions who can close distance quickly before he
+      sets up his area control.
+    - Enemies with strong disruption or burst may punish him if he cannot safely
+      channel or reposition with Astral Flight.
+  uncertainties:
+    - The source supports engage/lockdown because Falling Star stuns and The
+      Skies Descend knocks up enemies; Singularity also pulls enemies inward, so
+      the control tags are valid.
+    - Waveclear is supported by Breath of Light splashing reduced damage onto
+      nearby enemies and Singularity damaging enemies in an area, while the
+      ultimate also hits multiple enemies in a zone.
+    - Dive is now added because Astral Flight is a targeted movement ability
+      that lets Aurelion Sol fly over terrain, which satisfies the mobility
+      requirement for dive/assassin even if he is not a classic assassin.
+    - I did not add immobile because Astral Flight is a clear movement spell, so
+      the champion is not immobile.
+    - I did not add enchanter/peel or tanks because the source does not show
+      ally heals, shields, buffs, or strong defensive steroids/defense scaling.
+    - The role remains mid because the champion page and kit strongly fit a mid
+      mage profile, and the roles array is already non-empty.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/aurelion-sol/

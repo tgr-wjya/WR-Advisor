@@ -1,0 +1,66 @@
+{
+  "id": "sivir",
+  "name": "Sivir",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "medium",
+    "statisticalConfidence": "medium",
+    "rosterNotes": "High comfort and excellent results, but the roster marks her winrate as a statistical anomaly needing more games."
+  },
+  "pickProfile": {
+    "identity": "Waveclear and tempo ADC who helps teams move first, group early, and fight around movement-speed windows.",
+    "blindPickSafety": 3,
+    "lanePattern": "Stabilize lane with waveclear, avoid ego trades, and use spell shield to neutralize one key engage or poke tool.",
+    "scalingCurve": "Stable mid-game utility with good grouped fight value.",
+    "damageProfile": "Sustained physical damage with ricochet teamfight spread.",
+    "mobility": "Team movement speed rather than personal dash mobility.",
+    "selfPeel": "Good single-spell denial through spell shield, weak if it is baited out.",
+    "objectiveDps": "Solid objective DPS and strong wave control."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["engage"],
+      "score": 8,
+      "reason": "Engage support can use Sivir ultimate tempo to start grouped fights."
+    },
+    {
+      "tags": ["peel", "enchanter"],
+      "score": 7,
+      "reason": "Peel support helps Sivir keep ricochet value in grouped fights."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["lockdown"],
+      "score": -6,
+      "warning": "Spell shield must be saved for the highest-value lockdown spell, not random poke."
+    },
+    {
+      "tags": ["poke"],
+      "score": 4,
+      "reason": "Sivir can stabilize poke lanes with waveclear and selective spell shield use."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["engage"],
+      "score": 4,
+      "reason": "Sivir ultimate improves engage timing for grouped allies."
+    },
+    {
+      "tags": ["waveclear"],
+      "score": 3,
+      "reason": "Sivir reinforces a waveclear and tempo game plan."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Keep the wave playable, punish missed cooldowns with boomerang trades, and hold spell shield for the ability that would actually swing the lane.",
+    "teamfightPlan": "Group early, use ultimate to start or disengage around objective fights, and position for ricochet value without walking into hard engage.",
+    "defaultWarnings": ["Treat the high winrate as promising, not proven; do not force Sivir when the draft needs hard mobility."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

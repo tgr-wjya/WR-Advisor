@@ -1,0 +1,38 @@
+id: missfortune
+name: Miss Fortune
+status: candidate
+roles:
+  - dragon
+tags:
+  - poke
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A damage-focused bottom carry that pressures lanes with
+    long-range bullets and strong area damage, while relying on positioning and
+    channel time to deal major teamfight damage.
+  synergyHooks:
+    - Works well with allies who can hold enemies in place so Bullet Time can
+      channel through multiple targets.
+    - Benefits from teammates who can protect her while she uses Make It Rain
+      and Bullet Time from a safe position.
+  threatHooks:
+    - Can be disrupted by hard crowd control or forced movement that stops her
+      Bullet Time channel.
+    - May struggle against enemies who can reach her quickly or punish her if
+      she is caught out of position.
+  uncertainties:
+    - The source does not explicitly label her lane role, so dragon is inferred
+      from her kit and Wild Rift context.
+    - No direct information is provided about durability, mobility, or late-game
+      scaling beyond her damage-oriented abilities.
+    - I kept poke, waveclear, and shortRange because Double Up and Bullet Time
+      provide strong damage pressure, Make It Rain is clear AoE wave damage, and
+      Miss Fortune is a low-range marksman rather than a long-range artillery
+      champion.
+    - I did not add engage/lockdown, dive/assassin, enchanter/peel, immobile, or
+      tank because the source does not show the required hard CC, mobility, ally
+      shielding/healing, lack of mobility, or defensive steroids/scaling needed
+      for those tags.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/miss-fortune/

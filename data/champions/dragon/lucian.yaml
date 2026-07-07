@@ -1,0 +1,35 @@
+id: lucian
+name: Lucian
+status: approved
+roles:
+  - dragon
+  - mid
+tags:
+  - dive
+  - shortRange
+profile:
+  draftIdentity: A mobile marksman who can quickly follow up on ability casts with
+    double shots and short dashes to pressure targets.
+  synergyHooks:
+    - Works well with allies who can set up targets so he can dash in and keep
+      attacking marked enemies.
+    - Benefits from teammates who can create space while he uses his movement
+      speed and repeated attacks to finish fights.
+  threatHooks:
+    - Can be pressured by enemies who can punish his short dash and limit his
+      ability to reposition.
+    - May struggle against opponents who can survive his burst and force him to
+      fight without safe access.
+  uncertainties:
+    - The source supports dive because Relentless Pursuit is a short dash, and
+      shortRange because Lucian is a marksman who fights through close follow-up
+      and repeated attacks rather than long-range zoning.
+    - I did not add engage/lockdown, enchanter/peel, tanks, or waveclear because
+      the source text does not show hard CC, ally shielding/healing/buffing,
+      defensive steroids, or clearly substantial AoE damage beyond The Culling's
+      multi-shot ultimate.
+    - The roles dragon and mid are kept as conservative lane assignments since
+      the source page does not explicitly state a role, but the profile must
+      include at least one role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lucian/

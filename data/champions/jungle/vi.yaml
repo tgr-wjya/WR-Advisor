@@ -1,0 +1,18 @@
+id: vi
+name: Vi
+status: approved
+roles:
+  - jungle
+tags:
+  - dive
+  - lockdown
+profile:
+  draftIdentity: Dive jungler who can force access onto a priority carry with reliable lockdown.
+  synergyHooks:
+    - Pairs well with follow-up engage and burst damage.
+  threatHooks:
+    - Pressures fragile immobile ADCs that need peel before they can output damage.
+  uncertainties:
+    - Profile is a first-pass human-approved draft summary pending official-source refresh.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/vi/

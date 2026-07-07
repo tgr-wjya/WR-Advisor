@@ -1,0 +1,46 @@
+id: graves
+name: Graves
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A short-range skirmisher who can dash in for trades, disrupt
+    vision, and threaten burst damage with strong area damage tools.
+  synergyHooks:
+    - Works well with allies who can start fights or hold enemies in place so
+      Graves can follow up with Quickdraw and close-range damage.
+    - Benefits from teammates who can capitalize on Smoke Screen and Collateral
+      Damage to trap enemies in confined areas.
+  threatHooks:
+    - Can be pressured by champions who outrange him and punish his short attack
+      range before he can get into effective damage range.
+    - May struggle against heavy crowd control that limits his ability to use
+      Quickdraw and stay in close-range combat.
+  uncertainties:
+    - Kept the roles as jungle/top because the source text does not explicitly
+      assign lanes, but Graves is commonly drafted as a solo skirmisher or
+      jungle pick in Wild Rift context.
+    - The dive tag is valid because Quickdraw is a dash, satisfying the mobility
+      requirement for dive/assassin.
+    - The shortRange tag is valid because Graves is a shotgun champion with
+      close-range combat patterns and the source text supports punishing his
+      short attack range.
+    - The waveclear tag is valid because End of the Line and Collateral Damage
+      are both explosive area-damage abilities, giving him substantial AoE
+      waveclear.
+    - I did not add engage/lockdown because Smoke Screen only slows and obscures
+      vision; it does not stun, root, knock up, pull, or suppress.
+    - I did not add enchanter/peel because Graves has no ally heals, shields,
+      buffs, or true displacement peel for carries.
+    - I did not add immobile because Quickdraw is a dash, so he fails the
+      immobile rule.
+    - I did not add tank because the source shows only a temporary armor boost
+      and True Grit stacks, which are defensive tools but not enough to classify
+      him as a tank under the strict criteria.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/graves/

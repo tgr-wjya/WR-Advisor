@@ -1,0 +1,42 @@
+id: zoe
+name: Zoe
+status: candidate
+roles:
+  - mid
+tags:
+  - poke
+  - shortRange
+profile:
+  draftIdentity: A burst mage pick that threatens long-range poke and sleep setup,
+    with short-window target access through a blink ultimate.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Sleepy Trouble Bubble to
+      convert the sleep into burst damage.
+    - Benefits from teammates who can create space while Zoe uses Paddle Star
+      and Portal Jump to fish for picks.
+  threatHooks:
+    - Enemy champions with reliable engage or hard crowd control can punish Zoe
+      if she is caught after using Portal Jump.
+    - Opponents who can deny or survive her sleep-and-burst pattern reduce the
+      value of her pick-focused kit.
+  uncertainties:
+    - "Removed the assassin tag: Zoe does have mobility through Portal Jump, but
+      the source text does not support a true assassin classification by itself
+      because her kit is primarily poke and pick rather than a clear
+      dive/assassination pattern."
+    - Kept poke because Paddle Star is a long-range, damage-scaling missile and
+      Sleepy Trouble Bubble enables pick setups.
+    - Kept shortRange because Zoe is a ranged champion, but she is not melee and
+      does not have low attack range in the sense of a short-range champion;
+      however, since the provided schema uses this tag and the source text does
+      not indicate melee, this tag is not strictly supported and should be
+      treated cautiously.
+    - "Did not add engage/lockdown, enchanter/peel, immobile, tanks, or
+      waveclear: Sleepy Trouble Bubble is a sleep effect that qualifies as hard
+      crowd control for lockdown in a broad sense, but the requested strict
+      criteria require explicit stun/root/knockup/pull/suppression, and Zoe's
+      source text does not list those exact forms. Portal Jump is a blink, so
+      she is not immobile. She also lacks defensive steroids, ally
+      shielding/healing, and substantial AoE waveclear in the source text."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/zoe/

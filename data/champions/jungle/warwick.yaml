@@ -1,0 +1,40 @@
+id: warwick
+name: Warwick
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable melee diver who hunts low-health targets, can start
+    fights with a leap, and brings suppression plus fear-based disruption.
+  synergyHooks:
+    - Works well with allies who can soften targets first so Bloodhunt and
+      Infinite Duress can finish them.
+    - Benefits from teammates who can follow up on his suppression and fear with
+      burst damage or additional crowd control.
+  threatHooks:
+    - Can be checked by champions who keep distance and avoid giving him
+      low-health targets to chase.
+    - May struggle into heavy peel or disengage that interrupts his access after
+      he commits.
+  uncertainties:
+    - The source does not explicitly list his lane roles, so the roles array is
+      inferred conservatively from his kit.
+    - "Tag corrections: engage is valid because Infinite Duress suppresses on
+      hit; lockdown is valid because he has suppression and fear; dive is valid
+      because Infinite Duress is a leap. shortRange is valid because Warwick is
+      melee. tanks is not strongly supported by the source because he has damage
+      reduction and self-healing, but no explicit shield or defense-scaling
+      steroid, so it should be removed under strict criteria. waveclear is not
+      added because the source does not show substantial AoE damage.
+      enchanter/peel is not added because he does not provide ally heals,
+      shields, or buffs, and his fear is self-peel rather than carry protection.
+      immobile is not added because he has a leap on Infinite Duress."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/warwick/

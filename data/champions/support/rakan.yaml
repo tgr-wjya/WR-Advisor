@@ -1,0 +1,31 @@
+id: rakan
+name: Rakan
+status: candidate
+roles:
+  - support
+tags:
+  - dive
+  - engage
+  - enchanter
+  - peel
+profile:
+  draftIdentity: A mobile support who can start fights with a dash and knockup
+    while also shielding and healing allies.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his knockup and charm setup.
+    - Provides shields and healing to help protect a carry during skirmishes.
+  threatHooks:
+    - Can be punished if his engage is interrupted before he reaches the target.
+    - His ally-focused shield and repositioning are less valuable against
+      compositions that can burst through his protection.
+  uncertainties:
+    - "Confirmed tags: dive is valid because Grand Entrance is a dash; engage is
+      valid because Grand Entrance knocks up and The Quickness charms; enchanter
+      and peel are valid because Battle Dance shields allies and Gleaming Quill
+      heals allies."
+    - No tag changes were needed from the candidate profile because all listed
+      tags are supported by the official ability text.
+    - The source text does not specify his lane beyond support.
+    - No explicit information is provided about his damage scaling or waveclear.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/rakan/

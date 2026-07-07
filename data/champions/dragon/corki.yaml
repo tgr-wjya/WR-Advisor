@@ -1,0 +1,46 @@
+id: corki
+name: Corki
+status: candidate
+roles:
+  - dragon
+  - mid
+tags:
+  - poke
+  - waveclear
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A ranged damage dealer who pressures from safety with repeated
+    spell damage, waveclear, and strong late-game scaling.
+  synergyHooks:
+    - Works well with allies who can hold enemies in place so Corki can land
+      repeated missiles and Gatling Gun damage.
+    - Benefits from team setups that create space for him to keep firing from
+      range while he clears waves and sieges.
+  threatHooks:
+    - Can be pressured by champions who can reach him quickly before he can kite
+      or reposition with Valkyrie.
+    - Enemies who can force close-range fights or punish his relatively short
+      attack range can limit his damage output.
+  uncertainties:
+    - "The source supports the current tags of poke, waveclear, shortRange, and
+      scaling: Phosphorus Bomb and Missile Barrage provide repeated ranged spell
+      damage, while Phosphorus Bomb and Missile Barrage also give substantial
+      area damage for waveclear."
+    - Corki should not be tagged as engage/lockdown from the base kit alone,
+      because his only hard crowd control is the Package-enhanced Valkyrie knock
+      aside, which is conditional and not a standard reliable
+      stun/root/knockup/pull/suppress.
+    - Corki should not be tagged as immobile, because Valkyrie is a
+      short-distance dash/flight and the Package further empowers that movement.
+    - Corki should not be tagged as dive/assassin under the strict rule, because
+      although he has mobility, the source does not support an assassin-style
+      profile as a primary identity.
+    - Corki should not be tagged as enchanter/peel or tank, because the source
+      does not show ally heals, shields, buffs, or strong defensive
+      steroids/defense scaling.
+    - The roles array is non-empty and mid is a reasonable fit from the champion
+      page context; dragon is preserved as provided, though the source text
+      itself does not explicitly assign lane roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/corki/

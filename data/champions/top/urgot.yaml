@@ -1,0 +1,45 @@
+id: urgot
+name: Urgot
+status: candidate
+roles:
+  - top
+tags:
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A short-range top laner who can start fights with a charge,
+    displace enemies with Disdain, and threaten executions on low-health
+    targets.
+  synergyHooks:
+    - Works well with allies who can follow up quickly after his Disdain catch
+      or ultimate impale.
+    - Benefits from teammates who can help keep enemies in range while he
+      unloads Purge.
+  threatHooks:
+    - Can be threatened by enemies who keep distance and avoid his short-range
+      damage pattern.
+    - His engage can be punished if he commits without backup, especially before
+      he can convert Disdain or Fear Beyond Death into a kill.
+  uncertainties:
+    - Kept engage and lockdown because Disdain is a true charge that can catch
+      an enemy champion and hurl them out of his way, and Fear Beyond Death
+      impales the first enemy champion hit; these satisfy hard-CC/engage
+      criteria.
+    - "Kept shortRange because Urgot is fundamentally a close-range champion:
+      Purge only affects nearby enemies and his damage pattern is centered
+      around proximity."
+    - Kept waveclear because Purge and Echoing Flames provide repeated area
+      damage, and Corrosive Charge adds explosive AoE damage.
+    - Did not add dive/assassin because the source text does not show a dash,
+      blink, leap, or teleport that would support that tag.
+    - Did not add enchanter/peel because Urgot does not provide ally heals,
+      shields, buffs, or reliable peel tools for carries.
+    - Did not add immobile because Disdain is a charge, which is mobility and
+      therefore disqualifies the immobile tag.
+    - Did not add tank because the page only shows a self-shield on Disdain, but
+      not enough defensive steroids or defense scaling to confidently classify
+      him as a tank.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/urgot/

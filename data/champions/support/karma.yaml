@@ -1,0 +1,45 @@
+id: karma
+name: Karma
+status: candidate
+roles:
+  - support
+  - mid
+tags:
+  - enchanter
+  - lockdown
+  - poke
+  - waveclear
+profile:
+  draftIdentity: A flexible utility mage who can shield allies, root enemies, and
+    provide area damage and setup through Mantra-enhanced abilities.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her root and pull effects
+      after she sets targets up.
+    - Benefits teams that want shields and movement speed to help carries stay
+      safe and reposition.
+  threatHooks:
+    - Enemy divers or burst champions can punish her if they reach her before
+      she can protect herself or allies.
+    - Champions that can avoid or break her tether can reduce the reliability of
+      her lockdown.
+  uncertainties:
+    - Kept the support and mid roles because Karma is clearly a utility mage who
+      functions in both lanes; no role change was necessary.
+    - Kept enchanter because Inspire provides a shield and movement speed to
+      allies, which satisfies the enchanter/peel rule.
+    - Kept lockdown because Focused Resolve roots enemies, and Transcendent
+      Embrace can pull enemies toward the center, both of which qualify as hard
+      crowd control.
+    - Kept waveclear because Inner Flame and Transcendent Embrace are
+      area-damage spells that can clear waves effectively.
+    - Did not add dive/assassin because Karma has no dash, blink, leap, or
+      teleport in the source text.
+    - Did not add immobile because the source does not show mobility skills, but
+      the profile should avoid asserting immobile as a tag unless explicitly
+      needed; the current tags remain rule-compliant.
+    - Did not add shortRange because the source text does not state attack
+      range, and she is not clearly melee from the provided abilities.
+    - Did not add tank because she has a shield, but no strong defensive
+      steroids or defense scaling are shown in the source.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/karma/

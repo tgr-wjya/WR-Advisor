@@ -1,0 +1,45 @@
+id: annie
+name: Annie
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: Annie is a short-range burst mage who can set up picks with a
+    stun and Tibbers knockup while also offering a self-shield and movement
+    speed.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her stun or Tibbers knockup
+      for quick burst kills.
+    - Benefits from teammates who can help her reach fights safely so she can
+      land her crowd control.
+  threatHooks:
+    - Enemies with range or mobility can make it harder for Annie to deliver her
+      stun combo safely.
+    - Teams that can interrupt or avoid her setup may reduce the impact of her
+      single-target engage.
+  uncertainties:
+    - The source supports mid and support as reasonable draft roles, but does
+      not explicitly assign a role, so these remain conservative choices.
+    - engage and lockdown are valid because Pyromania stuns and Tibbers can
+      knock up on recast.
+    - peel is valid because Molten Shield provides a self-shield and move speed,
+      but Annie is not a true enchanter since she does not shield or heal allies
+      directly.
+    - waveclear is valid because Disintegrate and Incinerate are both
+      area-damage spells.
+    - shortRange is valid because Annie is a short-range mage with no long-range
+      basic attack profile shown in the source.
+    - immobile was not added because Annie has movement speed from Molten Shield
+      and no dash/blink/leap is listed, but the tag was not requested in the
+      original profile.
+    - dive/assassin was not added because the source shows crowd control and
+      burst, but no dash, blink, leap, or teleport.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/annie/

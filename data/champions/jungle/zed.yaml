@@ -1,0 +1,44 @@
+id: zed
+name: Zed
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile burst assassin who can access backline targets, create
+    shadow-based repositioning plays, and finish low-health enemies.
+  synergyHooks:
+    - Works well with allies who can set up a target for his burst and help him
+      reach priority carries.
+    - Benefits from teammates who can follow up after he commits with Death Mark
+      and shadow repositioning.
+  threatHooks:
+    - Can be pressured by opponents who can survive his burst or deny his all-in
+      window after he becomes untargetable.
+    - May struggle into teams that can punish his close-range approach or force
+      him to commit before finding a clean target.
+  uncertainties:
+    - "The source text supports assassin and dive: Death Mark explicitly makes
+      Zed dash to an enemy champion, and Living Shadow lets him reposition by
+      switching places with his shadow."
+    - shortRange is valid because Zed is a melee champion; his basic attacks are
+      melee and his kit is built around close-range burst.
+    - waveclear is supported by Razor Shuriken hitting every enemy hit and
+      Shadow Slash damaging nearby enemies, which gives him meaningful AoE
+      damage for clearing waves.
+    - No engage/lockdown tag was added because the source text does not show a
+      stun, root, knockup, pull, or suppression.
+    - No enchanter/peel tag was added because Zed has no ally heals, shields,
+      buffs, or displacement to protect carries.
+    - No immobile tag was added because Zed has multiple mobility tools,
+      including a dash and shadow-based repositioning.
+    - No tank tag was added because the source text does not provide strong
+      defensive steroids, shields, or defense scaling.
+    - The roles array was already non-empty, so no role correction was needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/zed/

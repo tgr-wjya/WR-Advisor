@@ -1,0 +1,42 @@
+id: tristana
+name: Tristana
+status: approved
+roles:
+  - marksman
+tags:
+  - dive
+  - waveclear
+  - scaling
+profile:
+  draftIdentity: A scaling marksman with strong target access and reset-based dive
+    potential through Rocket Jump.
+  synergyHooks:
+    - Works well with allies who can help her reach takedown resets and follow
+      up on her burst damage.
+    - Benefits from teammates who can create space so she can safely use her
+      increasing attack range and Explosive Charge.
+  threatHooks:
+    - Can be punished if her Rocket Jump is unavailable after a failed engage or
+      without takedown resets.
+    - Enemies that can disrupt her before she stacks damage or force her away
+      from targets can limit her impact.
+  uncertainties:
+    - Removed the assassin role because the source supports burst and target
+      access, but not enough to justify a formal assassin role under the strict
+      criteria; she does have mobility via Rocket Jump, which supports the dive
+      tag.
+    - Kept dive because Rocket Jump is a true dash/leap-style mobility spell and
+      her passive/ultimate reset pattern reinforces target access.
+    - Removed shortRange because Draw a Bead explicitly increases her attack
+      range as she levels, so she is not reliably short-range.
+    - Kept waveclear because Explosive Charge and the passive burst on unit
+      kills both create substantial area damage around enemies.
+    - Kept scaling because her passive directly increases range with levels and
+      her kit improves strongly with level-based progression and reset play.
+    - "Did not add engage/lockdown, enchanter/peel, immobile, or tank: Rocket
+      Jump only slows on landing and Buster Shot knocks back, which is
+      displacement but not enough to make her an enchanter/peel champion; she
+      also lacks shields, heals, defensive steroids, and she is not immobile
+      because Rocket Jump is a dash."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/tristana/

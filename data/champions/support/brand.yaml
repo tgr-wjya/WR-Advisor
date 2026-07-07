@@ -1,0 +1,50 @@
+id: brand
+name: Brand
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - poke
+  - waveclear
+  - lockdown
+profile:
+  draftIdentity: Brand is a damage-focused mage who pressures enemies with area
+    spells, spreads burn effects, and can briefly stun a target already affected
+    by his passive.
+  synergyHooks:
+    - Pairs well with allies who can hold enemies in place so his delayed area
+      damage and passive spread can connect more reliably.
+    - Benefits from teammates who can group opponents together, amplifying his
+      multi-target burn and bounce damage.
+  threatHooks:
+    - Enemies with strong mobility or disengage can make it harder for Brand to
+      land his skillshots and area spells.
+    - Targets that can avoid being hit first may reduce the value of his stun
+      condition and passive detonation setup.
+  uncertainties:
+    - "Verified tags: poke and waveclear both fit the source text. Brand has
+      substantial area damage from Pillar of Flame, Conflagration, and Blaze
+      detonation, so waveclear is correct."
+    - "Verified tag: lockdown is justified because Sear briefly stuns a target
+      that is already affected by Brand's passive. This satisfies the strict
+      crowd-control requirement."
+    - No engage/lockdown tag was added beyond the existing lockdown tag because
+      Brand does not have a root, knockup, pull, or suppression; his only hard
+      CC is the conditional stun on Sear.
+    - No dive/assassin tag was added because Brand has no dash, blink, leap, or
+      teleport in the source text.
+    - No enchanter/peel tag was added because Brand provides no heals, shields,
+      ally buffs, or displacement to protect carries.
+    - No immobile tag was added because the source text does not show any
+      mobility spell, but the profile should not overstate this without explicit
+      movement data; the current evidence only confirms the absence of listed
+      mobility in the provided abilities.
+    - No tanks tag was added because Brand has no defensive steroids, shields,
+      or defense-scaling mechanics in the source text.
+    - No shortRange tag was added because the source text does not specify
+      attack range or melee status.
+    - Roles mid and support are retained as reasonable draft roles for Brand;
+      the roles array is non-empty and does not require correction.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/brand/

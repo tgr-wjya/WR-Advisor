@@ -1,0 +1,41 @@
+id: kennen
+name: Kennen
+status: candidate
+roles:
+  - top
+  - mid
+tags:
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+profile:
+  draftIdentity: A ranged magic damage skirmisher who can threaten teamfights with
+    repeated Marks of the Storm into a stun and an area ultimate.
+  synergyHooks:
+    - Works well with allies who can follow up on his stun setup and keep
+      enemies inside his ultimate.
+    - Benefits from teammates who can help him reach grouped fights where
+      Slicing Maelstrom can hit multiple champions.
+  threatHooks:
+    - Can be disrupted or forced out before he stacks Mark of the Storm and
+      commits to his ultimate.
+    - May struggle against opponents who can avoid clustered fights or punish
+      him while he is in Lightning Rush.
+  uncertainties:
+    - Removed the shortRange tag because Kennen is a ranged champion, not melee
+      or low-range by the source text.
+    - Kept engage and lockdown because Mark of the Storm explicitly stuns
+      enemies after 3 hits, which satisfies hard crowd control requirements.
+    - Did not add dive/assassin because Lightning Rush grants movement speed but
+      the source does not show a dash, blink, leap, or teleport.
+    - Did not add enchanter/peel or tank because the source text does not show
+      ally heals, shields, buffs, displacement, or defensive steroids/scaling.
+    - Kept waveclear because Slicing Maelstrom is an area ultimate that strikes
+      nearby enemy champions, and Kennen also has repeated AoE-style damage
+      patterns through his kit.
+    - Kept top and mid as reasonable roles for Kennen; the source page does not
+      explicitly list roles, so these remain inferred from standard champion
+      usage.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kennen/

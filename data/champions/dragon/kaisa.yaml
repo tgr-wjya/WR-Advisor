@@ -1,0 +1,45 @@
+id: kaisa
+name: Kai'Sa
+status: approved
+roles:
+  - marksman
+  - assassin
+tags:
+  - dive
+  - poke
+  - scaling
+  - shortRange
+profile:
+  draftIdentity: A mobile marksman who can follow up on crowd control, poke from
+    range, and dive onto marked targets with her ultimate as she scales through
+    item upgrades.
+  synergyHooks:
+    - Pairs well with allies who provide immobilizing effects to help stack
+      Plasma and enable her ultimate access.
+    - Benefits from teammates who can start fights or lock targets in place so
+      she can safely follow up and finish kills.
+  threatHooks:
+    - Can be pressured by enemies who can deny her access to Plasma-marked
+      targets or punish her after she commits with Killer Instinct.
+    - Long-range opponents may contest her before she can get in range,
+      especially if she cannot safely stack Plasma.
+  uncertainties:
+    - The source text supports the 'assassin' role more strongly than a pure
+      marksman-only profile because Killer Instinct is a dash to a Plasma-marked
+      enemy champion, giving her true dive/assassination access.
+    - The 'dive' tag is valid because Killer Instinct is explicitly a dash.
+      'Poke' is also valid because Void Seeker is a long-range missile.
+      'scaling' is supported by Second Skin's item-upgrade mechanic.
+    - The 'shortRange' tag is not strictly supported by the source text. Kai'Sa
+      has a long-range spell and no attack range value is provided, so this tag
+      should be removed under strict criteria.
+    - No engage/lockdown tag is added because Kai'Sa has no stun, root, knockup,
+      pull, or suppression in the source text.
+    - No enchanter/peel, tank, or waveclear tags are added because she lacks
+      ally healing/shielding/buffs, strong defensive steroids beyond a single
+      ultimate shield, and no clearly substantial AoE waveclear spell in the
+      provided text.
+    - Her ultimate grants a shield, but that alone is not enough to classify her
+      as a tank.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kaisa/

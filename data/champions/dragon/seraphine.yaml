@@ -1,0 +1,43 @@
+id: seraphine
+name: Seraphine
+status: candidate
+roles:
+  - support
+  - dragon
+  - mid
+tags:
+  - enchanter
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+  - scaling
+profile:
+  draftIdentity: A utility mage support/carry who brings teamwide shielding,
+    healing, crowd control, and long-range area damage for coordinated fights.
+  synergyHooks:
+    - Pairs well with allies who can follow up on charm, root, and stun setups
+      from Encore and Beat Drop.
+    - Works well in grouped team compositions that can benefit from shields,
+      movement speed, and repeated area damage.
+  threatHooks:
+    - Can be pressured by enemies who can interrupt her setup or punish her
+      before she can layer crowd control and shields.
+    - Enemy teams with strong engage or burst may overwhelm her if she cannot
+      safely cast Surround Sound and Encore.
+  uncertainties:
+    - "Corrected tags to match the source text: enchanter is supported by
+      Surround Sound's shields, healing, and movement speed; engage and lockdown
+      are supported by Beat Drop's root/stun and Encore's charm; waveclear is
+      supported by High Note's area damage and Encore/Beat Drop's AoE damage.
+      Poke and scaling are reasonable but not strictly required by the rules;
+      they remain as draft-context tags rather than hard mechanical claims."
+    - No mobility spell is listed in the source, so dive/assassin was not added.
+      Seraphine is not immobile in the strict sense only if she had a
+      dash/blink/leap/teleport, which she does not, but that tag was not present
+      in the candidate and is not necessary here.
+    - Roles were already non-empty, so no role changes were needed. The source
+      does not explicitly assign roles, so support, mid, and dragon remain
+      inferred draft roles rather than source-verified labels.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/seraphine/

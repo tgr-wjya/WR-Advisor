@@ -1,0 +1,36 @@
+id: kogmaw
+name: Kog'Maw
+status: candidate
+roles:
+  - dragon
+tags:
+  - poke
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A long-range damage carry that scales well and pressures enemies
+    with repeated artillery-style poke and percent-health damage.
+  synergyHooks:
+    - Benefits from allies who can protect him while he keeps firing from
+      extended range.
+    - Pairs well with teammates who can slow or hold enemies in place so his
+      repeated attacks and artillery are easier to land.
+  threatHooks:
+    - Can be threatened by enemies who can reach him quickly, since the source
+      text does not show any dash, blink, leap, or teleport.
+    - Repeated Living Artillery casts become more expensive, so extended fights
+      may reduce his ability to keep poking.
+  uncertainties:
+    - "Removed shortRange: the source text explicitly gives Bio-Arcane Barrage
+      increased attack range, so Kog'Maw is not short-range by the strict rule."
+    - Kept waveclear because Void Ooze and Living Artillery both deal area
+      damage to multiple enemies, which satisfies substantial AoE damage.
+    - "Did not add engage/lockdown, dive/assassin, enchanter/peel, or tank: the
+      source text shows no hard CC like stun/root/knockup/pull/suppress, no
+      mobility dash/blink/leap, no ally heals/shields/buffs, and no strong
+      defensive steroid or defense scaling."
+    - Kept the role array non-empty as required; 'dragon' was preserved from the
+      candidate profile, though it is not an official lane role in the source
+      text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kogmaw/

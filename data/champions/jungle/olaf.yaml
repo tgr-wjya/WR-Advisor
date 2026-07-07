@@ -1,0 +1,41 @@
+id: olaf
+name: Olaf
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - shortRange
+profile:
+  draftIdentity: A melee diver who can stick to a target with a dash, slow them
+    with axes, and become immune to disables to force fights.
+  synergyHooks:
+    - Allies that can help Olaf reach targets or keep enemies in place can make
+      his dash and axe slow more reliable.
+    - Teammates who provide frontline support or follow-up damage can capitalize
+      on Olaf's ability to commit aggressively.
+  threatHooks:
+    - Enemies with strong kiting tools can make it harder for Olaf to stay on
+      top of targets despite his slow and dash.
+    - Heavy burst or anti-heal pressure can punish Olaf when he commits and
+      relies on missing-health healing.
+  uncertainties:
+    - Removed the scaling tag because the source text shows missing-health
+      attack speed and healing, but it does not clearly establish Olaf as a
+      scaling-focused draft identity under the strict tagging rules.
+    - Kept dive because Reckless Swing is explicitly a dash, which satisfies the
+      mobility requirement for dive/assassin.
+    - Kept shortRange because Olaf is a melee champion and the source text
+      implies close-range combat.
+    - Did not add engage/lockdown because Undertow only slows; slows do not
+      qualify as hard crowd control under the rules.
+    - Did not add enchanter/peel because Olaf has no ally heals, shields, buffs,
+      or displacement away from carries.
+    - Did not add immobile because Reckless Swing is a dash, so Olaf is not
+      immobile.
+    - Did not add tanks because the source text does not show strong defensive
+      steroids, shields, or defense scaling beyond temporary disable immunity
+      and healing.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/olaf/

@@ -1,0 +1,61 @@
+{
+  "id": "kaisa",
+  "name": "Kai'Sa",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "high",
+    "statisticalConfidence": "high",
+    "rosterNotes": "High comfort and the user's default pick when unsure, making her a reliable fallback when top comfort picks are unavailable."
+  },
+  "pickProfile": {
+    "identity": "Flexible mobile carry who can follow engage, punish isolated targets, and adapt between skirmish and teamfight patterns.",
+    "blindPickSafety": 4,
+    "lanePattern": "Survive weaker lanes, punish isolated targets with support setup, and avoid forcing before evolve/item breakpoints.",
+    "scalingCurve": "Strong mid-game spike with flexible late-game threat.",
+    "damageProfile": "Mixed burst and sustained damage depending on build and target access.",
+    "mobility": "Good repositioning and backline access through ultimate.",
+    "selfPeel": "Moderate self-peel through invisibility timing and ultimate shields.",
+    "objectiveDps": "Reliable objective DPS."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["engage", "lockdown"],
+      "score": 12,
+      "reason": "Engage support gives Kai'Sa clean passive stacks and ultimate entry angles."
+    },
+    {
+      "tags": ["peel", "enchanter"],
+      "score": 6,
+      "reason": "Peel support helps Kai'Sa survive until her item breakpoints."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["lockdown"],
+      "score": -5,
+      "warning": "Avoid ulting into lockdown unless the target is isolated and cooldowns are known."
+    },
+    {
+      "tags": ["dive"],
+      "score": -3,
+      "warning": "Keep ultimate and invisibility timing for the second wave of dive."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["engage"],
+      "score": 5,
+      "reason": "Ally engage creates the clearest Kai'Sa follow-up angles."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Respect weak early lanes, trade when support crowd control can add passive stacks, and preserve health for item breakpoint fights.",
+    "teamfightPlan": "Start front to back, then use ultimate only when a marked target is isolated or the enemy backline cannot immediately collapse.",
+    "defaultWarnings": ["Do not use ultimate as a panic button into five champions; require an exit or a guaranteed kill."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

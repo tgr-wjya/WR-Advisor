@@ -1,0 +1,42 @@
+id: kindred
+name: Kindred
+status: candidate
+roles:
+  - jungle
+tags:
+  - dive
+  - scaling
+  - shortRange
+profile:
+  draftIdentity: A mobile jungle marksman who scales through Hunt stacks and can
+    access targets with repeated mobility and execute-style damage patterns.
+  synergyHooks:
+    - Allies who can help secure marked targets may accelerate Kindred's Hunt
+      progression and passive range growth.
+    - Teammates who can keep enemies inside Lamb's Respite can benefit from the
+      zone's delayed death and end-of-effect healing.
+  threatHooks:
+    - Enemies with strong burst or displacement may punish Kindred before she
+      can build stacks or set up her damage pattern.
+    - Opponents who can disengage from or avoid the marked target sequence may
+      reduce the value of her Hunt-based scaling.
+  uncertainties:
+    - The source supports jungle as the clearest role assignment; no other role
+      is explicitly indicated on the provided champion page text.
+    - Kindred should keep the dive tag because Dance of Arrows is a mobility
+      skill that lets her tumble, satisfying the mobility requirement for
+      dive/assassin.
+    - Kindred does not qualify for engage/lockdown because Mounting Dread only
+      slows, and slows do not meet the strict lockdown criteria.
+    - Kindred does not qualify for enchanter/peel because Lamb's Respite
+      provides a zone heal and death prevention, but it does not directly
+      shield, buff allies, or displace enemies away from carries.
+    - Kindred does not qualify for tanks because the source text does not show
+      strong defensive steroids, shields, or defense scaling.
+    - Kindred does not qualify for waveclear because the source only shows
+      limited nearby-target damage and no substantial AoE waveclear spell.
+    - Kindred should remain shortRange because the passive only increases attack
+      range over time and the champion is not shown as a long-range artillery
+      pick in the source text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kindred/

@@ -1,0 +1,46 @@
+id: irelia
+name: Irelia
+status: candidate
+roles:
+  - mid
+  - top
+tags:
+  - assassin
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A mobile melee skirmisher who can dive onto marked targets, chain
+    resets, and threaten picks with stun and follow-up damage.
+  synergyHooks:
+    - Works well with allies who can set up or hold enemies in place so she can
+      land Bladesurge and Flawless Duet more reliably.
+    - Benefits from teammates who can start fights or create chaos, giving her
+      openings to reach backline targets.
+  threatHooks:
+    - Can be checked by champions that keep her at range or punish her before
+      she reaches a target.
+    - Hard crowd control and anti-dive tools can interrupt her engage pattern
+      and limit reset-based follow-up.
+  uncertainties:
+    - "The current tags are mostly correct under the strict criteria:
+      dive/assassin is justified because Bladesurge is a dash, engage/lockdown
+      is justified because Flawless Duet stuns, and shortRange is justified
+      because Irelia is a melee champion."
+    - I did not add enchanter/peel because her kit does not provide ally heals,
+      shields, buffs, or displacement away from carries; her self-heal on
+      Bladesurge is not an ally-support tool.
+    - I did not add immobile because Bladesurge is a dash, which explicitly
+      disqualifies that tag.
+    - I did not add tanks because Defiant Dance provides temporary damage
+      reduction, but the kit does not show the kind of strong defensive
+      steroids, shields, or defense scaling required for the tank tag.
+    - I did not add waveclear because the source text shows some area damage on
+      Flawless Duet and Vanguard's Edge, but not enough explicit evidence here
+      to confidently label substantial waveclear beyond normal AoE presence.
+    - The listed roles mid and top are reasonable inferred roles for Irelia, and
+      the roles array is not empty, so no role correction was needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/irelia/

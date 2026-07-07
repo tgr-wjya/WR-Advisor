@@ -1,0 +1,45 @@
+id: nasus
+name: Nasus
+status: candidate
+roles:
+  - top
+tags:
+  - lockdown
+  - tanks
+  - scaling
+  - waveclear
+  - shortRange
+  - immobile
+profile:
+  draftIdentity: A scaling top-lane bruiser who becomes much stronger over time,
+    brings single-target lockdown through Wither, and gains meaningful
+    durability in fights through his ultimate.
+  synergyHooks:
+    - Works well with allies who can help him reach later fights or keep enemies
+      in range while he stacks Siphoning Strike.
+    - Benefits from teammates who can start fights or hold enemies in place so
+      he can apply Wither and sustained damage.
+  threatHooks:
+    - Can struggle against champions that kite him or deny his ability to stay
+      in melee range.
+    - May be pressured early by opponents who can punish his limited mobility
+      before he scales.
+  uncertainties:
+    - The lockdown tag is valid because Wither directly slows an enemy
+      champion's movement and attack speed, but it does not qualify as engage by
+      the strict rule because it is not a stun, root, knockup, pull, or
+      suppression.
+    - The tanks tag is supported by Fury of the Sands granting increased Health
+      plus bonus Armor and Magic Resistance, which is a real defensive steroid
+      even though Nasus is not a pure tank.
+    - The waveclear tag is justified by Spirit Fire dealing area damage at a
+      location and Fury of the Sands damaging nearby enemies, both of which
+      provide substantial AoE damage.
+    - The immobile tag is correct because the source text shows no dashes,
+      blinks, leaps, or teleports.
+    - The shortRange tag is correct because Nasus is fundamentally a melee
+      champion, even though his ultimate temporarily increases his attack range.
+    - The top role is retained because the profile needs at least one role and
+      top is a reasonable standard lane assignment for Nasus.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nasus/

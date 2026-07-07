@@ -1,0 +1,39 @@
+id: janna
+name: Janna
+status: candidate
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+  - poke
+profile:
+  draftIdentity: A protective support who provides movement speed, shielding,
+    healing, and knockback utility to help allies survive and reposition.
+  synergyHooks:
+    - Pairs well with allies who benefit from shields, healing, and movement
+      speed from Tailwind, Zephyr, Eye Of The Storm, and Monsoon.
+    - Can help teammates follow up on Howling Gale knockups and stay safe while
+      fighting around her defensive utility.
+  threatHooks:
+    - Enemies with strong dive or burst can try to overwhelm her before she can
+      use shields, healing, or Monsoon.
+    - Champions that can avoid or interrupt her knockup and knockback tools may
+      reduce her ability to protect allies.
+  uncertainties:
+    - "Removed the engage tag: Janna has a knockup on Howling Gale, which
+      satisfies lockdown, but her overall kit is primarily defensive and
+      protective rather than true engage."
+    - "Kept enchanter and peel: Tailwind, Eye Of The Storm, and Monsoon provide
+      ally movement speed, shielding, healing, and knockback to protect
+      carries."
+    - "Kept poke: Howling Gale and Zephyr both deal damage from range, so poke
+      is a reasonable secondary tag."
+    - "Did not add immobile: Janna has movement speed steroids, but no
+      dash/blink/leap/teleport is listed in the source, so she remains immobile
+      by the strict rule."
+    - "Did not add dive/assassin, tank, waveclear, or shortRange: the source
+      does not show the required mobility, defensive scaling, substantial AoE
+      waveclear, or melee/low-range profile for those tags."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/janna/

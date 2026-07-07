@@ -1,0 +1,49 @@
+id: soraka
+name: Soraka
+status: candidate
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A backline support who sustains allies with healing and shielding
+    while offering zone-based crowd control and safe poke.
+  synergyHooks:
+    - Pairs well with allies who can keep enemies inside Equinox so its silence
+      and root can land.
+    - Benefits from teammates that can protect her while she repeatedly heals
+      and shields the team.
+  threatHooks:
+    - Can be pressured by enemies who can reach her quickly before she can keep
+      allies alive.
+    - May struggle against compositions that can avoid or disengage from her
+      zone-based control.
+  uncertainties:
+    - Kept support as the primary role because the source text clearly presents
+      Soraka as a support-oriented enchanter, and no other role is explicitly
+      supported by the ability text.
+    - Removed poke because the provided rules do not define poke as a qualifying
+      tag, even though Starcall can be used for ranged harass.
+    - Removed waveclear because Soraka has area damage, but the source does not
+      support strong or substantial waveclear in the strict sense required by
+      the rules.
+    - Removed immobile because Soraka has no dashes, blinks, leaps, or teleports
+      in the source text, so she qualifies as immobile by the stated criteria.
+    - Removed dive/assassin because Soraka has no mobility skills and does not
+      meet the required criteria for that tag.
+    - Removed tank because the source shows healing and shielding, but not
+      strong defensive steroids or defense scaling of the kind required for a
+      tank tag.
+    - Added shortRange because Soraka is a melee champion in Wild Rift, which
+      satisfies the low-range/melee requirement.
+    - Kept lockdown because Equinox silences enemies inside the zone and roots
+      enemies who remain when it expires; this satisfies the strict
+      crowd-control requirement.
+    - Kept enchanter and peel because Astral Infusion and Wish heal allies,
+      Astral Infusion converts excess healing into a shield, and Soraka's kit
+      supports protecting carries.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/soraka/

@@ -1,0 +1,47 @@
+id: nunu-and-willump
+name: Nunu & Willump
+status: candidate
+roles:
+  - jungle
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: "A durable engage jungler with strong pick and follow-up control:
+    he can start fights with a rolling knockup, chain into root, provide ally
+    movement-speed support, and threaten large-area damage in teamfights."
+  synergyHooks:
+    - Pairs well with allies who can follow up on Biggest Snowball Ever!
+      knockups or Snowball Barrage roots.
+    - Benefits from teammates who can capitalize on Call of the Freljord's
+      movement-speed boost to rotate, chase, or disengage.
+  threatHooks:
+    - Enemies with strong disengage or interruption can reduce the value of
+      Absolute Zero and snowball-based setup.
+    - Champions that can avoid or sidestep the snowball engage may limit Nunu &
+      Willump's initiation threat.
+  uncertainties:
+    - engage and lockdown are valid because Biggest Snowball Ever! knocks up
+      enemies and Snowball Barrage roots champions or large monsters hit by a
+      snowball.
+    - peel is valid because Call of the Freljord grants movement speed to a
+      nearby ally, which can help reposition or protect carries, though the kit
+      does not include a direct shield or hard displacement away from allies.
+    - tanks is a reasonable tag because Consume provides self-healing and the
+      kit supports durable frontline play, but the source text does not
+      explicitly mention armor, magic resist, or other defense-scaling steroids.
+    - waveclear is valid because Snowball Barrage and Absolute Zero are area
+      damage spells, and Willump's passive also causes basic attacks to damage
+      enemies around the target.
+    - shortRange is valid because Nunu & Willump are melee and do not have a
+      dash, blink, leap, or teleport in the source text.
+    - Support is retained as a secondary role because the official page does not
+      provide a role list, but the ally movement-speed buff and frontline
+      utility make it a plausible secondary draft role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nunu-and-willump/

@@ -1,0 +1,46 @@
+id: rengar
+name: Rengar
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A brush-based melee assassin who hunts isolated targets with
+    burst access, slows, roots, and movement-speed tools.
+  synergyHooks:
+    - Works well with allies who can provide vision or force enemies into
+      predictable positions so he can leap from brush or from his ultimate.
+    - Benefits from teammates who can follow up on his root and armor shred to
+      finish targets quickly.
+  threatHooks:
+    - Can be checked by enemies who deny brush access, keep vision control, or
+      survive his initial burst.
+    - Crowd control and peel can interrupt his all-in attempts before he secures
+      a takedown.
+  uncertainties:
+    - Kept the roles as jungle/top because they are reasonable inferred roles
+      for Rengar's kit, and the schema only requires that the roles array not be
+      empty.
+    - Kept assassin because his kit clearly supports burst assassination and
+      target access.
+    - Kept dive because the source text explicitly gives him mobility through
+      brush leaps on passive and movement speed on his ultimate, which satisfies
+      the mobility requirement.
+    - Kept lockdown because Bola Strike can root the target when empowered,
+      which meets the strict crowd-control requirement.
+    - Kept shortRange because Rengar is a melee champion and his gameplay is
+      centered on close-range attacks.
+    - "Did not add enchanter/peel, tanks, or waveclear: he has self-heal and
+      self-cleanse, but no ally shields/heals/buffs or displacement for peel, no
+      strong defensive steroid or defense scaling, and no substantial AoE
+      waveclear spell."
+    - "The draftIdentity text was adjusted conceptually by the validation logic:
+      slows alone do not qualify for lockdown, so the root from empowered Bola
+      Strike is the real basis for that tag."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/rengar/

@@ -1,0 +1,44 @@
+id: rumble
+name: Rumble
+status: candidate
+roles:
+  - top
+  - mid
+tags:
+  - poke
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A short-range magic damage fighter who pressures lanes with cone
+    damage, slows, and a large zoning ultimate that can control space and set up
+    follow-up damage.
+  synergyHooks:
+    - Works well with allies who can keep enemies inside The Equalizer so his
+      damage and slows can tick for longer.
+    - Benefits from teammates who can follow up on his slows and zone control
+      from Electro Harpoon and The Equalizer.
+  threatHooks:
+    - Can be punished by enemies who outrange him before he gets close enough to
+      use Flamespitter effectively.
+    - May struggle against compositions that can disengage or avoid his ultimate
+      zone.
+  uncertainties:
+    - Removed the engage tag because the source shows slows and zoning, but no
+      stun, root, knockup, pull, or suppression, so he does not meet the strict
+      engage/lockdown rule.
+    - Kept poke because Electro Harpoon and The Equalizer provide ranged
+      harassment and zoning pressure, though the profile should not imply hard
+      crowd control.
+    - Kept waveclear because Flamespitter is a sustained cone AoE damage spell
+      and The Equalizer adds a large area damage zone.
+    - Kept shortRange because Rumble is primarily a close-range champion whose
+      main damage pattern is cone-based and centered around himself.
+    - Did not add immobile because Scrap Shield grants a burst of speed, which
+      is mobility, even though he has no dash, blink, leap, or teleport.
+    - Did not add enchanter/peel or tank because the source provides a shield
+      and speed boost for self only, but no ally shielding, healing, buffs, or
+      strong defensive scaling.
+    - Roles were already present and valid; top and mid are reasonable inferred
+      roles, but the source text itself does not explicitly assign lanes.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/rumble/

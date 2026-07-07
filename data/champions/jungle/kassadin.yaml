@@ -1,0 +1,42 @@
+id: kassadin
+name: Kassadin
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A scaling melee mage-assassin who can blink onto targets, silence
+    them, and become more threatening with repeated Riftwalk casts. He has
+    strong pick potential and AoE damage, but he is not immobile because
+    Riftwalk is a blink.
+  synergyHooks:
+    - Allies who can help Kassadin reach later stages of the game and set up
+      targets for Riftwalk engage.
+    - Teammates who can follow up on his silence to secure kills after he blinks
+      in.
+  threatHooks:
+    - Enemies with strong early pressure may punish his need to scale before
+      Riftwalk becomes a major threat.
+    - Champions that can control space or keep distance can make it harder for
+      him to find safe blink angles.
+  uncertainties:
+    - "The source supports assassin, dive, lockdown, shortRange, and waveclear:
+      Riftwalk is a blink, Null Sphere silences, and Force Pulse is AoE damage.
+      The original immobile tag was removed because Riftwalk is a blink, so he
+      does have mobility."
+    - The source does not support enchanter/peel, since Kassadin has no ally
+      heals, shields, buffs, or displacement for protecting carries.
+    - The source does not support tanks, since he has a magic shield passive but
+      no strong defensive steroids, defense scaling, or tank-oriented durability
+      tools.
+    - The source does not explicitly state his lane roles, so the listed roles
+      are conservative draft assignments based on his kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kassadin/

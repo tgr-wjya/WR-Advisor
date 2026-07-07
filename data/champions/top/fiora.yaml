@@ -1,0 +1,44 @@
+id: fiora
+name: Fiora
+status: candidate
+roles:
+  - top
+tags:
+  - dive
+  - shortRange
+profile:
+  draftIdentity: A mobile melee duelist who looks to outplay isolated targets in
+    side lanes and finish fights by repeatedly sticking to one enemy.
+  synergyHooks:
+    - Allies who can create space or lock a target in place can help Fiora reach
+      and complete her Vital-based duel pattern.
+    - Teamfight setups that keep enemies occupied let Fiora flank and pressure a
+      priority target from the side.
+  threatHooks:
+    - Hard crowd control and immobilizing effects can interrupt her approach if
+      Riposte is unavailable or mistimed.
+    - Champions that can keep distance or punish short-range melee engages can
+      make it difficult for Fiora to connect consistently.
+  uncertainties:
+    - "Kept the dive tag because Lunge is a clear mobility skill: Fiora lunges
+      in a direction, which satisfies the mobility requirement for
+      dive/assassin."
+    - Kept shortRange because Fiora is a melee champion and her kit is built
+      around close-range dueling.
+    - "Did not add engage/lockdown: Riposte can stun only after blocking an
+      immobilizing effect, but the kit does not provide a reliable primary
+      stun/root/knockup/pull/suppress for initiation."
+    - "Did not add enchanter/peel: although Grand Challenge heals Fiora and
+      allies, the kit does not provide ally shields, buffs, or
+      displacement-based peel for carries."
+    - "Did not add immobile: Fiora has Lunge, so she is not immobile."
+    - "Did not add tanks: the source text shows healing and parry utility, but
+      not strong defensive steroids, shields, or defense scaling that would
+      justify a tank tag."
+    - "Did not add waveclear: the listed abilities do not show substantial AoE
+      damage spells."
+    - Role left as top because the provided profile already had a valid role and
+      Fiora is most naturally played as a top-lane duelist; no correction was
+      needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/fiora/

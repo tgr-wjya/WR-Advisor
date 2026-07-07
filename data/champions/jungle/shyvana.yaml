@@ -1,0 +1,45 @@
+id: shyvana
+name: Shyvana
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - shortRange
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A scaling fighter-jungler who can transform into a dragon to
+    access targets, disrupt fights, and deal strong area damage.
+  synergyHooks:
+    - Works well with allies who can follow up on her Dragon's Descent knock-up
+      and path damage.
+    - Benefits from teammates who can help her reach late-game power while she
+      stacks Fury from monsters and champions.
+  threatHooks:
+    - Can be checked by enemies who can punish her before she has Fury or before
+      she reaches dragon form.
+    - May struggle into teams that can avoid or disengage from her flight-based
+      engage and close-range damage.
+  uncertainties:
+    - The source clearly supports dive because Dragon's Descent is a
+      flight-based gap closer, and engage because it knocks enemies toward her
+      target location; both are valid.
+    - Waveclear is supported by Flame Breath and Dragon Form Flame Breath, which
+      hit multiple enemies / create area damage, and Burnout also deals repeated
+      nearby AoE damage.
+    - ShortRange is valid because Shyvana is a melee champion with close-range
+      combat patterns.
+    - Scaling is supported by Fury of the Dragonborn, which grants stacking
+      power as she slays monsters and champions.
+    - No correction was needed for roles; jungle and top are both reasonable
+      from the source-backed kit, though lane priority is not explicitly stated.
+    - "Tags not added: immobile is invalid because Dragon's Descent is a
+      flight/dash-like mobility tool; tanks is not clearly supported by
+      defensive steroids, shields, or defense scaling; enchanter/peel is not
+      supported by ally heals, shields, buffs, or displacement away from
+      carries."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/shyvana/

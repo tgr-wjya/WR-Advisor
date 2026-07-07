@@ -1,0 +1,42 @@
+id: blitzcrank
+name: Blitzcrank
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A pick-focused support that can force fights by pulling a target
+    into close-range crowd control and follow-up damage.
+  synergyHooks:
+    - Pairs well with allies who can quickly burst or follow up on a pulled
+      target.
+    - Benefits from teammates who can capitalize on forced close-range fights
+      after Rocket Grab.
+  threatHooks:
+    - Threatened by enemies who can avoid or punish his single-target engage
+      attempts.
+    - Can be less effective when opponents keep distance and deny hook
+      opportunities.
+  uncertainties:
+    - Kept support as the primary role because the provided role list requires
+      at least one role and Blitzcrank is commonly played as a support; the
+      source text itself does not assign a formal role.
+    - engage and lockdown are valid because Rocket Grab drags an enemy and Power
+      Fist pops the target up in the air, which satisfies pull/knockup criteria.
+    - tanks is valid because Mana Barrier grants a shield based on mana when
+      dropping to low health, which is a defensive steroid.
+    - shortRange is valid because Blitzcrank is melee and his kit centers on
+      close-range follow-up after pulling targets in.
+    - I did not add dive/assassin because Overdrive grants movement speed but no
+      dash, blink, leap, or teleport.
+    - I did not add enchanter/peel because the kit does not provide ally heals,
+      ally shields, ally buffs, or displacement away from carries.
+    - I did not add waveclear because Static Field has some area damage, but the
+      source does not clearly establish substantial waveclear as a defining
+      trait.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/blitzcrank/

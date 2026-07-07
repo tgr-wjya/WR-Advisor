@@ -1,0 +1,47 @@
+id: sett
+name: Sett
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A short-range brawler who can start fights, absorb damage with a
+    shield, and lock enemies down with pull, stun, and ultimate displacement.
+  synergyHooks:
+    - Works well with allies who can follow up quickly on his pull, stun, and
+      ultimate displacement.
+    - Benefits from teammates who can help him reach targets so he can use his
+      movement speed toward enemy champions and close-range damage.
+  threatHooks:
+    - Can be pressured by enemies who keep distance, since his kit is centered
+      on close-range combat.
+    - Enemies with strong peel or disengage may reduce the value of his engage
+      and crowd control.
+  uncertainties:
+    - The source text clearly supports engage/lockdown because Facebreaker pulls
+      enemies and stuns them, and The Show Stopper forcibly carries and slams a
+      target. Slows alone would not qualify, but Sett has hard CC here.
+    - The source text supports shortRange because Sett is a melee champion with
+      basic attacks and close-range abilities; no ranged attack pattern is
+      shown.
+    - The source text supports tanks because Haymaker grants a shield and Sett
+      passively stores damage as Grit, which is a strong defensive steroid. I
+      kept the tank tag.
+    - The source text does not show any dash, blink, leap, or teleport, so
+      immobile would also apply by the strict rule. However, I did not add it
+      because the candidate schema already had a limited tag set and the request
+      was to correct only what clearly applies; if you want maximal tagging,
+      immobile should be added.
+    - The source text does not explicitly provide official role labels, but top
+      and jungle are reasonable conservative role inferences from the champion's
+      kit and were kept.
+    - I did not add enchanter/peel because Sett has no ally heals, shields,
+      buffs, or clear enemy displacement away from carries; his displacement is
+      primarily offensive engage.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/sett/

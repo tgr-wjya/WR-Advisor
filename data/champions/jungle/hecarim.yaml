@@ -1,0 +1,44 @@
+id: hecarim
+name: Hecarim
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A mobile bruiser/initiator who can start fights with speed-based
+    access, disruption, and area damage.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his charge and fear to convert
+      engages into kills.
+    - Benefits from teammates who can keep enemies in place while he stays on
+      top of them with repeated area damage.
+  threatHooks:
+    - Can threaten backline targets by closing distance quickly and forcing them
+      to flee with his ultimate.
+    - His durability and self-sustain make him harder to burst down once he is
+      in the middle of a fight.
+  uncertainties:
+    - Removed the lockdown tag because Hecarim's official kit does not include a
+      stun, root, knockup, pull, or suppression. His ultimate causes enemies to
+      flee in terror, which is disruption but not lockdown under the strict
+      criteria.
+    - Kept dive because Devastating Charge and Onslaught of Shadows both provide
+      real mobility via movement speed and a forward charge, satisfying the
+      mobility requirement.
+    - Kept tanks because Spirit of Dread grants Armor and Magic Resist and also
+      provides sustain through health gained from damage dealt nearby, which
+      supports a durable frontline profile.
+    - Kept waveclear because Rampage cleaves nearby enemies and Spirit of Dread
+      deals damage to nearby enemies, giving him substantial area damage for
+      clearing waves.
+    - Kept shortRange because Hecarim is effectively melee and his damage
+      pattern relies on close-range cleaves and proximity-based effects.
+    - Roles were already non-empty, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/hecarim/

@@ -1,0 +1,40 @@
+id: aatrox
+name: Aatrox
+status: candidate
+roles:
+  - top
+tags:
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: Aatrox is a melee top laner who can dive into fights, sustain
+    through combat, and threaten enemies with displacement and fear-based
+    pressure.
+  synergyHooks:
+    - Works well with allies who can help him reach targets or follow up on his
+      crowd control and displacement.
+    - Benefits from teammates who can capitalize on extended fights while he
+      stays alive through healing and takedown resets.
+  threatHooks:
+    - Can be checked by enemies who can keep distance from his melee range and
+      avoid his dash-based engage windows.
+    - His impact may be reduced by opponents who can interrupt his approach or
+      punish him before he can sustain through combat.
+  uncertainties:
+    - The source supports top as a reasonable default role, since Aatrox is
+      presented as a melee solo-lane fighter and the profile is using a
+      conservative lane assignment.
+    - The dive tag is valid because Umbral Dash is an explicit dash, which
+      satisfies the mobility requirement for dive/assassin.
+    - The lockdown tag is valid because Infernal Chains can drag enemies to the
+      center, which is a form of displacement and crowd control that meets the
+      strict lockdown criterion.
+    - ShortRange is valid because Aatrox is melee.
+    - "I did not add enchanter/peel, tank, or waveclear: the source shows
+      healing and AoE damage, but not enough ally shielding/buffing for
+      enchanter, not enough defensive steroid/shield/defense scaling for tank,
+      and the AoE is present but not clearly substantial enough to justify
+      waveclear as a draft tag under strict criteria."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/aatrox/

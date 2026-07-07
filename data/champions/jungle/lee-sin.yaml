@@ -1,0 +1,41 @@
+id: lee-sin
+name: Lee Sin
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A mobile melee skirmisher who can start fights, isolate targets,
+    and displace enemies with strong pick and dive tools.
+  synergyHooks:
+    - Works well with allies who can follow up quickly on his dash-in and kick
+      displacement.
+    - Benefits from teammates who can capitalize on enemies after his crowd
+      control lands.
+  threatHooks:
+    - Can be punished by champions that stop his engage before he reaches a
+      target.
+    - May struggle into teams that can survive his burst and deny his
+      close-range access.
+  uncertainties:
+    - The source text supports dive because Sonic Wave / Resonating Strike and
+      Safeguard / Iron Will both provide dashes, and Dragon's Rage provides hard
+      displacement plus a knock-up on colliding enemies.
+    - The engage and lockdown tags are valid because Dragon's Rage knocks
+      enemies into the air, which is hard crowd control; Tempest / Cripple only
+      slows, so it does not by itself justify lockdown.
+    - ShortRange is valid because Lee Sin is a melee champion with close-range
+      ability patterns.
+    - I did not add enchanter/peel, tank, or waveclear because the source text
+      does not show ally buffs/heals, strong defensive scaling beyond a
+      self-shield, or clearly substantial AoE waveclear as a primary identity.
+    - The role selection remains conservative with jungle and top, since the
+      source page does not explicitly list roles but his kit clearly fits those
+      lanes.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lee-sin/

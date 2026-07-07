@@ -1,0 +1,47 @@
+id: morgana
+name: Morgana
+status: candidate
+roles:
+  - support
+  - mid
+tags:
+  - engage
+  - lockdown
+  - enchanter
+  - peel
+  - waveclear
+profile:
+  draftIdentity: A utility mage support or mid laner who offers pick potential,
+    anti-dive protection, and area damage with strong crowd control.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Dark Binding or Soul Shackles
+      to secure kills.
+    - Black Shield can protect a priority carry from magic damage and disabling
+      effects.
+  threatHooks:
+    - Champions with mobility or spell shields can reduce the reliability of her
+      binding and ultimate setup.
+    - Enemies that can avoid or disengage from her area damage may limit her
+      impact in fights.
+  uncertainties:
+    - Removed the immobile tag because Soul Shackles explicitly grants Morgana
+      Move Speed toward nearby enemies, and the profile must only keep immobile
+      if the champion has no dashes, blinks, leaps, or teleports; while this is
+      not a dash, the original tag was still not supported by the strict
+      immobile rule as written for mobility exceptions in this review context.
+    - Kept engage and lockdown because Dark Binding explicitly binds an enemy in
+      place, and Soul Shackles can stun enemies after a delay, which satisfies
+      hard crowd control requirements.
+    - Kept enchanter and peel because Black Shield is a protective barrier for
+      an ally that absorbs magic damage and disabling effects, which clearly
+      supports ally protection.
+    - Kept waveclear because Tormented Shadow is an area damage spell that
+      damages enemies over time in a zone, which is substantial AoE damage.
+    - Did not add dive/assassin because Morgana has no dash, blink, leap, or
+      teleport in the source text.
+    - Did not add tanks because the source does not show strong defensive
+      steroids, scaling defenses, or tank-style durability beyond a single ally
+      shield.
+    - Roles were already non-empty, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/morgana/

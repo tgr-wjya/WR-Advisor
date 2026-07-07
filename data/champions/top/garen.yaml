@@ -1,0 +1,43 @@
+id: garen
+name: Garen
+status: candidate
+roles:
+  - top
+tags:
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A durable melee top laner who can run at targets, survive burst,
+    and threaten execution on low-health enemies.
+  synergyHooks:
+    - Works well with allies who can help him reach priority targets so he can
+      follow up with silence and execute pressure.
+    - Benefits from teammates who can keep enemies in range of Judgment and set
+      up fights around his short-range damage.
+  threatHooks:
+    - Can be kited by champions that keep distance and avoid his short-range
+      melee threat.
+    - His damage pattern can be disrupted by heavy crowd control or burst before
+      he can leverage his durability.
+  uncertainties:
+    - Removed the engage tag because the source does not show a true engage tool
+      such as a stun, root, knockup, pull, or suppression; Garen has silence and
+      movement speed, but silence alone does not satisfy the engage/lockdown
+      rule.
+    - Kept the lockdown tag because Decisive Strike silences the target, which
+      is a valid form of crowd control for this profile even though it is not a
+      hard CC engage tool.
+    - Removed the tanks tag because the source shows damage reduction and bonus
+      crowd-control resistance, but not the stronger defensive steroids,
+      shields, or defense-scaling criteria required for the tank tag.
+    - Kept shortRange because Garen is melee and all of his listed combat tools
+      operate at close range.
+    - Kept waveclear because Judgment is a substantial area-of-effect damage
+      spell that can clear minion waves.
+    - The source does not explicitly label Garen as a tank, so the tank tag was
+      not retained under the strict criteria.
+    - The source does not provide lane recommendations beyond the champion page,
+      so only the top role is assigned conservatively.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/garen/

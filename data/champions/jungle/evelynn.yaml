@@ -1,0 +1,39 @@
+id: evelynn
+name: Evelynn
+status: candidate
+roles:
+  - jungle
+  - mid
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A stealthy burst assassin who picks isolated targets with charm
+    setup and can disengage after diving in.
+  synergyHooks:
+    - Allies who can help set up a delayed charm or keep enemies in place make
+      her pick attempts more reliable.
+    - Teammates who create vision control or force enemies to walk into fog can
+      help Evelynn find safer flanks.
+  threatHooks:
+    - Enemies with reliable crowd control or reveal tools can punish her before
+      she reaches a target.
+    - Compositions that can survive the initial burst or deny isolated access
+      reduce her assassination threat.
+  uncertainties:
+    - "Removed immobile because the source explicitly gives Evelynn multiple
+      mobility tools: Whiplash pulls her to her target when exiting Demon Shade,
+      and Last Caress warps her backwards a long distance."
+    - Kept dive because she has clear mobility for committing to targets,
+      including a pull-in on Whiplash and a long-range warp on her ultimate.
+    - Kept lockdown because Allure can charm a target after a delay, which
+      satisfies the hard crowd control requirement.
+    - Kept shortRange because Evelynn is a melee champion with close-range
+      target access; the source does not list a ranged basic attack pattern.
+    - "Did not add enchanter/peel, tanks, or waveclear: Demon Shade provides
+      self-healing only, and while Last Caress damages an area, the page does
+      not support a strong waveclear or tank profile."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/evelynn/

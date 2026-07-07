@@ -1,0 +1,40 @@
+id: sivir
+name: Sivir
+status: approved
+roles:
+  - marksman
+tags:
+  - poke
+  - waveclear
+  - peel
+profile:
+  draftIdentity: A utility marksman who offers safe poke, strong waveclear, and
+    teamwide movement-speed support.
+  synergyHooks:
+    - Pairs well with allies who can capitalize on her ultimate's movement-speed
+      boost to start fights or chase targets.
+    - Benefits from teammates who can protect her while she uses Ricochet and
+      Boomerang Blade to pressure waves and grouped enemies.
+  threatHooks:
+    - Can be pressured by enemies who can force repeated ability casts and make
+      Spell Shield less reliable.
+    - May struggle against opponents who can close distance quickly before her
+      movement-speed tools create space.
+  uncertainties:
+    - The source text supports Sivir as a utility marksman with poke, waveclear,
+      and ally movement-speed support, so the existing marksman role and
+      poke/waveclear/peel tags are valid.
+    - Peel is justified by On the Hunt granting allies a burst of move speed,
+      which can help allies reposition or disengage, even though Sivir does not
+      provide hard crowd control or direct healing/shielding for allies.
+    - Waveclear is supported by Ricochet bouncing to nearby targets and
+      Boomerang Blade dealing damage each way, both of which can hit multiple
+      minions or enemies.
+    - "She should not be tagged as engage/lockdown, dive/assassin, immobile, or
+      tank from this source text: there is no
+      stun/root/knockup/pull/suppression, no dash/blink/leap/teleport, and no
+      strong defensive steroid or tank-scaling shown."
+    - ShortRange is not added because the source text does not state her attack
+      range or melee status.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/sivir/

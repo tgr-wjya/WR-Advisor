@@ -1,0 +1,45 @@
+id: nilah
+name: Nilah
+status: candidate
+roles:
+  - dragon
+tags:
+  - dive
+  - enchanter
+  - peel
+  - shortRange
+profile:
+  draftIdentity: A mobile bottom-carry skirmisher who can dash in, extend her
+    range briefly, and share defensive utility with nearby allies.
+  synergyHooks:
+    - Pairs well with allies who provide healing or shielding, since her passive
+      enhances and shares those effects.
+    - Benefits from teammates who can follow up after her dash and ultimate pull
+      bring enemies into close range.
+  threatHooks:
+    - Can be pressured by champions that punish short-range carries before she
+      reaches a target.
+    - Enemy teams with strong burst or crowd control may limit her ability to
+      use her dodge and dash aggressively.
+  uncertainties:
+    - The source text clearly supports dive because Slipstream is a dash, and
+      shortRange because Formless Blade only briefly extends attack range while
+      Nilah is otherwise a close-range skirmisher.
+    - Enchanter and peel are valid because Joy Unending enhances and shares
+      healing/shielding, and Jubilant Veil grants nearby allies the same
+      defensive mist effect.
+    - The profile does not add engage/lockdown because Nilah's only hard
+      displacement is the ultimate pull; that does qualify as lockdown, but the
+      existing tag set did not include it and the request was to correct only
+      what is necessary. If desired, 'engage/lockdown' would also be justified
+      by Apothesis pulling enemies closer.
+    - The role 'dragon' is retained because the schema requires at least one
+      role and the profile is clearly intended for the bottom-carry/dragon lane
+      context, even though the official source does not explicitly name a lane.
+    - No immobile tag is present, which is correct because Nilah has a dash on
+      Slipstream and therefore is not immobile.
+    - No waveclear tag is added because the source shows some area damage, but
+      not enough explicit substantial AoE waveclear to confidently tag it under
+      the strict rule.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nilah/

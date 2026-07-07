@@ -1,0 +1,46 @@
+id: maokai
+name: Maokai
+status: candidate
+roles:
+  - top
+  - support
+  - jungle
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable crowd-control tank who can start fights with
+    point-and-click root access, displacement, and long-range area control.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his root and ultimate to
+      secure kills.
+    - Benefits from teammates who can capitalize on his engage and keep enemies
+      inside his bramble path.
+  threatHooks:
+    - Threatened by champions who can avoid or disengage from his root-based
+      engage.
+    - Can struggle when enemies outrange him or punish his short-range approach
+      before he connects.
+  uncertainties:
+    - Kept engage and lockdown because Twisted Advance dashes to a target and
+      roots on arrival, while Nature's Grasp also roots enemies in its path;
+      Bramble Smash adds knockback, which further supports hard engage and peel.
+    - Removed poke because the source shows damage and utility, but not a clear
+      poke pattern strong enough to satisfy the tag under strict criteria.
+    - Kept tanks because Sap Magic provides self-healing and Maokai has strong
+      control tools, but the source does not explicitly show defense scaling or
+      a large shield steroid; the tank tag is still supported by his durable kit
+      profile.
+    - Kept waveclear as a reasonable fit because Nature's Grasp and Bramble
+      Smash are area damage spells, though the source does not explicitly state
+      minion-clearing strength.
+    - Kept shortRange because Maokai is melee and his engage pattern relies on
+      close-range access; the source does not indicate any long basic attack
+      range.
+    - Roles were already non-empty and remain conservative inferences from the
+      kit and common use.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/maokai/

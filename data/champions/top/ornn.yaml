@@ -1,0 +1,42 @@
+id: ornn
+name: Ornn
+status: candidate
+roles:
+  - top
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable frontline top laner who can start fights, disrupt
+    enemies with knockups and slows, and provide team utility through his
+    passive item forging.
+  synergyHooks:
+    - Works well with allies who can follow up on his knockups and slows from
+      Searing Charge and Call of the Forge God.
+    - His passive can give a nearby ally access to item purchases from anywhere,
+      creating a unique team economy and timing advantage.
+  threatHooks:
+    - Enemies with strong mobility or spacing may avoid his terrain-dependent
+      engage and delayed skillshots.
+    - His impact depends on landing crowd control and Brittle applications, so
+      teams that can disengage or kite may reduce his effectiveness.
+  uncertainties:
+    - The source text clearly supports engage/lockdown because Ornn has knockups
+      on Searing Charge and Call of the Forge God; slows alone would not
+      qualify, but the knockups do.
+    - The tank tag is supported by Living Forge granting bonus Armor and Magic
+      Resistance from all sources, which is a strong defensive steroid.
+    - Waveclear is reasonable because Volcanic Rupture and Call of the Forge God
+      both deal area damage, though the source does not explicitly label him as
+      a waveclear specialist.
+    - ShortRange is correct because Ornn is melee and his kit centers on
+      advancing, charging, and close-range impact rather than long-range
+      attacks.
+    - The role top is retained as a standard and appropriate lane classification
+      for Ornn, even though the source page does not explicitly state lane
+      roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ornn/

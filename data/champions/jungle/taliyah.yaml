@@ -1,0 +1,51 @@
+id: taliyah
+name: Taliyah
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A terrain-aware mage who can disrupt fights with displacement,
+    zone control, and long-range rock damage.
+  synergyHooks:
+    - Pairs well with allies who can force enemies through her minefield or into
+      her knockback setup.
+    - Benefits from teammates who can follow up on displacement and keep enemies
+      inside her zoning areas.
+  threatHooks:
+    - Threatened by opponents who can avoid or bypass her ground-based zoning
+      before she sets up.
+    - Enemies with mobility may reduce the value of her minefield unless they
+      are forced through it.
+  uncertainties:
+    - The source supports engage/lockdown because Seismic Shove throws enemies
+      and Weaver's Wall knocks back enemies; these are hard displacement
+      effects, not merely slows.
+    - Waveclear is valid because Threaded Volley and Unraveled Earth provide
+      repeated area damage, and her ultimate can also influence fights over a
+      wide area.
+    - ShortRange is valid because the source does not give her an attack range,
+      but her kit is primarily spell-based and she is not a long-range auto
+      attacker; this tag is kept only as a low-confidence fit rather than a
+      strict range claim.
+    - I did not add dive/assassin because the source shows mobility via Rock
+      Surfing and Weaver's Wall surfing, but not the kind of direct
+      dash/blink/leap required by the rule.
+    - I did not add enchanter/peel because she has no heals, shields, ally
+      buffs, or carry-peeling displacement aimed at allies; her displacement is
+      offensive zoning.
+    - I did not add immobile because Rock Surfing and Weaver's Wall surfing
+      provide movement-based mobility, so she is not immobile.
+    - I did not add tank because the provided text contains no defensive
+      steroids, shields, or defense scaling.
+    - Roles remain mid and jungle because the source does not explicitly state
+      lane priority, but these are the most conservative inferred roles from her
+      kit and are not contradicted by the text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/taliyah/

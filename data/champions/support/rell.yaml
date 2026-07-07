@@ -1,0 +1,46 @@
+id: rell
+name: Rell
+status: candidate
+roles:
+  - support
+  - top
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable engage support who can start fights with knockups,
+    stuns, and a pull while also offering ally movement speed and
+    shield-breaking utility.
+  synergyHooks:
+    - Pairs well with allies who can follow up quickly on her knockup, stun, and
+      pull setup.
+    - Her movement speed boost can help coordinated engages or protect a nearby
+      ally during skirmishes.
+  threatHooks:
+    - Can be threatened by champions who can punish her after she commits,
+      especially if she is forced into the middle of a fight.
+    - Her engage may be less reliable into teams that can avoid or interrupt her
+      initiation.
+  uncertainties:
+    - "Verified tags: engage and lockdown are correct because Rell has a stun on
+      Shattering Strike, a knockup on Ferromancy: Crashdown, and a pull on
+      Magnet Storm. Peel is also justified because Full Tilt grants ally
+      movement speed, which can help protect or reposition a nearby ally."
+    - "Verified tags: tanks is supported by her defensive tools and stats,
+      including a shield on Crashdown and bonus Armor/Magic Resist while
+      dismounted. shortRange is correct because she is melee-oriented and only
+      gains attack range while dismounted, which is still not a true long-range
+      profile."
+    - No new dive/assassin tag was added because although Crashdown is a leap,
+      Rell is not primarily an assassin and the tag would be misleading under
+      the strict draft-role criteria.
+    - No immobile tag was added because Rell does have a leap/dismount movement
+      ability, so she does not meet the immobile requirement.
+    - Roles were kept as support and top because the provided profile already
+      had a non-empty roles array; the source text does not explicitly confirm
+      lane roles, so no role correction was necessary.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/rell/

@@ -1,0 +1,43 @@
+id: velkoz
+name: Vel'Koz
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - poke
+  - engage
+  - lockdown
+  - waveclear
+  - immobile
+profile:
+  draftIdentity: A long-range artillery mage that pressures enemies with repeated
+    poke, area damage, and knockup-based disruption.
+  synergyHooks:
+    - Pairs well with allies who can hold enemies in place so his skillshots and
+      channelled ultimate are easier to land.
+    - Benefits from teammates who can follow up on knockups and slows with
+      additional burst damage.
+  threatHooks:
+    - Threatened by champions who can quickly close distance and punish his lack
+      of mobility.
+    - Can struggle against enemies who can interrupt or avoid his channelled
+      ultimate and skillshots.
+  uncertainties:
+    - The source supports mid/support as reasonable inferred roles from his
+      artillery mage kit and page context, so the roles array is kept non-empty
+      and unchanged.
+    - The engage tag is valid because Tectonic Disruption knocks up enemies, and
+      lockdown is also valid because the same spell provides
+      displacement/knockup-based control; slows alone would not have been
+      enough.
+    - Waveclear is valid because Void Rift and Life Form Disintegration Ray
+      provide substantial area damage, and Plasma Fission also splits to hit
+      multiple targets.
+    - Immobile is valid because the source lists no dashes, blinks, leaps, or
+      teleports in his kit.
+    - No additional tags such as dive/assassin, enchanter/peel, or tanks were
+      added because the source does not provide the required mobility, ally
+      shielding/healing, or defensive steroid/defense-scaling criteria.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/velkoz/

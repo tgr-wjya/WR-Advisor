@@ -1,0 +1,38 @@
+id: nami
+name: Nami
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - enchanter
+  - peel
+  - poke
+profile:
+  draftIdentity: A support enchanter who can set up picks with crowd control while
+    healing, buffing, and speeding up allies.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Aqua Prison or Tidal Wave
+      after Nami starts a fight.
+    - Works with carries that benefit from bonus magic damage, slows, healing,
+      and movement speed from her buffs.
+  threatHooks:
+    - Can be pressured by enemies who avoid her skillshots and deny her ability
+      to land stun or knockup setup.
+    - May struggle against compositions that can burst through her ally
+      protection before her healing and buffs matter.
+  uncertainties:
+    - "Corrected tags to match the source: engage and lockdown are valid because
+      Aqua Prison stuns and Tidal Wave knocks up; enchanter and peel are valid
+      because Ebb and Flow heals allies, Tidecaller's Blessing buffs an ally,
+      and Surging Tides grants movement speed. Poke is also reasonable because
+      she has repeated ranged damage and utility, but the source does not
+      explicitly frame her as a poke champion."
+    - Removed no tags because all listed tags are supported by the official
+      ability text. Nami is not immobile, not a diver/assassin, not a tank, and
+      not shortRange by the strict criteria, so those tags were not added.
+    - The role remains support, which is appropriate for her ally healing,
+      buffing, movement-speed utility, and crowd control setup.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nami/

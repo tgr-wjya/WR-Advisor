@@ -1,0 +1,40 @@
+id: riven
+name: Riven
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A mobile melee skirmisher who can jump into fights, stun or knock
+    back enemies, and threaten extended all-ins with her ultimate.
+  synergyHooks:
+    - Works well with allies who can follow up on her knockback and stun to
+      secure kills.
+    - Benefits from teammates who can help her reach priority targets after she
+      uses her short dash and engage tools.
+  threatHooks:
+    - Can be checked by enemies who can keep her at range before she closes the
+      gap.
+    - May struggle into compositions that can interrupt or punish her
+      short-range engage attempts.
+  uncertainties:
+    - The source text supports dive/engage/lockdown because Broken Wings
+      includes a knockback, Ki Burst stuns, and Valor gives a short forward
+      step, which is enough mobility for dive. ShortRange is also valid because
+      Riven is melee and her kit is built around close-range combat.
+    - I did not add enchanter/peel because the source text does not show ally
+      heals, shields, buffs, or displacement away from carries. I did not add
+      immobile because Valor is a forward step, so she is not immobile.
+    - I did not add waveclear or tank because the source text does not clearly
+      establish substantial AoE waveclear beyond her close-range damage, nor
+      strong defensive steroids, shields, or defense scaling beyond Valor's
+      brief damage block.
+    - The source text does not explicitly state her intended lane roles, so top
+      and jungle remain conservative role assignments based on common usage.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/riven/

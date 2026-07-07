@@ -1,0 +1,45 @@
+id: yasuo
+name: Yasuo
+status: candidate
+roles:
+  - mid
+  - dragon
+tags:
+  - assassin
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A mobile melee skirmisher who can dash onto targets, follow
+    airborne setup, and scale strongly through doubled critical strike chance.
+  synergyHooks:
+    - Pairs well with allies who can knock enemies Airborne so Last Breath can
+      be used effectively.
+    - Benefits from teammates who can create space while Yasuo dashes in and
+      follows up with close-range damage.
+  threatHooks:
+    - Can be pressured by enemies who can keep him away before he reaches a
+      target, since his main access relies on dashes and a blink to airborne
+      enemies.
+    - Projectile-based threats are reduced by Wind Wall, so non-projectile or
+      sustained area pressure may be more reliable.
+  uncertainties:
+    - The source text clearly supports dive/assassin because Sweeping Blade is a
+      dash and Last Breath is a blink to Airborne enemies. It also supports
+      engage/lockdown because Steel Tempest can knock Airborne and Last Breath
+      holds Airborne enemies in the area in the air.
+    - shortRange is correct because Yasuo is a melee champion with close-range
+      access. scaling is also supported by doubled critical strike chance and
+      bonus armor penetration on Last Breath.
+    - "I did not add enchanter/peel, tanks, waveclear, or immobile: Wind Wall is
+      defensive utility but not an ally shield/heal/buff, Yasuo lacks tank-style
+      defensive steroids or scaling, his AoE is present but not enough to
+      justify a dedicated waveclear tag by the strict rule, and he is not
+      immobile because he has a dash and a blink."
+    - The roles array is non-empty, so no role correction was needed. 'mid' and
+      'dragon' are retained as plausible lane roles, though they are inferred
+      rather than explicitly stated on the page.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/yasuo/

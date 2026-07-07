@@ -1,0 +1,53 @@
+{
+  "role": "adc",
+  "champions": [
+    {
+      "championId": "zeri",
+      "totalGames": 167,
+      "winRate": 61.1,
+      "averageKda": "7.8/3.6/7.7",
+      "comfortLevel": "High",
+      "notes": "Favorite ADC and strongest playstyle fit."
+    },
+    {
+      "championId": "tristana",
+      "totalGames": 76,
+      "winRate": 60.5,
+      "averageKda": "8.6/4.4/6.6",
+      "comfortLevel": "High",
+      "notes": "Second contender for best playstyle fit."
+    },
+    {
+      "championId": "jinx",
+      "totalGames": 257,
+      "winRate": 58,
+      "averageKda": "7.7/4.4/7.0",
+      "comfortLevel": "High",
+      "notes": "One of the user's favorite ADC picks."
+    },
+    {
+      "championId": "kaisa",
+      "totalGames": 169,
+      "winRate": 52.7,
+      "averageKda": "7.8/5.0/6.2",
+      "comfortLevel": "High",
+      "notes": "Default pick when unsure what to pick."
+    },
+    {
+      "championId": "lucian",
+      "totalGames": 30,
+      "winRate": 56.7,
+      "averageKda": "8.5/5.3/6.5",
+      "comfortLevel": "High",
+      "notes": "Versatile ADC the user is actively mastering."
+    },
+    {
+      "championId": "sivir",
+      "totalGames": 35,
+      "winRate": 77.1,
+      "averageKda": "10.0/4.4/10.0",
+      "comfortLevel": "High",
+      "notes": "Promising but marked as a statistical anomaly."
+    }
+  ]
+}

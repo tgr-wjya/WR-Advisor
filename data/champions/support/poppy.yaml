@@ -1,0 +1,46 @@
+id: poppy
+name: Poppy
+status: candidate
+roles:
+  - top
+  - jungle
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable melee disruptor who can start fights, stop dashes, and
+    protect allies by displacing key targets.
+  synergyHooks:
+    - Works well with allies who can follow up on her wall stun or long-range
+      knockback setup.
+    - Benefits from teammates who want a frontliner that can deny enemy dashes
+      and create space.
+  threatHooks:
+    - Can be challenged by enemies who avoid wall positioning and do not rely on
+      dash-based engage.
+    - May struggle to reach or control targets if she cannot land Heroic Charge
+      or set up terrain-based stuns.
+  uncertainties:
+    - The source text supports engage/lockdown because Heroic Charge dashes to a
+      target, pushes it back, and can stun on wall impact; Keeper's Verdict also
+      provides a very strong knockback. Steadfast Presence stops enemy dashes,
+      which further reinforces lockdown and peel.
+    - Peel is valid because Steadfast Presence can stop enemy dashes around
+      Poppy, and Keeper's Verdict can knock enemies very far away from allies.
+    - Tanks is valid because Steadfast Presence grants Armor and Magic Resist,
+      with increased bonus defenses when Poppy is low on Health, and Iron
+      Ambassador provides a temporary shield.
+    - ShortRange is valid because Poppy is a melee champion by kit behavior and
+      Heroic Charge is a short-range dash-to-target engage.
+    - Waveclear was not added because the source only confirms Hammer Shock
+      deals damage in a zone and explodes after a delay, which is not enough by
+      itself to prove substantial AoE waveclear under the strict criteria.
+    - The listed roles are kept because the source does not explicitly define
+      lane roles, but top/jungle/support are reasonable draft inferences for a
+      durable melee disruptor with engage and peel.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/poppy/

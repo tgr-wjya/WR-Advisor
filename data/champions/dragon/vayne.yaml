@@ -1,0 +1,48 @@
+id: vayne
+name: Vayne
+status: candidate
+roles:
+  - dragon
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A mobile short-range carry that scales into a strong
+    single-target duelist and can threaten backline targets with Tumble and
+    Final Hour.
+  synergyHooks:
+    - Benefits from allies who can keep enemies in place so she can repeatedly
+      trigger Silver Bolts on one target.
+    - Works well with teammates who can help her survive long enough to extend
+      Final Hour and continue attacking.
+  threatHooks:
+    - Can be threatened by hard crowd control that stops her from using Tumble
+      and kiting with movement speed.
+    - May struggle into enemies who can force her out of position before she can
+      stack Silver Bolts.
+  uncertainties:
+    - The source text supports shortRange because Vayne is a melee-range
+      marksman with no long-range basic attack listed, but it does not
+      explicitly state her attack range number.
+    - dive is valid because Tumble is a mobility skill and Final Hour enhances
+      her repositioning; assassin is a reasonable draft tag for a mobile
+      backline threat, though she is primarily a marksman-style duelist rather
+      than a pure burst assassin.
+    - No engage/lockdown tag is added because her only hard CC is Condemn's
+      knockback and conditional stun, which can qualify as lockdown, but the
+      profile did not include that tag and it is not necessary for her core
+      identity.
+    - No enchanter/peel tag is added because she provides no ally heals,
+      shields, buffs, or ally-focused displacement.
+    - No tank tag is added because the source text shows damage, mobility, and
+      self-healing, but not strong defensive steroids, shields, or defense
+      scaling.
+    - No waveclear tag is added because the source text does not show
+      substantial AoE damage; her kit is primarily single-target.
+    - The role 'dragon' is retained as the provided lane role, since the source
+      text does not explicitly assign a role and the schema requires at least
+      one role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/vayne/

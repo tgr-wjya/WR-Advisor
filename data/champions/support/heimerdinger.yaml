@@ -1,0 +1,41 @@
+id: heimerdinger
+name: Heimerdinger
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - poke
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A zone-control mage who pressures lanes with turrets and
+    long-range spells while playing around setup and positioning.
+  synergyHooks:
+    - Works well with allies who can hold enemies in place so his turrets and
+      follow-up spells can connect.
+    - Benefits from teammates who can protect his setup and let him control
+      space around objectives and towers.
+  threatHooks:
+    - Can be pressured by champions who can quickly reach him and disrupt his
+      turret setup.
+    - May struggle against opponents who can avoid his zones and force fights
+      away from prepared areas.
+  uncertainties:
+    - The source text supports poke and waveclear through long-range rockets and
+      turret-based area pressure, but it does not explicitly confirm hard crowd
+      control, so engage/lockdown was not added.
+    - The source text does not show any dash, blink, leap, or teleport, so he is
+      not mobile enough to be classified as dive/assassin.
+    - The source text does not provide heals, shields, ally buffs, or
+      displacement for peel, so enchanter/peel was not added.
+    - The source text does not show strong defensive steroids, shields, or
+      defense scaling, so tank was not added.
+    - ShortRange is appropriate because Heimerdinger is a low-range mage in
+      practice, even though the source text does not list a numeric attack
+      range.
+    - Roles were kept as mid and support because the kit clearly fits lane
+      control and setup-oriented support play, and the role array was already
+      non-empty.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/heimerdinger/

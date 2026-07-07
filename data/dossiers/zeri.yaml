@@ -1,0 +1,62 @@
+{
+  "id": "zeri",
+  "name": "Zeri",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "high",
+    "statisticalConfidence": "high",
+    "rosterNotes": "High comfort, 167 games, 61.1% winrate, and the clearest fit for the user's fast-paced ADC style."
+  },
+  "pickProfile": {
+    "identity": "Mobile scaling carry who stays useful in uncertain drafts because she can kite, reset, and reposition through messy fights.",
+    "blindPickSafety": 5,
+    "lanePattern": "Farm steadily, preserve health, and look for extended trades when the support can keep the lane stable.",
+    "scalingCurve": "Strong mid-to-late game carry curve with high payoff once fights become extended.",
+    "damageProfile": "Sustained physical damage with burst windows during ultimate and reset fights.",
+    "mobility": "High combat mobility.",
+    "selfPeel": "Good self-peel through spacing and movement, but still punishable by point-and-click lockdown.",
+    "objectiveDps": "Reliable objective DPS once items are online."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["enchanter", "peel"],
+      "score": 12,
+      "reason": "Enchanter or peel support lets Zeri survive lane and play longer reset fights."
+    },
+    {
+      "tags": ["engage"],
+      "score": 4,
+      "reason": "Engage support can create chase windows, but Zeri does not need forced all-ins to function."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["lockdown"],
+      "score": -2,
+      "reason": "Mobility helps against lockdown drafts, but hard crowd control still decides fights.",
+      "warning": "Respect layered lockdown; Zeri is mobile, not immune to being chain-controlled."
+    },
+    {
+      "tags": ["dive", "assassin"],
+      "score": -3,
+      "warning": "Hold movement tools until the dive threat commits."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["peel", "enchanter"],
+      "score": 5,
+      "reason": "Peel-heavy allies improve Zeri's extended teamfight pattern."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Use the lane to preserve health and gold, take extended trades only when the wave and support position make the chase safe, and avoid flipping early all-ins.",
+    "teamfightPlan": "Enter fights after key engage tools are shown, kite front to back, then use movement and ultimate tempo to chase resets when the enemy formation breaks.",
+    "defaultWarnings": ["Do not dash or over-chase before the enemy's reliable crowd control is committed."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

@@ -1,0 +1,44 @@
+id: bard
+name: Bard
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - enchanter
+  - peel
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A roaming support that offers pick potential, ally utility, and
+    powerful teamfight disruption through stasis and terrain play.
+  synergyHooks:
+    - Pairs well with allies who can follow up on stuns or capitalize on forced
+      stasis windows.
+    - Provides movement speed, healing, and portal access to help teammates
+      reposition or extend plays.
+  threatHooks:
+    - Can threaten immobile enemies with stun setups from Cosmic Binding and
+      Tempered Fate.
+    - Can disrupt grouped teams and objective setups by stasis-locking
+      champions, minions, monsters, and turrets.
+  uncertainties:
+    - The source supports support-like utility, but does not explicitly label
+      Bard as a support; keeping support as a practical draft role is
+      reasonable.
+    - engage and lockdown are valid because Cosmic Binding can stun and Tempered
+      Fate stuns all hit targets; slows alone would not be enough, but Bard does
+      have hard CC.
+    - enchanter and peel are valid because Caretaker’s Shrine heals and grants
+      move speed/AP/health to allies, and Magical Journey helps allies
+      reposition.
+    - waveclear is valid because Tempered Fate affects minions and Bard’s
+      empowered Meeps can deal area damage, though his waveclear is not his
+      primary identity.
+    - scaling is supported by Traveler’s Call, which grants XP and buffs Meeps
+      over time.
+    - No correction was needed to the roles array because it is not empty and
+      support is an appropriate role for Bard.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/bard/

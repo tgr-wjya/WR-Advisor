@@ -1,0 +1,53 @@
+id: norra
+name: Norra
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+profile:
+  draftIdentity: Norra is a ranged magic controller who can set up area damage,
+    banish enemies, and repeatedly pressure fights with portal-based spells. She
+    is not short-range, and her kit does not provide the mobility required for
+    dive/assassin or the defensive tools required for tank/enchanter/peel
+    classifications.
+  synergyHooks:
+    - Pairs well with allies who can capitalize on banished or clustered enemies
+      after her area control lands.
+    - Benefits from teammates who can follow up on her repeated projectile
+      pressure and multi-target spell zones.
+  threatHooks:
+    - Enemies with strong mobility or ways to avoid or disengage from her
+      area-based spells may reduce her impact.
+    - Her value may drop if opponents can play outside her spell zones or punish
+      her while she is charging Memory Surge.
+  uncertainties:
+    - The source text clearly supports engage/lockdown because Journey to
+      Nowhere banishes enemies and prevents casting, which is hard crowd
+      control. Slows alone would not be enough, but the banish effect is
+      sufficient.
+    - "Waveclear is supported by multiple AoE damage spells: Journey to Nowhere,
+      Threads of Homecoming, and Portalpalooza all damage enemies in an area or
+      along a path."
+    - Poke is reasonable because Memory Surge and the ultimate can pressure
+      enemies from range with repeated magical projectiles.
+    - ShortRange was removed because Norra is a ranged champion; the source text
+      does not indicate melee or low attack range.
+    - Dive/assassin was not added because the source text shows no dash, blink,
+      leap, or teleport.
+    - Enchanter/peel was not added because Norra does not heal, shield, buff
+      allies, or directly displace enemies away from carries.
+    - Immobile was not added because the source text does not explicitly confirm
+      the absence of all mobility, but it also does not show any dash, blink,
+      leap, or teleport.
+    - Tank was not added because the kit does not show strong defensive
+      steroids, shields, or defense scaling.
+    - The roles mid and support are retained because the source text supports a
+      ranged control mage that can function in either lane; no correction was
+      necessary there.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/norra/

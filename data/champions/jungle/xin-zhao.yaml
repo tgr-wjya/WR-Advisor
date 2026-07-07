@@ -1,0 +1,39 @@
+id: xin-zhao
+name: Xin Zhao
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A melee diver who can force fights onto a target, disrupt nearby
+    enemies, and survive briefly while closing distance.
+  synergyHooks:
+    - Works well with allies who can follow up on his charge and knockup setup.
+    - Benefits from teammates who can fight inside his ultimate zone while he
+      pressures the backline.
+  threatHooks:
+    - Can be checked by champions who keep him at range before he reaches a
+      target.
+    - His engage can be blunted by enemies who can disengage or avoid fighting
+      inside his ultimate.
+  uncertainties:
+    - Kept dive because Audacious Charge is a true gap-closing mobility skill,
+      which satisfies the mobility requirement.
+    - Kept engage and lockdown because Three Talon Strike knocks an opponent
+      into the air and Crescent Guard knocks non-challenged targets back; both
+      are hard CC effects that meet the strict criteria.
+    - Removed tanks because the source only shows modest self-healing and damage
+      immunity in an area, but no strong defensive steroids, shields, or defense
+      scaling that would justify the tank tag under the stated rules.
+    - Removed immobile because Audacious Charge is a dash/charge, so Xin Zhao is
+      not immobile.
+    - Kept shortRange because his kit is melee-focused and the source text does
+      not indicate any long-range attacks.
+    - Roles were already non-empty, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/xin-zhao/

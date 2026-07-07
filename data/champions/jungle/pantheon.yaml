@@ -1,0 +1,43 @@
+id: pantheon
+name: Pantheon
+status: candidate
+roles:
+  - top
+  - jungle
+  - support
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A pick-oriented fighter who can start fights with a dash-stun and
+    threaten cross-map or flank engages with his ultimate.
+  synergyHooks:
+    - Pairs well with allies who can follow up quickly on his stun and ultimate
+      landing.
+    - Benefits from teammates who can capitalize on front-to-back disruption
+      while he blocks damage from the front.
+  threatHooks:
+    - Can be checked by enemies who can punish his commit after he uses Shield
+      Vault or Grand Starfall.
+    - Front-facing damage mitigation may be less effective against threats that
+      can attack from other angles.
+  uncertainties:
+    - The source does not explicitly assign roles, so the listed roles are
+      conservative draft-role inferences from his kit.
+    - "The tags engage, lockdown, and dive are supported by Shield Vault: it
+      dashes to a target and stuns them, and Grand Starfall also provides a leap
+      for long-range engage."
+    - shortRange is valid because Pantheon is primarily melee in practice, with
+      only Comet Spear offering a thrown option rather than a true long-range
+      basic pattern.
+    - No enchanter/peel tag was added because Aegis Assault is self-protection
+      and front-facing damage denial, not ally shielding or healing.
+    - No tank tag was added because the source shows defensive utility, but not
+      the kind of strong defensive steroids, shields, or defense scaling
+      required by the rule.
+    - No waveclear tag was added because the source does not clearly establish
+      substantial AoE waveclear from the listed ability text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/pantheon/

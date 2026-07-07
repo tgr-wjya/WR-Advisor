@@ -1,0 +1,38 @@
+id: pyke
+name: Pyke
+status: candidate
+roles:
+  - support
+  - mid
+tags:
+  - assassin
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: Pyke is a mobile pick-focused support or mid champion who can
+    start fights, catch targets, and execute low-health enemies for bonus gold.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his stun, pull, and execute
+      windows.
+    - Benefits from teammates who can help finish targets after he creates pick
+      opportunities.
+  threatHooks:
+    - Can be threatened by enemies who can punish him before he enters
+      camouflage or after he commits with his dash and blink.
+    - His execute pattern may be harder to use into teams that can keep targets
+      healthy or deny clean low-health finishes.
+  uncertainties:
+    - "The source text clearly supports assassin, dive, engage, lockdown, and
+      shortRange: Bone Skewer can pull enemies, Phantom Undertow dashes and
+      stuns, and Death From Below blinks to execute. Ghostwater Dive also gives
+      camouflage and movement speed, reinforcing his pick-focused mobility."
+    - I did not add enchanter/peel, tanks, waveclear, or immobile because the
+      source does not show ally healing/shielding/buffs, strong defensive
+      steroids, substantial AoE waveclear, or a lack of mobility. In fact, Pyke
+      has both a dash and a blink, so immobile would be incorrect.
+    - The roles support and mid are reasonable for this profile, and the roles
+      array is not empty, so no role correction was needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/pyke/

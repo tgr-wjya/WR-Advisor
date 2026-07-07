@@ -1,0 +1,41 @@
+id: sion
+name: Sion
+status: candidate
+roles:
+  - top
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable frontline champion who can start fights with knockups,
+    absorb damage with shields and bonus health, and contribute area damage
+    while scaling through maximum health.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his knockups and long-range
+      engage setup.
+    - Benefits from teammates who can capitalize on his armor reduction and keep
+      enemies in place after he connects.
+  threatHooks:
+    - Can be punished by enemies who avoid his charge-up windows or disengage
+      before he connects.
+    - May struggle against opponents who can kite him or exploit his limited
+      short-range damage access.
+  uncertainties:
+    - The engage and lockdown tags are supported because Decimating Smash and
+      Unstoppable Onslaught both provide knockups, and Decimating Smash can also
+      stun; slows alone would not have been enough.
+    - The tank tag is supported by Soul Furnace's shield and Sion's passive
+      maximum Health scaling, which give him real defensive durability.
+    - Waveclear is reasonable because Decimating Smash and Soul Furnace both
+      deal area damage, though the source does not explicitly rate his clearing
+      speed.
+    - ShortRange is valid because Roar of the Slayer is explicitly short range
+      and his main threat pattern is close-range or charge-based rather than
+      long-range poke.
+    - No role change was needed because the profile already includes a valid
+      role entry; top remains a reasonable inferred lane from the kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/sion/

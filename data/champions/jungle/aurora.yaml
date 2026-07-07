@@ -1,0 +1,46 @@
+id: aurora
+name: Aurora
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - poke
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile skirmishing mage who can access targets, slow enemies,
+    and reposition repeatedly to create pick and chase opportunities.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her slows and area control
+      from Between Worlds and The Weirding.
+    - Benefits from teammates who can capitalize on her reset potential after
+      takedowns and help secure isolated targets.
+  threatHooks:
+    - Can be pressured by opponents who punish her after she commits a leap or
+      force her to fight without safe repositioning.
+    - Enemies with strong crowd control or vision denial may limit her ability
+      to use invisibility, teleporting, and reset-based mobility effectively.
+  uncertainties:
+    - Removed the lockdown tag because Aurora's official kit has slows and
+      damage, but no stun, root, knockup, pull, or suppression.
+    - Kept dive because Across the Veil and Between Worlds both provide leaps,
+      and the ultimate also grants teleportation within its zone.
+    - Removed immobile if it had been considered, because Aurora clearly has
+      multiple mobility tools including leaps and teleportation.
+    - Kept shortRange because Aurora is a melee champion rather than a
+      long-range marksman, and her kit is built around close-to-mid range
+      skirmishing.
+    - Kept waveclear because The Weirding and Between Worlds are substantial
+      area damage spells, and Twofold Hex can also hit multiple enemies.
+    - Did not add enchanter/peel or tank because her kit does not provide ally
+      shields, heals, defensive steroids, or true tank scaling; her healing is
+      self-only from the passive.
+    - Roles were left as mid and jungle because the source does not provide
+      official role labels, but her mobility and skirmish pattern support those
+      inferred roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/aurora/

@@ -1,0 +1,61 @@
+{
+  "id": "tristana",
+  "name": "Tristana",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "high",
+    "statisticalConfidence": "high",
+    "rosterNotes": "High comfort, strong winrate, and a strong match for the user's instinctive fast-paced carry style."
+  },
+  "pickProfile": {
+    "identity": "Explosive reset ADC who threatens all-ins, snowballs lane leads, and scales into strong objective and turret pressure.",
+    "blindPickSafety": 4,
+    "lanePattern": "Look for controlled all-ins around support setup, wave state, and bomb timing instead of jumping first into unknown cooldowns.",
+    "scalingCurve": "Good early kill pressure and strong late range scaling.",
+    "damageProfile": "Burst-to-sustained physical damage with high tower and objective pressure.",
+    "mobility": "High commitment mobility with Rocket Jump reset potential.",
+    "selfPeel": "Moderate self-peel through jump and ultimate.",
+    "objectiveDps": "Very strong objective and turret DPS."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["engage", "lockdown"],
+      "score": 15,
+      "reason": "Engage support gives Tristana reliable windows to stack bomb and reset safely."
+    },
+    {
+      "tags": ["enchanter", "peel"],
+      "score": 6,
+      "reason": "Peel support makes Tristana's scaling and reset pattern safer."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["lockdown"],
+      "score": -8,
+      "warning": "Do not buffer jump into layered lockdown; wait until the hard engage is visible."
+    },
+    {
+      "tags": ["shortRange"],
+      "score": 5,
+      "reason": "Tristana can punish shorter-range lanes once her all-in window is available."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["engage"],
+      "score": 4,
+      "reason": "Extra engage makes Tristana's reset windows easier to start."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Pressure with bomb only when the wave is playable and the support can follow; keep jump as either the kill confirm or the escape, not both.",
+    "teamfightPlan": "Play front to back until a low target appears, then jump only when the reset path is realistic and the enemy lockdown is already spent.",
+    "defaultWarnings": ["A bad jump turns Tristana from safe scaler into the easiest target on the map."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

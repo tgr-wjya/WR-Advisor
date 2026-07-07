@@ -1,0 +1,44 @@
+id: ambessa
+name: Ambessa
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - assassin
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile melee skirmisher who can start fights, stick to targets,
+    and lock down a priority enemy with a blink-suppress ultimate.
+  synergyHooks:
+    - Works well with allies who can follow up quickly on her suppression and
+      stun to secure a pick.
+    - Benefits from teammates who can help her survive the initial engage while
+      she uses her shield and close-range damage.
+  threatHooks:
+    - Can be punished by long-range poke or kiting if she cannot reach her
+      target cleanly.
+    - May struggle against teams with strong peel or displacement that interrupt
+      her short-range engage pattern.
+  uncertainties:
+    - Removed the tanks tag because the source only confirms a shield on
+      Repudiation, not strong defensive steroids, defense scaling, or tank-level
+      durability.
+    - Kept engage and lockdown because Public Execution explicitly blinks to a
+      target, suppresses on arrival, and then stuns, which satisfies hard crowd
+      control requirements.
+    - Kept dive because Drakehound's Step grants a short dash after casting
+      abilities, and Public Execution is also a blink, so she clearly has
+      mobility.
+    - Kept shortRange because her kit is centered on melee and close-range
+      attacks, with no evidence of long attack range.
+    - Kept waveclear because Cunning Sweep / Sundering Slam and Lacerate are
+      both area-based damage abilities that can hit multiple enemies.
+    - The source text does not explicitly state her intended lane or jungle
+      role, so the roles are inferred conservatively from her kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ambessa/

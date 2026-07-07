@@ -1,0 +1,48 @@
+id: lillia
+name: Lillia
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - lockdown
+  - poke
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A mobile AP skirmisher who applies persistent damage over time,
+    slows enemies, and can set up teamfight sleep-based crowd control.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her sleep setup and burst
+      enemies after her ultimate lands.
+    - Benefits from teammates who can keep enemies in range while her
+      damage-over-time effects and slows stack.
+  threatHooks:
+    - Threatened by champions who can punish her before she builds movement
+      speed or avoid her skill-based setup.
+    - Enemies with strong engage or hard crowd control can interrupt her ability
+      to kite and apply repeated spell hits.
+  uncertainties:
+    - Kept roles as jungle/top because the source text does not explicitly
+      assign lanes, but her kit and mobility strongly support those draft
+      inferences.
+    - Retained dive because Blooming Blows grants stacking Move Speed and Lillia
+      is clearly a mobile skirmisher, even though the source does not show a
+      dash, blink, leap, or teleport.
+    - Kept lockdown because Lilting Lullaby applies Drowsy and Sleep, which is
+      hard crowd control and satisfies the engage/lockdown rule through CC
+      rather than mobility.
+    - Added shortRange because Lillia is a melee champion in Wild Rift, so she
+      fits the low-range requirement.
+    - "Did not add enchanter/peel or tank: the source shows no ally heals,
+      shields, buffs, displacement peel, or strong defensive steroids/defense
+      scaling."
+    - Waveclear is valid because Watch Out! Eep! and Blooming Blows provide
+      substantial area damage, and Swirlseed also contributes area damage plus
+      slow.
+    - Poke is reasonable because Swirlseed is a ranged skillshot that damages
+      and slows, supporting long-range harassment.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lillia/

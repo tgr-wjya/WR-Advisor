@@ -1,0 +1,41 @@
+id: varus
+name: Varus
+status: candidate
+roles:
+  - dragon
+  - mid
+tags:
+  - poke
+  - lockdown
+  - waveclear
+  - scaling
+profile:
+  draftIdentity: A long-range damage dealer who pressures enemies with charged
+    arrows and can start fights or pick picks with a spreading immobilizing
+    ultimate.
+  synergyHooks:
+    - Works well with allies who can keep enemies in place so he can land
+      charged Piercing Arrow and Blighted Quiver detonations.
+    - Benefits from teammates who can follow up on Chain of Corruption to extend
+      crowd control and secure kills.
+  threatHooks:
+    - Threatened by champions who can close distance quickly and punish his lack
+      of listed mobility.
+    - Can struggle into teams that can avoid or cleanse his immobilizing
+      ultimate and reduce the value of his poke.
+  uncertainties:
+    - "Removed shortRange: the source text does not provide a low attack range,
+      and Varus is explicitly described as a long-range damage dealer in the
+      draft identity."
+    - Kept lockdown because Chain of Corruption immobilizes the first target and
+      spreads immobilization to nearby enemies, which satisfies the strict
+      crowd-control requirement.
+    - Kept waveclear because Hail of Arrows is an area-of-effect damaging spell
+      that can clear waves.
+    - "Did not add engage/dive/assassin, enchanter/peel, or immobile: Varus has
+      no dash, blink, leap, teleport, heal, shield, ally buff, or displacement
+      away from carries in the source text."
+    - Roles were left unchanged because the profile already has non-empty role
+      assignments; the source text does not explicitly define lane roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/varus/

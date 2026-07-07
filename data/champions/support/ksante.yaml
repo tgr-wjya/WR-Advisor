@@ -1,0 +1,51 @@
+id: ksante
+name: K'Sante
+status: candidate
+roles:
+  - top
+  - support
+tags:
+  - dive
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable melee initiator who can start fights, displace enemies,
+    and protect allies with shields and crowd control, while becoming more
+    damage-focused in All Out.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his stun, pull, and knockback
+      setup.
+    - Can dash to an ally and shield both of them, suggesting value with
+      teammates who want close-range protection.
+  threatHooks:
+    - Can be answered by enemies who can avoid or punish his short-range engage
+      windows before he connects.
+    - His All Out form trades away some durability, so focused damage may be
+      effective once he commits.
+  uncertainties:
+    - "The source supports engage/lockdown because K'Sante has multiple hard-CC
+      tools: Ntofo Strikes can stun and pull, Path Maker stuns and knocks back,
+      and All Out can knock an enemy through terrain. Slows alone would not
+      qualify, but his kit clearly includes hard crowd control."
+    - Dive is valid because Path Maker and Footwork are true dashes, and All Out
+      also causes K'Sante to dash behind the target. He is therefore not
+      immobile.
+    - Peel is valid because Footwork can shield both K'Sante and an ally when
+      dashed to them, and his knockback/stun tools can also protect carries by
+      displacing threats away from them.
+    - Tank is valid because the champion page explicitly grants reduced damage
+      on Path Maker, a shield on Footwork, and defensive stat gains/mitigation
+      during All Out. These are enough to support the tank tag.
+    - ShortRange is valid because K'Sante is a melee champion with dash-based
+      engagement rather than a long attack range.
+    - Waveclear is not added because the source shows line damage and AoE-like
+      control, but not enough explicit sustained or substantial AoE waveclear to
+      justify the tag under strict criteria.
+    - The roles array is already non-empty and conservative. Top is strongly
+      supported by his melee tank/initiator profile, while support is plausible
+      due to shielding and displacement-based peel.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ksante/

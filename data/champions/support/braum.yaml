@@ -1,0 +1,42 @@
+id: braum
+name: Braum
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable support who protects allies, starts fights with crowd
+    control, and can lock targets down through repeated hits and his ultimate.
+  synergyHooks:
+    - Pairs well with allies who can quickly follow up on his stun stacks or
+      ultimate knockup.
+    - Benefits teammates who want projectile protection and extra frontline
+      durability from his shield and leap.
+  threatHooks:
+    - Can be pressured by enemies who avoid basic-attack range and do not rely
+      on projectiles.
+    - May struggle against compositions that can disengage before he builds
+      Concussive Blows stacks.
+  uncertainties:
+    - "The source text clearly supports engage/lockdown: Concussive Blows stuns
+      at 4 stacks, and Glacial Fissure knocks up enemies. Slows alone would not
+      qualify, but Braum has hard CC beyond slows."
+    - The peel tag is supported by Unbreakable, which intercepts and destroys
+      projectiles, and by Stand Behind Me, which lets Braum leap to an ally and
+      grant Armor and Magic Resist.
+    - "The tanks tag is supported by strong defensive tools in the source:
+      Unbreakable negates the first attack and reduces subsequent damage, while
+      Stand Behind Me grants defensive stats to Braum and an ally."
+    - The shortRange tag is supported because Braum is melee/basic-attack
+      oriented; the source does not give a ranged attack pattern or long-range
+      basic attacks.
+    - "No tag changes were needed: dive/assassin is not added because Braum has
+      a leap to allies, not a true offensive mobility tool for diving, and
+      immobile is not added because he does have a leap."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/braum/

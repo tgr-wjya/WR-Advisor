@@ -1,0 +1,38 @@
+id: renekton
+name: Renekton
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+  - tanks
+profile:
+  draftIdentity: A short-range bruiser who can dash onto targets, stun them, and
+    threaten fights with empowered damage and self-sustain.
+  synergyHooks:
+    - Works well with allies who can follow up on his stun and armor shred after
+      he uses Slice and Dice into Ruthless Predator.
+    - Benefits from teammates who can help him start fights so he can use his
+      area damage and Fury-based empowered abilities in close range.
+  threatHooks:
+    - Can be checked by enemies who can keep him at range and deny his
+      short-range access before he reaches a target.
+    - His engage is more threatening when he has Fury, so opponents may look to
+      pressure him before he can build it.
+  uncertainties:
+    - The source text explicitly supports dive because Slice and Dice is a dash,
+      engage/lockdown because Ruthless Predator stuns, shortRange because his
+      kit is melee-focused, waveclear because Cull the Meek and Dominus deal
+      area damage, and tanks because Dominus grants bonus Health. Those tags are
+      kept.
+    - The source text does not explicitly assign Renekton to a specific role, so
+      the listed roles are conservative draft guesses based on his kit.
+    - The source does not state whether he is a true tank or bruiser, so the
+      tanks tag is based only on his bonus Health and frontline-style abilities.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/renekton/

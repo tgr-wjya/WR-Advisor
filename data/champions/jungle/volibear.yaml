@@ -1,0 +1,43 @@
+id: volibear
+name: Volibear
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A durable melee diver who can start fights with a leap, lock
+    targets down with a stun, and become harder to ignore as the fight
+    continues.
+  synergyHooks:
+    - Works well with allies who can follow up on his leap and stun to secure
+      kills after he reaches a target.
+    - Benefits from teammates who can keep enemies in place so he can repeatedly
+      attack and trigger his on-hit and healing effects.
+  threatHooks:
+    - Can be checked by enemies who can kite him before he reaches melee range
+      or disengage after his initial engage.
+    - His tower-diving and close-range pattern can be punished by heavy crowd
+      control or burst when he commits.
+  uncertainties:
+    - "The source text clearly supports dive/engage/lockdown: Volibear has a
+      leap on his ultimate and a stun on Thundering Smash, so those tags are
+      valid."
+    - ShortRange is valid because Volibear is a melee champion and his kit is
+      built around close-range attacks.
+    - Tanks is supported by his shield on Sky Splitter and bonus Health on
+      Stormbringer, though he is more of a durable diver/bruiser than a pure
+      tank.
+    - Scaling is reasonable because his passive grants Attack Speed and bonus
+      magic damage over time, but the source does not explicitly label him as a
+      scaler.
+    - No tag was removed because every listed tag is supported by the official
+      ability text under the strict criteria.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/volibear/

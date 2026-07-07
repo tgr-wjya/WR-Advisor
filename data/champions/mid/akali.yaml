@@ -1,0 +1,45 @@
+id: akali
+name: Akali
+status: candidate
+roles:
+  - mid
+  - top
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+profile:
+  draftIdentity: A mobile melee assassin who uses stealth and targeted dashes to
+    access backline champions and finish them quickly.
+  synergyHooks:
+    - Allies who can start fights or hold enemies in place can help Akali reach
+      priority targets with her dash-based follow-up.
+    - Teammates who create chaos or force enemies to cluster can make it easier
+      for Akali to find multi-target ultimate angles.
+  threatHooks:
+    - Point-and-click or reliable crowd control can interrupt Akali's engage
+      pattern and punish her when she reveals herself.
+    - Champions that can reveal, zone, or survive her burst may reduce her
+      ability to secure quick kills.
+  uncertainties:
+    - "The source text supports assassin, dive, and shortRange: Akali has two
+      dashes/leaps in Shuriken Flip and Perfect Execution, and she is clearly
+      melee-oriented with bonus range only on a passive empowered autoattack."
+    - I did not add engage/lockdown because her kit has slows and mobility, but
+      no stun, root, knockup, pull, or suppression in the provided source text.
+    - I did not add enchanter/peel because Twilight Shroud grants self
+      invisibility and movement speed, but it does not heal, shield, buff
+      allies, or displace enemies away from carries.
+    - I did not add immobile because she explicitly has dash/leap mobility on
+      both her E and R.
+    - I did not add tanks because the source text does not show strong defensive
+      steroids, shields, or defense scaling.
+    - I did not add waveclear because the source text shows damage and an AoE
+      ultimate strike pattern, but not enough explicit evidence of substantial
+      waveclear to qualify under the strict rule.
+    - The listed roles are left unchanged because the source text does not
+      explicitly assign lanes, but these are reasonable draft inferences for
+      Akali.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/akali/

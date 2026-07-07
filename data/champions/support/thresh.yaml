@@ -1,0 +1,36 @@
+id: thresh
+name: Thresh
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+profile:
+  draftIdentity: A support playmaker who can start picks, reposition allies, and
+    control space with chain-based crowd control and utility.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his hook, pull, and knockback
+      setup.
+    - Dark Passage can help an ally reposition into or out of a fight.
+  threatHooks:
+    - Death Sentence and Flay can punish immobile or overextended enemies with
+      reliable catch and displacement.
+    - The Box creates a dangerous zone that slows and deals damage if enemies
+      break through it.
+  uncertainties:
+    - Engage/lockdown is valid because Death Sentence pulls an enemy and Flay
+      knocks enemies back, both of which are qualifying crowd control effects.
+    - Peel is valid because Dark Passage can pull an ally to Thresh, letting him
+      reposition teammates defensively.
+    - The tanks tag was removed because the source only grants permanent Armor
+      and Ability Power from the passive; it does not provide a strong defensive
+      steroid, shield, or explicit defense-scaling tank kit.
+    - No shortRange tag was added because Thresh is a melee champion, but that
+      tag was not present in the candidate and was not required to preserve the
+      existing profile structure.
+    - The source supports support as the role through his ally-pull utility and
+      pick-oriented crowd control.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/thresh/

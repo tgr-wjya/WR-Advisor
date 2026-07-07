@@ -1,0 +1,44 @@
+id: ezreal
+name: Ezreal
+status: candidate
+roles:
+  - dragon
+  - mid
+tags:
+  - dive
+  - poke
+  - scaling
+profile:
+  draftIdentity: A mobile damage dealer who can poke from range, scale through
+    spell hits, and reposition with Arcane Shift to threaten backlines.
+  synergyHooks:
+    - Works well with allies who can set up targets for Essence Flux and
+      Trueshot Barrage to connect.
+    - Benefits from teammates who can create space while he repeatedly lands
+      Mystic Shot to stack Rising Spell Force.
+  threatHooks:
+    - Can be pressured by enemies who punish his relatively short attack range
+      and force him before Arcane Shift is available.
+    - May struggle against hard crowd control that can catch him after he uses
+      his only mobility tool.
+  uncertainties:
+    - Removed shortRange because the source text does not provide Ezreal's
+      attack range, and his kit is explicitly long-range poke rather than
+      melee/low-range.
+    - Kept dive because Arcane Shift is a true teleport, which satisfies the
+      mobility requirement for dive/assassin.
+    - "Did not add engage/lockdown: Ezreal has no stun, root, knockup, pull, or
+      suppression in the source text."
+    - "Did not add enchanter/peel: his abilities do not heal, shield, buff
+      allies, or displace enemies away from carries."
+    - "Did not add immobile: Arcane Shift is a teleport, so he is not immobile
+      by the strict rule."
+    - "Did not add tanks: the source text shows no defensive steroids, shields,
+      or defense scaling."
+    - "Did not add waveclear: Trueshot Barrage is a large AoE damage spell, but
+      the profile already focuses on his core draft identity and the requested
+      tags were limited to clearly applicable ones; if waveclear is being
+      tracked as a tag in this system, it would also be justified by the
+      ultimate's multi-unit damage."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ezreal/

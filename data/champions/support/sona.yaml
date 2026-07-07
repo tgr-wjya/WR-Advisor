@@ -1,0 +1,44 @@
+id: sona
+name: Sona
+status: candidate
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+  - lockdown
+  - poke
+  - immobile
+  - waveclear
+profile:
+  draftIdentity: A backline enchanter support who heals, shields, and grants
+    movement speed and damage buffs to allies while also providing reliable
+    stun-based lockdown through her passive and ultimate.
+  synergyHooks:
+    - Pairs well with allies who can stay near her aura effects to gain bonus
+      damage, shields, and movement speed.
+    - Works with teammates who can capitalize on her stun and damage buffs to
+      finish targets after she softens fights.
+  threatHooks:
+    - Vulnerable to divers or assassins that can reach her before she can
+      reposition or protect herself.
+    - Can be pressured by enemies who avoid her aura range and deny her time to
+      stack spell casts for Power Chord.
+  uncertainties:
+    - The support role is not explicitly labeled on the source page, but her
+      healing, shielding, movement speed buffs, and ally-focused aura effects
+      make support the most appropriate role.
+    - Lockdown is valid because Power Chord stuns and Crescendo stuns enemies
+      hit for the first time; however, she does not have roots, pulls, or
+      knockups.
+    - Enchanter and peel are both supported by the source because she heals,
+      shields, grants movement speed, and can stun enemies to protect allies.
+    - Immobile is correct because the source text shows no dashes, blinks,
+      leaps, or teleports.
+    - Waveclear is reasonable because Hymn of Valor and Crescendo both deal area
+      damage to multiple enemies, though her waveclear is not as extreme as
+      dedicated mage waveclear champions.
+    - Poke is supported by Hymn of Valor's ranged damage bolts and her general
+      backline spell pattern.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/sona/

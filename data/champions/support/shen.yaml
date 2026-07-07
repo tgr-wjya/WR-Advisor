@@ -1,0 +1,41 @@
+id: shen
+name: Shen
+status: candidate
+roles:
+  - top
+  - support
+tags:
+  - engage
+  - peel
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable melee champion who can protect allies with shielding
+    and a defensive zone while also providing pick potential through a
+    dash-taunt and global teleport support.
+  synergyHooks:
+    - Pairs well with allies who benefit from protection and damage blocking,
+      since Spirit's Refuge and Stand United can help keep a carry alive.
+    - Can follow up on teammates who want a target held in place, because Shadow
+      Dash taunts enemies in his path.
+  threatHooks:
+    - Enemies with strong displacement or anti-dive tools may reduce the value
+      of Shadow Dash and his close-range setup.
+    - Teams that can pressure multiple lanes or force fights away from his
+      target may challenge the timing of Stand United.
+  uncertainties:
+    - Kept engage because Shadow Dash explicitly taunts enemies, which satisfies
+      lockdown; kept peel because Spirit's Refuge blocks enemy attacks and Stand
+      United shields an ally.
+    - Kept tanks because Ki Barrier gives Shen a self-shield after casting
+      spells, and Stand United also provides a shield to an ally; removed no
+      tags because the listed set already matches the source.
+    - Kept shortRange because Shen is a melee champion by kit presentation;
+      added no waveclear tag because the source only shows one damage spell with
+      no clearly substantial AoE waveclear.
+    - Added no immobile tag because Shadow Dash is a dash, so Shen is not
+      immobile under the stated rule.
+    - Roles top and support are reasonable inferred roles from the kit and
+      remain conservative since the source text does not explicitly label lanes.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/shen/

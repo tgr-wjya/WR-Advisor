@@ -1,0 +1,45 @@
+id: gnar
+name: Gnar
+status: candidate
+roles:
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A transform-based top laner who can switch between ranged poke
+    and tankier melee engage, with strong area control and wall-stun setup in
+    Mega form.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his Mega Gnar stun and
+      wall-based ultimate setup.
+    - Benefits from teammates who can help him reach or hold enemies in place
+      while he builds Rage and transforms.
+  threatHooks:
+    - Enemies with strong disengage or spacing can make it harder for him to
+      land his Mega Gnar combo.
+    - He may struggle when forced to fight before transforming, since his
+      strongest crowd control and durability are tied to Mega form.
+  uncertainties:
+    - Top is retained as the most appropriate role for Gnar based on his
+      standard lane identity and the champion page context.
+    - dive is valid because Hop / Crunch is a leap, which satisfies the mobility
+      requirement.
+    - engage and lockdown are valid because Mega Gnar has a stun on Wallop and a
+      stun on GNAR! when enemies hit a wall.
+    - shortRange is valid because Mini Gnar is ranged, but the champion
+      alternates into melee Mega Gnar; this tag is still acceptable only if the
+      profile is intended to reflect his melee engage pattern, though it is not
+      a perfect fit for his full form cycle.
+    - waveclear is valid because Boulder Toss and GNAR! provide area damage,
+      especially in Mega form.
+    - tanks was removed because the source shows bonus health, armor, and magic
+      resist on transformation, but not enough explicit defensive steroid
+      evidence to confidently classify him as a tank under the strict rule.
+    - immobile was not added because Hop / Crunch is a leap, so he is not
+      immobile.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/gnar/

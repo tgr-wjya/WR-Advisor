@@ -1,0 +1,41 @@
+id: katarina
+name: Katarina
+status: candidate
+roles:
+  - mid
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile melee burst assassin who looks to reset fights and clean
+    up after enemies are damaged or low.
+  synergyHooks:
+    - Works well with allies who can start fights or hold enemies in place so
+      she can follow up and reset on takedowns.
+    - Benefits from teammates who can create clustered fights, letting her
+      dagger and ultimate damage hit multiple enemies.
+  threatHooks:
+    - Can be punished by hard crowd control before she can blink in or channel
+      her ultimate.
+    - Enemies who can deny her access to daggers or force her out of melee range
+      reduce her cleanup potential.
+  uncertainties:
+    - "The source text clearly supports assassin and dive: Shunpo is a blink,
+      and her kit is built around burst cleanup and resets."
+    - shortRange is valid because Katarina is a melee champion with no ranged
+      basic-attack pattern indicated by the source.
+    - waveclear is reasonable because Bouncing Blade and Death Lotus both hit
+      multiple enemies, giving her substantial AoE damage.
+    - I did not add engage/lockdown because the source does not show a stun,
+      root, knockup, pull, or suppression; slows and damage alone do not
+      qualify.
+    - I did not add enchanter/peel or tank because the source does not provide
+      ally heals, shields, buffs, displacement for protection, or defensive
+      steroids/scaling.
+    - The mid role is retained as a standard and appropriate lane role for
+      Katarina, even though the source page itself does not explicitly state
+      lane classification.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/katarina/

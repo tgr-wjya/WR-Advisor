@@ -1,0 +1,43 @@
+id: viego
+name: Viego
+status: candidate
+roles:
+  - jungle
+  - mid
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A mobile skirmisher-assassin who can pick off targets, chain
+    resets through possession, and threaten backline fights with stun and
+    execute access.
+  synergyHooks:
+    - Allies who can help Viego secure a takedown can enable his passive
+      possession and let him turn fights with stolen enemy tools.
+    - Teammates that provide crowd control or target setup can make it easier
+      for Viego to land Spectral Maw and reach priority targets.
+  threatHooks:
+    - Enemies with strong peel or disengage can make it harder for Viego to
+      access a takedown and start his possession chain.
+    - Champions that can punish his close-range approach may limit his ability
+      to use Blade of the Ruined King and Heartbreaker safely.
+  uncertainties:
+    - The source text does not explicitly assign a lane role, so the roles list
+      is inferred conservatively from his kit.
+    - No direct information is provided about waveclear, tankiness, or late-game
+      scaling beyond his passive possession mechanic.
+    - "Tag verification: assassin is supported by his execute/reset skirmisher
+      pattern and backline threat; dive is supported because Spectral Maw is a
+      dash and Heartbreaker is a teleport; lockdown is supported because
+      Spectral Maw stuns; shortRange is supported because his kit is
+      melee/close-range oriented."
+    - "No additional tags were added: enchanter/peel is not supported because he
+      provides no ally heals, shields, or buffs; immobile is not applicable
+      because he has both a dash and a teleport; tanks is not supported because
+      the source text does not show strong defensive steroids, shields, or
+      defense scaling; waveclear is not clearly supported by substantial AoE
+      damage in the source text."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/viego/

@@ -1,0 +1,42 @@
+id: lux
+name: Lux
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - peel
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A long-range mage that offers poke, area damage, and ally
+    protection. She can set up picks with a binding and provide shielding, but
+    she does not have true hard engage or mobility-based assassination tools.
+  synergyHooks:
+    - Pairs well with allies who can capitalize on Light Binding or Lucent
+      Singularity to secure follow-up damage.
+    - Can protect a teammate with Prismatic Barrier, making her useful alongside
+      carries that want extra shielding.
+  threatHooks:
+    - Enemies with mobility or ways to avoid skillshots can reduce the
+      reliability of Light Binding and Lucent Singularity.
+    - Her lack of mobility makes her vulnerable to champions that can quickly
+      reach her.
+  uncertainties:
+    - "Removed engage: Light Binding is a bind/root-style crowd control tool,
+      but the source does not support labeling Lux as a true engage champion
+      under the strict hard-initiation standard."
+    - "Kept peel: Prismatic Barrier clearly protects allied targets, which
+      satisfies the enchanter/peel criterion through shielding."
+    - "Removed immobile: Lux has no dashes, blinks, leaps, or teleports in the
+      source text, so she qualifies as immobile."
+    - "Kept waveclear: Lucent Singularity and Final Spark both deal area damage,
+      which is enough to support waveclear."
+    - "Added shortRange: Lux is a ranged mage, so she does not meet the
+      short-range criterion; this tag was not added."
+    - No dive/assassin tag was added because the source shows no mobility skill
+      such as a dash, blink, leap, or teleport.
+    - No tank tag was added because the source does not show defensive steroids,
+      shields for self-tanking, or defense scaling beyond ally shielding.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lux/

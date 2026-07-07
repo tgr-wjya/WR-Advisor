@@ -1,0 +1,46 @@
+id: galio
+name: Galio
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable crowd-control mage who can start fights, protect
+    allies, and bring area disruption with a global-style ally landing ultimate.
+  synergyHooks:
+    - Works well with allies who can follow up on taunt, knockup, and shielded
+      engage setups.
+    - Can protect a teammate by landing on their position with a shield and
+      additional crowd control.
+  threatHooks:
+    - Enemy teams with strong disengage or spacing can make it harder for him to
+      connect his slow charge and short-range crowd control.
+    - His engage and taunt are more effective when enemies are forced to clump
+      or stay near an ally target.
+  uncertainties:
+    - The roles array is valid and does not need expansion because mid and
+      support are both appropriate for Galio.
+    - engage and lockdown are correct because Shield of Durand taunts and
+      Justice Punch / Hero's Entrance knock up enemies; slows alone would not
+      have been enough, but Galio has hard CC.
+    - peel is correct because Hero's Entrance grants allies a magic shield and
+      Galio can disrupt divers with taunt and knockups.
+    - tanks is correct because Shield of Durand is a defensive stance and Hero's
+      Entrance provides shielding, which supports a tanky/defensive profile.
+    - waveclear is correct because Winds of War and Colossal Smash provide area
+      damage.
+    - shortRange was added because Galio is effectively melee/very short-range
+      in how he applies his core crowd control and basic attacks.
+    - dive/assassin was not added because Galio has no dash, blink, leap, or
+      teleport mobility that would satisfy that tag.
+    - immobile was not added because Justice Punch is a brief step-back charge
+      that functions as mobility, so he does not meet the strict immobile rule.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/galio/

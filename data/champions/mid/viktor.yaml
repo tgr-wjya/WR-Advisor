@@ -1,0 +1,43 @@
+id: viktor
+name: Viktor
+status: candidate
+roles:
+  - mid
+tags:
+  - lockdown
+  - poke
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A scaling mid lane mage who controls space with long-range
+    damage, shields, and area denial.
+  synergyHooks:
+    - Works well with allies who can keep enemies inside Gravity Field and
+      Arcane Storm so his damage can tick over time.
+    - Benefits from teammates who can protect him while he casts, since his kit
+      rewards repeated spell use and positioning.
+  threatHooks:
+    - Enemies with strong engage or gap closers can punish him if they reach him
+      before he sets up his zones.
+    - Champions that can interrupt or avoid his skillshots may reduce the value
+      of his poke and wave control.
+  uncertainties:
+    - Kept mid as the primary role because the champion page context and kit
+      pattern strongly fit a mid lane mage, even though the source text does not
+      explicitly assign a lane role.
+    - Kept lockdown because Gravity Field can stun enemies who remain inside it,
+      which satisfies the strict crowd-control requirement; the slow alone would
+      not have been enough.
+    - Kept waveclear because Hextech Ray and Arcane Storm both provide
+      substantial area damage, supporting fast minion wave clearing.
+    - "Did not add enchanter/peel: Viktor has a shield on Siphon Power, but it
+      is self-only and the source does not show ally shields, heals, buffs, or
+      displacement away from carries."
+    - "Did not add dive/assassin or immobile: the source shows no dash, blink,
+      leap, or teleport, so he remains non-dive and can be treated as immobile
+      under the strict rule set."
+    - "Did not add tanks: the shield on Siphon Power is a defensive tool, but
+      the source does not show strong defensive steroids, defense scaling, or
+      tank-style durability."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/viktor/

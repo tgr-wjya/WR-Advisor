@@ -1,0 +1,45 @@
+id: gwen
+name: Gwen
+status: candidate
+roles:
+  - top
+tags:
+  - dive
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A short-range, scaling skirmisher who can access targets with a
+    short dash, sustain through combat, and protect herself with mist-based
+    self-defense.
+  synergyHooks:
+    - Allies who can keep enemies in place help Gwen land repeated snips and
+      needle casts.
+    - Frontline teammates can create space so Gwen can stay in range and use her
+      sustained damage safely.
+  threatHooks:
+    - Long-range poke and champions that can pressure her before she reaches
+      combat may limit her effectiveness.
+    - Enemies with strong crowd control or burst that can punish her after her
+      mist ends are a concern.
+  uncertainties:
+    - Kept dive because Skip 'N Slash is a short dash, which satisfies the
+      mobility requirement for dive/assassin.
+    - Kept shortRange because Gwen is a melee champion with low effective attack
+      range before her dash steroid.
+    - Kept waveclear because Snip Snip! and Needlework are substantial AoE
+      damage spells.
+    - Did not add engage/lockdown because Gwen has no stun, root, knockup, pull,
+      or suppression; Needlework only slows, which does not qualify.
+    - Did not add enchanter/peel because Hallowed Mist is self-protection, not
+      an ally heal, shield, buff, or enemy displacement away from carries.
+    - Did not add immobile because Gwen has a dash on Skip 'N Slash, so she is
+      not immobile.
+    - Did not add tanks because her source text shows sustain and
+      self-protection, but not the strong defensive steroids, shields, or
+      defense scaling required for the tank tag.
+    - Role top is acceptable and the roles array is non-empty; the champion page
+      source does not explicitly assign a lane role, so this remains an inferred
+      role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/gwen/

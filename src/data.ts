@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
 import { z } from "zod";
@@ -89,6 +89,22 @@ function readYamlChampionProfile(path: string): ChampionKnowledgeProfile {
   return championProfileSchema.parse(parsed) as ChampionKnowledgeProfile;
 }
 
+function readYamlFilesRecursively(dir: string): string[] {
+  const results: string[] = [];
+  if (!statSync(dir).isDirectory()) return results;
+  const list = readdirSync(dir);
+  for (const file of list) {
+    const path = join(dir, file);
+    const stat = statSync(path);
+    if (stat && stat.isDirectory()) {
+      results.push(...readYamlFilesRecursively(path));
+    } else if (file.endsWith(".yaml") || file.endsWith(".yml")) {
+      results.push(path);
+    }
+  }
+  return results;
+}
+
 export function loadAdvisorData(rootDir = process.cwd()): AdvisorData {
   const dataDir = join(rootDir, "data");
   const playerProfile = readJson<PlayerProfile>(join(dataDir, "player-profile.json"));
@@ -98,10 +114,10 @@ export function loadAdvisorData(rootDir = process.cwd()): AdvisorData {
     .filter((file) => file.endsWith(".yaml") || file.endsWith(".yml"))
     .sort()
     .map((file) => readYamlDossier(join(dossierDir, file)));
-  const championProfiles = readdirSync(championDir)
-    .filter((file) => file.endsWith(".yaml") || file.endsWith(".yml"))
+
+  const championProfiles = readYamlFilesRecursively(championDir)
     .sort()
-    .map((file) => readYamlChampionProfile(join(championDir, file)));
+    .map((path) => readYamlChampionProfile(path));
 
   return { playerProfile, dossiers, championProfiles };
 }

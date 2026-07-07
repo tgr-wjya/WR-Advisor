@@ -1,0 +1,45 @@
+id: lissandra
+name: Lissandra
+status: candidate
+roles:
+  - mid
+  - top
+tags:
+  - engage
+  - lockdown
+  - dive
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A short-range mage who can start fights, lock targets down, and
+    reposition aggressively with her claw.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her root and stun to secure
+      kills.
+    - Benefits from teammates who can capitalize on clustered enemies after she
+      engages.
+  threatHooks:
+    - Threatens immobile carries with point-and-click style access through her
+      dash and ultimate.
+    - Can disrupt enemy backlines with repeated crowd control and area damage.
+  uncertainties:
+    - The source text supports engage/lockdown because Ring of Frost roots and
+      Frozen Tomb stuns, and it supports dive because Glacial Path is a true
+      repositioning dash to the claw's location.
+    - "Waveclear is justified by multiple AoE damage sources: Ice Shard can pass
+      through and hit multiple enemies, Ring of Frost damages nearby enemies,
+      and Frozen Tomb deals area damage around the target."
+    - ShortRange is appropriate because Lissandra is a melee mage with no ranged
+      basic attack information suggesting long-range auto patterns; her kit is
+      centered on close-range spellcasting.
+    - The previous profile's role choices of mid and top remain acceptable as
+      standard lane roles for Lissandra, and the source text does not contradict
+      them.
+    - No tank tag was added because the source text shows self-healing,
+      untargetability, and invulnerability on ultimate, but not the strong
+      defensive steroids, shields, or defense scaling required for the tank tag.
+    - No enchanter/peel tag was added because she does not provide ally heals,
+      shields, buffs, or explicit displacement to push enemies away from
+      carries.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lissandra/

@@ -1,0 +1,44 @@
+id: vladimir
+name: Vladimir
+status: candidate
+roles:
+  - mid
+  - top
+tags:
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A scaling AP drain mage who can survive dives with
+    untargetability, threaten area damage, and amplify teamfight damage with his
+    ultimate.
+  synergyHooks:
+    - Works well with allies who can keep enemies in his area damage and
+      ultimate zone so Hemoplague can hit multiple champions.
+    - Benefits from teammates who can protect him while he waits for Transfusion
+      empowerment and charges Tides of Blood.
+  threatHooks:
+    - Enemies with strong crowd control or burst can punish him before he can
+      use Sanguine Pool or finish his damage cycle.
+    - Champions that can block or avoid his area damage and stay out of his
+      short-range threat window reduce his impact.
+  uncertainties:
+    - "Removed the assassin tag: the source shows no dash, blink, leap, pull,
+      stun, root, or suppression, so he does not meet the strict engage/lockdown
+      or dive/assassin criteria."
+    - "Removed the immobile tag: Sanguine Pool grants untargetability and
+      movement through the pool state, but the strict immobile rule only
+      disqualifies champions with explicit dashes/blinks/leaps/teleports; none
+      are listed here, so the tag was not added as a positive claim and should
+      not be inferred from the source alone."
+    - Kept waveclear because Tides of Blood is an area damage spell and
+      Hemoplague adds area damage in a teamfight context.
+    - Kept shortRange because Vladimir is a melee champion with very close-range
+      spell patterns; the source text supports a short threat window even though
+      it does not list attack range numerically.
+    - "Did not add enchanter/peel, engage/lockdown, or tank: the source provides
+      healing and untargetability, but no ally shields/buffs, no hard CC, and no
+      strong defensive steroid or defense scaling beyond Crimson Pact's
+      health/AP conversion."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/vladimir/

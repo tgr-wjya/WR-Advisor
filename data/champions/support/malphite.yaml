@@ -1,0 +1,46 @@
+id: malphite
+name: Malphite
+status: candidate
+roles:
+  - top
+  - support
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable frontline initiator who can start fights with a
+    long-range knockup and bring reliable area damage and attack-speed
+    disruption.
+  synergyHooks:
+    - Pairs well with follow-up damage dealers who can capitalize on his knockup
+      and movement-speed steal.
+    - Benefits from allies who want a sturdy frontline and additional crowd
+      control to keep enemies in place.
+  threatHooks:
+    - Can be challenged by enemies who can disengage or avoid his ultimate
+      engage window.
+    - May struggle against compositions that can focus him down before he
+      reaches a fight or bypass his frontline presence.
+  uncertainties:
+    - The source does not explicitly list his recommended roles, so the roles
+      array is inferred conservatively from his kit and common Wild Rift usage.
+    - engage and lockdown are valid because Unstoppable Force knocks enemies
+      into the air, which is hard crowd control.
+    - tanks is valid because Granite Shield provides a maximum-health shield and
+      Thunderclap grants passive armor, giving him clear defensive steroids.
+    - waveclear is valid because Ground Slam and Thunderclap both provide area
+      damage, with Ground Slam being a clear AoE spell.
+    - shortRange is valid because Malphite is a melee champion with no ranged
+      basic attacks.
+    - No additional dive/assassin tag was added because Unstoppable Force is a
+      charge, but the strict dive/assassin rule requires a mobility skill
+      classification only when the kit clearly supports that role; the safer
+      classification here is engage rather than assassin.
+    - No enchanter/peel tag was added because he does not provide heals, shields
+      for allies, or ally buffs; his displacement is offensive rather than
+      protective.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/malphite/

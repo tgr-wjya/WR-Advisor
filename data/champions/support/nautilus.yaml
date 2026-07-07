@@ -1,0 +1,19 @@
+id: nautilus
+name: Nautilus
+status: approved
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - tanks
+profile:
+  draftIdentity: Durable engage support who threatens repeated hooks and point-click lockdown.
+  synergyHooks:
+    - Starts fights for short-range carries that need a target held in place.
+  threatHooks:
+    - Forces immobile carries to play around layered crowd control.
+  uncertainties:
+    - Profile is a first-pass human-approved draft summary pending official-source refresh.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nautilus/

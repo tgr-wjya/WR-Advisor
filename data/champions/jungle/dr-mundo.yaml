@@ -1,0 +1,50 @@
+id: dr-mundo
+name: Dr. Mundo
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - tanks
+  - waveclear
+  - scaling
+  - shortRange
+profile:
+  draftIdentity: A durable, self-sustaining frontliner who can absorb pressure,
+    clear waves with persistent area damage, and become harder to kill as fights
+    go longer.
+  synergyHooks:
+    - Benefits from allies who can follow up on his slow and damage-over-time
+      pressure while he soaks attention.
+    - Works well with teammates who can keep enemies near him so Heart Zapper
+      and his melee damage can connect.
+  threatHooks:
+    - Can be worn down by champions who can repeatedly kite him and avoid his
+      short-range damage windows.
+    - May struggle against teams with strong anti-heal or percent-health
+      pressure that can blunt his sustain.
+  uncertainties:
+    - Kept top and jungle as conservative inferred roles because the source text
+      does not explicitly label his best lane or jungle position, but his kit
+      supports both a solo-lane bruiser/tank and a jungle-style frontliner.
+    - Removed poke as a tag because the source only shows one ranged spell,
+      Infected Bonesaw, and the profile standard requires a stronger, clearer
+      poke pattern than a single slow-based projectile.
+    - Removed engage/lockdown because Dr. Mundo has no stun, root, knockup,
+      pull, or suppression; his only control is a slow and a displacement on
+      kill, which do not satisfy the strict engage rule.
+    - Removed immobile because he has no dash, blink, leap, or teleport, so he
+      does qualify as immobile under the stated criteria.
+    - Kept tanks because his kit has strong self-healing, bonus health
+      regeneration, and a defensive ultimate that restores missing health, which
+      fits a durable tank profile.
+    - Added shortRange because his main damage pattern is melee or very
+      close-range, with Heart Zapper and Blunt Force Trauma requiring proximity
+      to connect reliably.
+    - Kept waveclear because Heart Zapper provides persistent area damage around
+      him, which is substantial AoE for clearing minion waves.
+    - Kept scaling because multiple abilities scale with missing health or
+      become more effective in longer fights, especially his passive
+      regeneration and ultimate healing.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/dr-mundo/

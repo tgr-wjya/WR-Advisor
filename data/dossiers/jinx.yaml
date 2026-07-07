@@ -1,0 +1,61 @@
+{
+  "id": "jinx",
+  "name": "Jinx",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "medium",
+    "statisticalConfidence": "high",
+    "rosterNotes": "High comfort and the largest sample size, but less aligned with the user's preference for mobile fast-paced ADCs."
+  },
+  "pickProfile": {
+    "identity": "Immobile hypercarry who rewards peel, front-to-back fights, and reset cleanup after the first takedown.",
+    "blindPickSafety": 2,
+    "lanePattern": "Scale through lane, use range swap carefully, and avoid taking trades that expose her lack of escape.",
+    "scalingCurve": "Excellent late-game scaling once protected.",
+    "damageProfile": "High sustained physical damage with area pressure from rockets.",
+    "mobility": "Low mobility before passive reset.",
+    "selfPeel": "Low self-peel and dependent on spacing, traps, and allies.",
+    "objectiveDps": "Very strong objective DPS when protected."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["enchanter", "peel"],
+      "score": 14,
+      "reason": "Peel support directly enables Jinx's front-to-back scaling identity."
+    },
+    {
+      "tags": ["engage"],
+      "score": 3,
+      "reason": "Engage can start reset chains, but Jinx still needs protection after the fight starts."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["lockdown"],
+      "score": -18,
+      "warning": "Heavy lockdown is a major Jinx danger because she has no reliable escape before passive reset."
+    },
+    {
+      "tags": ["dive", "assassin"],
+      "score": -12,
+      "warning": "Multiple dive threats can remove Jinx before her damage matters."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["peel"],
+      "score": 6,
+      "reason": "Peel-heavy allies give Jinx the time needed to trigger resets."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Prioritize safe farm and wave control, trade around support protection, and avoid standing forward unless the enemy engage is on cooldown.",
+    "teamfightPlan": "Play strictly front to back, hit the nearest safe target, and only accelerate after the first takedown activates the reset pattern.",
+    "defaultWarnings": ["Avoid blind-picking Jinx into unknown hard engage unless the team already shows reliable peel."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

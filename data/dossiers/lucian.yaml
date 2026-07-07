@@ -1,0 +1,61 @@
+{
+  "id": "lucian",
+  "name": "Lucian",
+  "playerFit": {
+    "comfortLevel": "High",
+    "playstyleFit": "high",
+    "statisticalConfidence": "medium",
+    "rosterNotes": "High comfort with a smaller sample; the user is actively deepening Lucian mastery because of his versatility."
+  },
+  "pickProfile": {
+    "identity": "Versatile lane-pressure ADC who converts support setup into short explosive trades and early-mid skirmish control.",
+    "blindPickSafety": 3,
+    "lanePattern": "Use short trades, dash discipline, and support cooldowns to control lane tempo before longer-range carries scale.",
+    "scalingCurve": "Strong early and mid game with lower range pressure later if he falls behind.",
+    "damageProfile": "Burst-heavy physical damage with repeated short-trade windows.",
+    "mobility": "Short dash mobility with high punishment if used carelessly.",
+    "selfPeel": "Moderate self-peel through dash and burst threat.",
+    "objectiveDps": "Good objective DPS when allowed to stand close enough."
+  },
+  "supportSynergies": [
+    {
+      "tags": ["engage", "lockdown"],
+      "score": 35,
+      "reason": "Lucian spikes hard with an engage support because crowd control turns his short trades into kill pressure."
+    },
+    {
+      "tags": ["enchanter"],
+      "score": 10,
+      "reason": "Enchanter support can keep Lucian trading often, though it is less explosive than engage support."
+    }
+  ],
+  "enemyThreatRules": [
+    {
+      "tags": ["immobile", "scaling"],
+      "score": 8,
+      "reason": "Lucian can pressure immobile scaling lanes before they reach comfortable item breakpoints."
+    },
+    {
+      "tags": ["lockdown"],
+      "score": -8,
+      "warning": "Dash must be held until key lockdown tools are used."
+    }
+  ],
+  "teamNeedRules": [
+    {
+      "tags": ["engage"],
+      "score": 5,
+      "reason": "Ally engage supports Lucian's early-mid skirmish identity."
+    }
+  ],
+  "execution": {
+    "lanePlan": "Play for level and cooldown windows, trade only when support can threaten follow-up, and use dash as a spacing tool rather than an opener by default.",
+    "teamfightPlan": "Fight around short bursts from the edge of danger, use ultimate to soften targets before committing, and avoid front-lining into longer-range carries.",
+    "defaultWarnings": ["If Lucian fails to create tempo early, his shorter range becomes a real late-fight liability."]
+  },
+  "patch": {
+    "reviewedPatch": "manual-v1",
+    "status": "stable",
+    "notes": "Manual patch field pending official Wild Rift patch review."
+  }
+}

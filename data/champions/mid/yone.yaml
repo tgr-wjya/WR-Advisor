@@ -1,0 +1,44 @@
+id: yone
+name: Yone
+status: candidate
+roles:
+  - mid
+  - top
+tags:
+  - assassin
+  - dive
+  - engage
+  - shortRange
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A mobile melee skirmisher who can set up engages, follow through
+    with burst, and scale through critical strike mechanics.
+  synergyHooks:
+    - Works well with allies who can help group enemies so his line and cone
+      abilities hit multiple targets.
+    - Benefits from teammates who can start fights or hold enemies in place for
+      his blink and knockup follow-up.
+  threatHooks:
+    - Can be checked by champions who punish short-range divers before he
+      reaches his target.
+    - His spirit-return mechanic and forward-only engage patterns may be
+      vulnerable to displacement or disengage.
+  uncertainties:
+    - "The source supports assassin, dive, engage, shortRange, scaling, and
+      waveclear: Mortal Steel includes a dash and airborne effect, Fate Sealed
+      includes a blink and pull, and Spirit Cleave provides a shield while
+      hitting multiple enemies in a cone."
+    - I did not add lockdown because the strict rule requires stuns, roots,
+      knockups, pulls, or suppressions; Yone has knockup and pull, but those are
+      already reflected through engage rather than a dedicated lockdown tag in
+      this schema.
+    - I did not add peel or enchanter because Yone has no ally heals, ally
+      shields, ally buffs, or displacement away from carries.
+    - I did not add immobile because the source explicitly gives him a dash and
+      a blink, so he is not immobile.
+    - Mid and top are reasonable conservative roles for a melee skirmisher with
+      strong side-lane and skirmish patterns; the source does not explicitly
+      assign a lane role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/yone/

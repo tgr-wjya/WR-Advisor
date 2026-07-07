@@ -1,0 +1,44 @@
+id: orianna
+name: Orianna
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - enchanter
+  - lockdown
+  - poke
+  - waveclear
+  - scaling
+profile:
+  draftIdentity: A control mage who offers safe ranged damage, team utility, and a
+    fight-changing ultimate for coordinated teamfights.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Shockwave after enemies are
+      pulled together.
+    - "Benefits from teammates who can use the speed boost from Command:
+      Dissonance to help start or reposition fights."
+  threatHooks:
+    - Can be pressured by champions who can quickly reach her before she sets up
+      her Ball-based zone control.
+    - May struggle against enemies who can avoid grouped-up fights and reduce
+      the value of Shockwave.
+  uncertainties:
+    - "The source text supports enchanter because Command: Protect shields an
+      ally and grants Armor/Magic Resist, and Command: Dissonance speeds up
+      allies. It also supports lockdown because Command: Shockwave launches
+      nearby enemies toward the Ball, which is a hard crowd-control effect."
+    - "Waveclear is valid because Command: Attack and Command: Dissonance both
+      deal area damage, with Dissonance especially functioning as a substantial
+      AoE spell."
+    - Poke is reasonable from her long-range, safe magic damage pattern, and
+      scaling is supported by Clockwork Windup increasing damage on repeated
+      attacks.
+    - Support is an appropriate secondary role because her shield, ally speed
+      boost, and teamfight utility clearly fit a supportive playstyle. Mid
+      remains appropriate as her primary lane identity.
+    - Immobile is not added because the source text does not list a dash, blink,
+      leap, or teleport, but the profile should avoid claiming certainty beyond
+      the provided ability text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/orianna/

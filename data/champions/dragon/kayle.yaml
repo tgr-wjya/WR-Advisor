@@ -1,0 +1,53 @@
+id: kayle
+name: Kayle
+status: candidate
+roles:
+  - top
+  - dragon
+tags:
+  - enchanter
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A scaling ranged carry who also provides ally healing, movement
+    speed, and invulnerability, with strong area damage and late-game teamfight
+    value.
+  synergyHooks:
+    - Works well with allies who can protect her while she scales, since her kit
+      includes self-healing, movement speed, and an invulnerability ultimate for
+      a teammate.
+    - Benefits from teammates who can help set up fights so she can safely use
+      her ranged attacks and area damage.
+  threatHooks:
+    - Can be pressured early before her passive grants more attack range,
+      movement speed, and wave-based attacks.
+    - Enemies with strong engage or burst may force her to spend her ultimate
+      defensively rather than offensively.
+  uncertainties:
+    - Removed the 'poke' tag because the source text does not explicitly
+      establish Kayle as a poke champion; Radiant Blast is a slow/damage/resist
+      shred tool, but the page does not support a strict poke classification on
+      its own.
+    - Kept 'enchanter' because Celestial Blessing heals and grants movement
+      speed to Kayle and the nearest ally, and Divine Judgment makes an ally
+      invulnerable, which satisfies the ally-support criteria.
+    - Kept 'waveclear' because Divine Ascent grants waves of fire on attacks and
+      Starfire Spellblade adds bonus damage, giving her substantial
+      area/cleave-style damage potential from the source text.
+    - Added 'shortRange' because the passive explicitly says Kayle progressively
+      gains Attack Range, implying she starts with relatively low range and is
+      not a melee champion, but she does not meet the strict 'immobile' rule
+      because the source gives movement speed, not a dash/blink/leap/teleport.
+    - Did not add 'engage/lockdown' because the only hard CC in the source is a
+      slow from Radiant Blast; slows alone do not qualify under the stated
+      rules.
+    - Did not add 'dive/assassin' because the source text contains no dash,
+      blink, leap, or teleport.
+    - Did not add 'tanks' because the page shows healing and invulnerability
+      support, but not the strong defensive steroids, shields, or defense
+      scaling required for the tank tag.
+    - Roles were already non-empty, so no role changes were needed; 'top' and
+      'dragon' remain acceptable inferred lane roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kayle/

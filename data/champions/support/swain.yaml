@@ -1,0 +1,42 @@
+id: swain
+name: Swain
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - engage
+  - lockdown
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A sustained-damage battlemage who can start fights or catch
+    targets with root-and-pull crowd control while growing stronger over time.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his root and pull to secure
+      kills.
+    - Benefits from teammates who can keep enemies near him while Demonic
+      Ascension drains multiple targets.
+  threatHooks:
+    - Threatens clustered enemies with repeated area damage and multi-target
+      drain in extended fights.
+    - Can lock down targets with Nevermove and punish enemies who stay in range
+      of his ultimate.
+  uncertainties:
+    - The engage and lockdown tags are valid because Nevermove roots enemies and
+      can pull rooted champions closer, which satisfies hard crowd control
+      requirements.
+    - Waveclear is valid because Death's Hand, Vision of Empire, and Demonic
+      Ascension/Demonflare all provide substantial area or multi-target damage.
+    - ShortRange is valid because Swain is a melee-range battlemage in practice,
+      relying on close proximity for Demonic Ascension and its drain.
+    - The scaling tag is supported by Ravenous Flock, which permanently
+      increases maximum health and scales with Ability Power.
+    - I did not add immobile because the source text does not explicitly state
+      movement abilities, but it also does not provide any dash, blink, leap, or
+      teleport.
+    - The roles mid and support are retained because they are reasonable and
+      non-empty, and the source does not contradict them.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/swain/

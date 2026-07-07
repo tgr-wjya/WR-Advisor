@@ -1,0 +1,43 @@
+id: samira
+name: Samira
+status: candidate
+roles:
+  - dragon
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A high-mobility, close-range carry that wants to chain hits, dash
+    through fights, and finish clustered enemies with her ultimate.
+  synergyHooks:
+    - Pairs well with allies who provide immobilizing or knockup effects, since
+      her passive can dash to affected enemies and extend knockups briefly.
+    - Benefits from teammates who can start fights or keep enemies grouped so
+      she can follow with Wild Rush and Inferno Trigger.
+  threatHooks:
+    - Enemy hard crowd control and immobilizing effects can enable her passive
+      dash interactions, but also make her vulnerable if she commits without an
+      exit.
+    - Missile-destroying Blade Whirl can be challenged by enemies who avoid her
+      close-range engage window or force her to spend Wild Rush defensively.
+  uncertainties:
+    - The source text clearly supports dive/assassin because Samira has Wild
+      Rush, a dash, and her passive can dash her to immobilized targets;
+      shortRange is also valid because her kit is built around melee-range
+      attacks and close-range combat.
+    - "Waveclear is only partially supported: Inferno Trigger and Blade Whirl
+      are AoE, but the page does not explicitly prove strong lane waveclear in
+      the strictest sense, so this tag is acceptable but somewhat inferential."
+    - I did not add engage/lockdown because Samira does not directly provide
+      stuns, roots, pulls, or suppressions; her passive only extends existing
+      knockups and dashes to immobilized targets.
+    - I did not add enchanter/peel, tank, or immobile because the source text
+      shows no ally healing/shielding/buffs, no defensive steroid or defense
+      scaling, and she clearly has a dash.
+    - The role 'dragon' was kept because the prompt requires a non-empty role
+      array and the profile already uses it as the intended lane role, even
+      though the source text does not explicitly confirm a lane.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/samira/

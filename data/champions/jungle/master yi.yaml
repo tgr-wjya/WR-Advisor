@@ -1,0 +1,46 @@
+id: master yi
+name: Master Yi
+status: candidate
+roles:
+  - jungle
+tags:
+  - assassin
+  - dive
+  - scaling
+  - shortRange
+profile:
+  draftIdentity: A mobile melee jungler who can access backline targets, reset
+    fights with kills or assists, and scale through repeated basic attacks and
+    true damage.
+  synergyHooks:
+    - Works well with allies who can start fights or provide crowd control so he
+      can reach priority targets and continue attacking.
+    - Benefits from teammates who can help him survive early skirmishes until
+      his kill- and assist-based resets become available.
+  threatHooks:
+    - Can be checked by hard crowd control and effects that stop him from freely
+      attacking or chaining kills and assists.
+    - His untargetable engage pattern and sustained damage can punish squishy
+      enemies who lack reliable peel or disengage.
+  uncertainties:
+    - Kept 'jungle' as the role because the champion page context and kit
+      strongly support jungle play, even though the cached source text does not
+      provide an explicit role line.
+    - Kept 'dive' because Alpha Strike is a teleport across the battlefield,
+      which satisfies the mobility requirement for dive/assassin.
+    - Kept 'assassin' as a reasonable draft tag because the kit enables backline
+      access and bursty target access, though the source text does not
+      explicitly label him that way.
+    - Kept 'scaling' because the profile is clearly supported by repeated basic
+      attacks, true damage, and kill/assist-based cooldown and duration
+      extensions, even though it is not an official source label.
+    - Kept 'shortRange' because Master Yi is a melee champion.
+    - "Did not add engage/lockdown, enchanter/peel, tank, or waveclear: the
+      source text does not show stuns, roots, knockups, pulls, suppressions,
+      ally shields/heals/buffs, strong defensive steroids/scaling, or
+      substantial AoE waveclear beyond Alpha Strike's limited multi-unit
+      damage."
+    - Did not add immobile because Alpha Strike is a teleport, so he fails the
+      immobile rule.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/master-yi/

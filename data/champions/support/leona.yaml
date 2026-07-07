@@ -1,0 +1,19 @@
+id: leona
+name: Leona
+status: approved
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - tanks
+profile:
+  draftIdentity: Hard-engage support who creates lane-pressure windows with layered crowd control.
+  synergyHooks:
+    - Converts aggressive ADC follow-up into early kill pressure.
+  threatHooks:
+    - Punishes fragile carries that cannot survive repeated lockdown.
+  uncertainties:
+    - Profile is a first-pass human-approved draft summary pending official-source refresh.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/leona/

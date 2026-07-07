@@ -1,0 +1,45 @@
+id: smolder
+name: Smolder
+status: candidate
+roles:
+  - dragon
+tags:
+  - poke
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A scaling dragon carry who uses repeated ability hits to grow
+    stronger and eventually threaten low-health enemies with powerful fire
+    damage.
+  synergyHooks:
+    - Allies who can help Smolder safely stack Dragon Practice and keep enemies
+      in range for repeated spell hits.
+    - Teammates who can slow, hold, or group enemies can make his area damage
+      and ultimate easier to connect.
+  threatHooks:
+    - Long-range poke or heavy early pressure can punish Smolder before his
+      stacks and ability upgrades come online.
+    - Hard crowd control and burst can limit his ability to keep casting and
+      building Dragon Practice.
+  uncertainties:
+    - The source text does not explicitly assign a lane role, so dragon is
+      inferred from his carry-style kit.
+    - ShortRange is supported by the kit presentation as a close-to-mid range
+      spellcaster, but the source does not list a basic attack range.
+    - Waveclear is valid because Super Scorcher Breath gains area damage at
+      stacks 1 and 2, and Achooo! explodes on hit for additional area damage.
+    - No engage/lockdown tag is added because Smolder only has slows and damage;
+      slows alone do not satisfy the strict lockdown rule.
+    - No dive/assassin tag is added because Flap, Flap, Flap is a
+      flight/terrain-ignoring movement spell, but the profile does not establish
+      him as an assassin and the tag requires mobility plus that role fit.
+    - No enchanter/peel tag is added because he provides no ally heals, shields,
+      buffs, or displacement away from carries.
+    - No immobile tag is added because Flap, Flap, Flap is a mobility spell that
+      lets Smolder take flight and ignore terrain.
+    - No tank tag is added because the only defensive effect is self-healing
+      from his ultimate, which is not a strong defensive steroid, shield, or
+      defense scaling.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/smolder/

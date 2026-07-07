@@ -1,0 +1,49 @@
+id: yuumi
+name: Yuumi
+status: candidate
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+  - poke
+  - scaling
+profile:
+  draftIdentity: An attached support enchanter that protects and empowers a chosen
+    ally while offering poke, healing, shielding, and slow-based teamfight
+    control.
+  synergyHooks:
+    - Pairs well with a high-value carry who can benefit from Yuumi's Best
+      Friend bonuses and repeated healing/shielding.
+    - Works with allies who can keep enemies in range of Final Chapter and
+      Prowling Projectile for sustained slows and damage.
+  threatHooks:
+    - Can be pressured by opponents who can punish her before or after
+      attachment, especially when she is forced to detach.
+    - Enemies with strong engage or burst can threaten the ally Yuumi is
+      attached to despite her healing and shielding.
+  uncertainties:
+    - "Removed the immobile tag: You and Me! explicitly gives Yuumi a dash to an
+      ally, so she does not meet the strict immobile rule."
+    - "Kept enchanter and peel: the source clearly shows healing, shielding,
+      ally buffs, and ally-targeted protection through You and Me!, Zoomies, and
+      Final Chapter."
+    - "Kept poke: Prowling Projectile is a ranged damage spell used for
+      harassment, and Final Chapter also provides ranged damage over multiple
+      waves."
+    - Kept scaling as a reasonable draft tag because Best Friend bonuses and
+      repeated ally-focused healing/shielding increase her value over time,
+      though the source does not explicitly label her as scaling.
+    - "Did not add engage/lockdown: Yuumi has slows, but the rules require
+      stuns, roots, knockups, pulls, or suppressions, which her source text does
+      not provide."
+    - "Did not add dive/assassin: although she has a dash to an ally, it is a
+      support repositioning tool rather than offensive assassination mobility."
+    - "Did not add tanks: the source shows shields and healing, but not the
+      strong defensive steroids, defense scaling, or tank profile required by
+      the rule."
+    - "Did not add waveclear: Final Chapter is multi-wave AoE damage, but Yuumi
+      is not primarily a waveclear champion in draft terms, so I left the tag
+      off to avoid over-tagging."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/yuumi/

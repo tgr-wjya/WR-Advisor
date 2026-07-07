@@ -1,0 +1,42 @@
+id: jarvan-iv
+name: Jarvan IV
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - dive
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A mobile initiator who can force fights, trap targets, and
+    provide some team utility through shields and attack speed.
+  synergyHooks:
+    - Pairs well with allies who can follow up on his knockup and arena setup.
+    - Benefits from teammates who can capitalize on the attack speed aura from
+      Demacian Standard.
+  threatHooks:
+    - Can be punished if he commits with Cataclysm before his team is ready to
+      follow.
+    - Enemies with mobility or disengage may reduce the value of his arena and
+      knockup setup.
+  uncertainties:
+    - Removed the peel tag because Jarvan IV does not provide reliable ally
+      protection in the strict sense required here; Golden Aegis slows nearby
+      enemies and shields himself, but the kit does not include ally heals, ally
+      shields, or displacement away from carries.
+    - Kept engage and lockdown because Dragon Strike can pull Jarvan to his flag
+      and knock up enemies in its path, and Cataclysm is a leap that creates an
+      arena to trap targets.
+    - Kept dive because Cataclysm is a true leap into battle, satisfying the
+      mobility requirement.
+    - Kept tanks because Golden Aegis provides a self-shield, which is a valid
+      defensive steroid for this classification, even though the source does not
+      show heavy scaling.
+    - Kept shortRange because Jarvan IV is melee and his kit is built around
+      close-range initiation.
+    - Roles were already non-empty, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/jarvan-iv/

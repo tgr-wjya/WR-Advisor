@@ -1,0 +1,47 @@
+id: nidalee
+name: Nidalee
+status: candidate
+roles:
+  - jungle
+  - mid
+tags:
+  - assassin
+  - dive
+  - poke
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile skirmisher who pokes from range, hunts marked targets,
+    and can switch into cougar form to dive and finish low-health enemies.
+  synergyHooks:
+    - Pairs well with allies who can help land Javelin Toss or set up hunted
+      targets for her follow-up damage.
+    - Benefits from teammates who can capitalize on her heal and attack speed
+      buff or help her reach isolated targets.
+  threatHooks:
+    - Can be pressured by opponents who deny brush control or punish her when
+      she misses long-range poke.
+    - May struggle into durable enemies or teams that can survive her burst and
+      force extended fights.
+  uncertainties:
+    - I kept the roles as jungle and mid because the source text does not assign
+      lanes directly, but her kit clearly supports a jungle/skirmish profile and
+      mid is a reasonable secondary inference.
+    - I removed no tags because the source supports assassin and dive through
+      cougar-form Pounce, poke through Javelin Toss, and shortRange because
+      cougar form is melee; however, shortRange is only partially representative
+      since human form has long-range poke.
+    - I kept waveclear as a cautious inference because Cougar Swipe is an area
+      attack, but the source does not explicitly describe it as substantial
+      waveclear.
+    - I kept scaling as a soft inference from her damage pattern and
+      execute-style cougar damage, but the source text does not explicitly state
+      scaling.
+    - "I did not add engage/lockdown, enchanter/peel, immobile, or tank tags
+      because the source does not provide the required hard criteria: she has no
+      stun/root/knockup/pull/suppress, she does have a leap so she is not
+      immobile, and she lacks the defensive steroids or shielding needed to
+      qualify as a tank."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nidalee/

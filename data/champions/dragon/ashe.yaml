@@ -1,0 +1,34 @@
+id: ashe
+name: Ashe
+status: candidate
+roles:
+  - dragon
+tags:
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+profile:
+  draftIdentity: A utility marksman who brings long-range pick potential, slows,
+    and a global scouting tool to set up fights and control space.
+  synergyHooks:
+    - Pairs well with allies who can follow up on her Enchanted Crystal Arrow
+      stun and extended pick setup.
+    - Benefits from teammates who can protect her while she uses Ranger's Focus
+      and Volley to apply sustained damage.
+  threatHooks:
+    - Can be pressured by enemies who can reach her quickly before she can kite
+      with slows.
+    - Her value can be reduced by opponents who avoid being caught by her arrow
+      or who can disengage after being slowed.
+  uncertainties:
+    - The source text supports engage and lockdown because Enchanted Crystal
+      Arrow stuns, but it does not support dive/assassin because Ashe has no
+      dash, blink, leap, or teleport.
+    - ShortRange was removed because Ashe is a marksman with standard ranged
+      attacks, not a melee or low-range champion.
+    - Waveclear is supported by Volley's 9-arrow cone and the ultimate's area
+      damage to surrounding units.
+    - The roles array was already non-empty, so no role was added or changed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ashe/

@@ -1,0 +1,47 @@
+id: nocturne
+name: Nocturne
+status: candidate
+roles:
+  - jungle
+  - mid
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A pick-oriented diver who uses Paranoia to reach isolated
+    targets, then follows up with fear and sustained melee damage. He is also a
+    strong anti-vision skirmisher who can force fights on his terms.
+  synergyHooks:
+    - Works well with allies who can follow his ultimate engage and finish a
+      target he reaches first.
+    - Benefits from teammates who can provide vision control or set up isolated
+      picks for Paranoia.
+  threatHooks:
+    - Can be checked by champions that can block or deny his engage window, such
+      as ability shields or similar defensive tools.
+    - May struggle into teams that can keep distance or peel him away after he
+      commits.
+  uncertainties:
+    - The source text supports assassin and dive because Paranoia lets Nocturne
+      launch himself at a nearby enemy champion, and it supports lockdown
+      because Unspeakable Horror applies fear if the target fails to escape the
+      range in time.
+    - ShortRange is valid because Nocturne is a melee champion; his kit is built
+      around close-range attacks and melee follow-up.
+    - I did not add immobile because Paranoia provides a launch/dash-like
+      engage, so he fails the immobile rule.
+    - I did not add enchanter/peel because his only ally-facing utility is
+      indirect vision denial and self-defense; he does not heal, shield, buff
+      allies, or displace enemies away from carries.
+    - I did not add tanks because the source text shows a spell shield and
+      self-heal, but not the kind of strong defensive steroids, shields, or
+      defense scaling required for the tank tag.
+    - I did not add waveclear because Umbra Blades has small surrounding damage
+      on empowered attacks, but the source text does not clearly support
+      substantial AoE waveclear.
+    - The roles list was already non-empty, and jungle/mid are reasonable
+      conservative roles for this kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/nocturne/

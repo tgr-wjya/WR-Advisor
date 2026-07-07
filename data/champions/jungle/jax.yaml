@@ -1,0 +1,41 @@
+id: jax
+name: Jax
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - lockdown
+  - shortRange
+  - scaling
+  - tanks
+profile:
+  draftIdentity: A short-range melee skirmisher who can leap onto targets, duel
+    well, and become harder to kill while scaling through repeated attacks.
+  synergyHooks:
+    - Allies that can start fights or hold enemies in place can help Jax reach
+      priority targets with Leap Strike and Counter Strike.
+    - Teams that want a side-lane or split-push threat can benefit from Jax's
+      repeated-attack scaling and defensive ultimate.
+  threatHooks:
+    - Long-range champions and kiting tools can make it difficult for Jax to
+      stay on top of targets after he commits.
+    - Crowd control that stops him before or after Leap Strike can limit his
+      ability to use Counter Strike and extended combat.
+  uncertainties:
+    - "Removed the assassin tag: the source confirms Leap Strike is a leap, so
+      dive applies, but the kit does not explicitly provide the burst pattern or
+      stealth/reset profile usually required for assassin labeling."
+    - Kept lockdown because Counter Strike ends with a stun, which satisfies the
+      strict crowd-control requirement.
+    - Kept tanks because Grandmaster's Might grants Armor and Magic Resist,
+      giving Jax a real defensive steroid even though he is not a primary tank.
+    - Kept shortRange because Jax is a melee champion and Leap Strike is a
+      close-range engage tool.
+    - "Did not add waveclear: the source text does not clearly show substantial
+      AoE damage, only single-target attacks plus Counter Strike's stun."
+    - Roles were already present and valid; top and jungle are reasonable
+      conservative fits for this kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/jax/

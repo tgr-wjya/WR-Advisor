@@ -1,0 +1,45 @@
+id: alistar
+name: Alistar
+status: candidate
+roles:
+  - support
+tags:
+  - engage
+  - lockdown
+  - peel
+  - tanks
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A durable support who starts fights with knockups and knockbacks,
+    then protects allies with healing and damage reduction.
+  synergyHooks:
+    - Pairs well with allies who can follow up quickly on his knockup and
+      knockback setup.
+    - His passive healing can help nearby teammates sustain through extended
+      skirmishes.
+  threatHooks:
+    - Enemy teams with strong crowd control may be less effective once
+      Unbreakable Will is active, since it removes crowd control effects on
+      Alistar.
+    - Champions that can punish short-range initiators may challenge him before
+      he reaches a good engage angle.
+  uncertainties:
+    - Support is a valid role fit for Alistar based on his champion page kit and
+      passive ally healing, so no role change was needed.
+    - "engage and lockdown are both justified: Pulverize tosses enemies into the
+      air, Headbutt knocks a target back, and Trample can stun at full stacks."
+    - peel is justified because Triumphant Roar heals nearby allies and
+      Unbreakable Will reduces incoming damage on Alistar, helping him stay in
+      front and protect carries.
+    - tanks is justified because Unbreakable Will provides a strong defensive
+      steroid by reducing incoming physical and magical damage.
+    - shortRange is justified because Alistar is a melee champion whose kit is
+      centered on close-range abilities.
+    - "waveclear is only partially supported: Trample affects nearby enemy units
+      and Pulverize is an AoE spell, so the tag is acceptable, though his
+      waveclear is not his primary identity."
+    - No mobility-based dive/assassin tag was added because the source text does
+      not show a dash, blink, leap, or teleport.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/alistar/

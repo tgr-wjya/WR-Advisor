@@ -1,0 +1,42 @@
+id: senna
+name: Senna
+status: candidate
+roles:
+  - dragon
+  - support
+tags:
+  - poke
+  - enchanter
+  - peel
+  - lockdown
+  - scaling
+  - shortRange
+profile:
+  draftIdentity: A scaling utility marksman/support who provides long-range poke,
+    ally protection, and pick setup while growing stronger through Mist stacks.
+  synergyHooks:
+    - Pairs well with allies who can capitalize on her root setup and global
+      shield to finish fights or protect engages.
+    - Benefits from teammates who can fight around her camouflage and
+      movement-speed utility to reposition safely.
+  threatHooks:
+    - Threatened by champions who can close distance quickly and punish her
+      before she can use her utility.
+    - Can struggle against opponents who avoid her skillshot root and outpace
+      her in direct all-ins.
+  uncertainties:
+    - The source supports enchanter/peel because Dawning Shadow shields allies
+      and Curse of the Black Mist grants allied camouflage and movement speed;
+      these are valid utility tools for protection and repositioning.
+    - Lockdown is valid because Last Embrace roots enemies and nearby targets
+      after a brief delay.
+    - "ShortRange is not valid: Senna’s passive explicitly increases her attack
+      range, so she is not a melee or low-range champion."
+    - No mobility dash, blink, leap, or teleport appears in the source, so she
+      is not dive/assassin and remains immobile by the strict definition.
+    - Waveclear is not added because the source does not clearly show
+      substantial AoE damage beyond her root and ultimate center damage; her kit
+      is more utility/poke than dedicated waveclear.
+    - Roles were already non-empty, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/senna/

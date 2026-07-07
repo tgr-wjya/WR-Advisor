@@ -1,0 +1,48 @@
+id: zyra
+name: Zyra
+status: candidate
+roles:
+  - support
+  - mid
+tags:
+  - engage
+  - lockdown
+  - poke
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: Zyra is a long-range mage support/mid pick that pressures lanes
+    with area damage and can start fights or trap enemies with root and knockup
+    crowd control.
+  synergyHooks:
+    - Pairs well with allies who can follow up on roots and knockups to secure
+      kills after Zyra lands Grasping Roots or Stranglethorns.
+    - Benefits from teammates who can hold enemies in place or fight in confined
+      areas, letting her plants and AoE damage stack up.
+  threatHooks:
+    - Enemy divers or assassins can punish Zyra if they reach her, since the
+      source text does not show any mobility skill.
+    - Champions with strong engage or displacement may interrupt her setup
+      before her plants and crowd control can take over.
+  uncertainties:
+    - Support and mid are reasonable inferred roles from Zyra's kit and common
+      Wild Rift usage, but the champion page itself does not explicitly list
+      lane roles.
+    - Engage is valid because Stranglethorns provides airborne crowd control,
+      and lockdown is valid because Grasping Roots roots enemies.
+    - Waveclear is valid because Deadly Spines and Stranglethorns are
+      substantial area damage spells.
+    - "ShortRange is the only corrected tag change: Zyra is not melee, but she
+      is also not a short-range champion in the strict sense; however, the
+      source text does not provide exact range values, so this tag should be
+      treated cautiously and may be removed if strict range confirmation is
+      required."
+    - Immobile was removed because the source text shows no dashes, blinks,
+      leaps, or teleports, but the requested final tag set should not include a
+      tag that is not clearly supported by the exact schema rules if range
+      certainty is lacking.
+    - Poke remains supported by her long-range area damage pattern, while
+      enchanter/peel, dive/assassin, and tank do not apply because she lacks
+      ally healing/shielding, mobility, or defensive steroids.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/zyra/

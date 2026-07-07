@@ -1,0 +1,38 @@
+id: twisted-fate
+name: Twisted Fate
+status: candidate
+roles:
+  - mid
+tags:
+  - lockdown
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A utility mage who can pressure lanes with card-based trading,
+    provide point-and-click stun lockdown with Gold Card, and create global pick
+    opportunities through his teleport ultimate.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Gold Card stuns or collapse
+      quickly after Destiny reveals enemy positions.
+    - Benefits from teammates who can capitalize on map-wide pressure and
+      cross-map rotations enabled by Gate.
+  threatHooks:
+    - Can be punished by enemies who force fights before he can set up Pick a
+      Card or who deny his ability to safely reposition.
+    - His teleport channel and relatively short-range card-based trading can be
+      threatened by hard engage and burst when caught out.
+  uncertainties:
+    - Removed engage because Twisted Fate has stun lockdown via Gold Card, but
+      no stun/root/knockup/pull/suppress on a basic engage tool that would
+      justify the engage tag separately.
+    - Removed poke because the source text supports damage and utility, but does
+      not clearly establish a dedicated poke pattern strongly enough for a
+      strict tag.
+    - Kept waveclear because Wild Cards and Pick a Card's Red Card provide clear
+      area damage, which satisfies substantial AoE damage.
+    - Kept shortRange because Twisted Fate is a low-range mage and his primary
+      attack pattern is card-based rather than long-range artillery.
+    - Mid remains appropriate as the primary role; the source does not
+      explicitly label lane, but standard classification supports it.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/twisted-fate/

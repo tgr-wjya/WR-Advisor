@@ -1,0 +1,40 @@
+id: camille
+name: Camille
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A mobile melee diver who can force fights onto a priority target
+    with strong pick and lockdown tools.
+  synergyHooks:
+    - Works well with allies who can follow up on her knockup and ultimate to
+      finish isolated targets.
+    - Benefits from teammates who can help her reach a target after she commits
+      with Hookshot and The Hextech Ultimatum.
+  threatHooks:
+    - Can be checked by champions that punish her after she commits into melee
+      range.
+    - May struggle against teams that can interrupt or deny her engage before
+      she reaches a target.
+  uncertainties:
+    - The source text supports dive because Hookshot is a leap and The Hextech
+      Ultimatum is a dash, and it supports engage/lockdown because Hookshot
+      knocks up and The Hextech Ultimatum anchors the target while knocking away
+      other enemies.
+    - shortRange is appropriate because Camille is a melee champion with no
+      ranged basic attack listed in the source text.
+    - I did not add enchanter/peel, tank, or waveclear tags because the source
+      text only clearly shows a self-shield passive, a self-heal on Tactical
+      Sweep, and some area damage on Tactical Sweep, which is not enough to
+      justify those tags under the strict criteria.
+    - The roles top and jungle are retained as reasonable draft roles, but the
+      source text itself does not explicitly recommend roles, so they remain
+      inferred rather than directly sourced.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/camille/

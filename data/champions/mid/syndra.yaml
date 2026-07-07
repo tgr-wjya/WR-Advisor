@@ -1,0 +1,39 @@
+id: syndra
+name: Syndra
+status: candidate
+roles:
+  - mid
+tags:
+  - lockdown
+  - poke
+  - waveclear
+  - scaling
+  - immobile
+profile:
+  draftIdentity: A long-range burst mage who controls space with spheres, offers
+    pick potential, and scales through ability upgrades and execute damage.
+  synergyHooks:
+    - Works well with allies who can hold enemies in place so Scatter the Weak
+      can stun targets hit by Dark Spheres.
+    - Benefits from teammates who can create space or protect her while she sets
+      up Dark Sphere and Unleashed Power damage.
+  threatHooks:
+    - Can be pressured by champions who can reach her quickly, since her kit
+      shown here has no dash or blink.
+    - Enemies that avoid her sphere setup or disengage before Scatter the Weak
+      can reduce her ability to land reliable crowd control.
+  uncertainties:
+    - The source text supports the lockdown tag because Scatter the Weak stuns
+      enemies hit by Dark Spheres; it also supports waveclear because Scatter
+      the Weak and Unleashed Power deal area damage, and the immobile tag
+      because no dash, blink, leap, or teleport appears in the kit.
+    - The poke tag is reasonable from her long-range mage pattern, but the
+      provided source text does not explicitly label her as a poke champion, so
+      this is an inference rather than a direct source claim.
+    - No role changes were needed because the profile already includes a valid
+      role (mid).
+    - No enchanter/peel, dive/assassin, or tank tags were added because the
+      source text does not show ally healing/shielding, mobility-based
+      assassination tools, or strong defensive steroids/defense scaling.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/syndra/

@@ -1,0 +1,45 @@
+id: draven
+name: Draven
+status: candidate
+roles:
+  - dragon
+tags:
+  - shortRange
+  - waveclear
+  - scaling
+profile:
+  draftIdentity: A high-damage marksman who relies on catching axes for sustained
+    pressure, bursty trades, and strong gold-based snowballing.
+  synergyHooks:
+    - Allies who can help Draven stay safe while he catches axes can let him
+      keep up his damage pattern.
+    - Teammates who can set up enemies for his knock-aside and returning
+      ultimate axes can help him land repeated damage.
+  threatHooks:
+    - Champions that can force Draven away from his axes or punish his limited
+      mobility can disrupt his damage output.
+    - Hard crowd control and gap closers can make it difficult for him to
+      maintain his attack pattern and movement rhythm.
+  uncertainties:
+    - The source text does not explicitly label Draven's lane role, so 'dragon'
+      is used as the standard bottom-carry role.
+    - Removed 'assassin' because Draven has no dash, blink, leap, or teleport in
+      the source text, so he does not meet the dive/assassin rule.
+    - Removed 'poke' because the source text does not provide a clear
+      poke-specific pattern beyond normal ranged damage and an ultimate; this
+      tag is not strictly supported.
+    - Kept 'waveclear' because Whirling Death can strike multiple units and
+      Stand Aside can hit multiple targets, giving him meaningful AoE damage for
+      clearing waves.
+    - Kept 'shortRange' because Draven is a ranged marksman with no long-range
+      attack pattern indicated by the source text.
+    - Did not add 'engage/lockdown' as a tag because Stand Aside only knocks
+      enemies aside and slows them; the knock-aside is displacement, but the
+      profile tag set here does not use that category unless explicitly needed.
+    - Did not add 'immobile' because Blood Rush grants movement speed, but it is
+      not a dash/blink/leap/teleport; however, the strict immobile rule only
+      forbids mobility spells, and Draven still lacks those.
+    - Did not add 'enchanter/peel' or 'tanks' because Draven has no heals,
+      shields, ally buffs, or defensive steroids/scaling in the source text.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/draven/

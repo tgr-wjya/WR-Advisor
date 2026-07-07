@@ -1,0 +1,18 @@
+id: lulu
+name: Lulu
+status: approved
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+profile:
+  draftIdentity: Peel-focused enchanter who protects scaling carries and stabilizes extended fights.
+  synergyHooks:
+    - Keeps fragile or scaling ADCs alive through lane and teamfight pressure.
+  threatHooks:
+    - Reduces the reliability of enemy dive when cooldowns are available.
+  uncertainties:
+    - Profile is a first-pass human-approved draft summary pending official-source refresh.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/lulu/

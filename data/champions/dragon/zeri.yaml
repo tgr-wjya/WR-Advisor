@@ -1,0 +1,49 @@
+id: zeri
+name: Zeri
+status: approved
+roles:
+  - marksman
+tags:
+  - dive
+  - poke
+  - scaling
+profile:
+  draftIdentity: A mobile marksman who can poke from range, scale into extended
+    fights, and use a short dash to reposition or chase.
+  synergyHooks:
+    - Benefits from allies who can provide shields, since her passive grants
+      move speed when she receives one.
+    - Works well with teammates who can help her keep enemies in range while she
+      stacks her ultimate and fires piercing shots.
+  threatHooks:
+    - Can be pressured by enemies who can punish her before she ramps up her
+      move speed and overcharge effects.
+    - Long-range or wall-assisted poke can threaten her, since her own laser and
+      burst rely on landing hits to get full value.
+  uncertainties:
+    - "The source text supports the 'marksman' role: her kit is built around
+      repeated basic attacks and Burst Fire scaling, even though the page does
+      not explicitly label a role."
+    - The 'dive' tag is valid because Spark Surge is a short dash, which
+      satisfies the mobility requirement for dive/assassin-style tagging.
+    - The 'poke' tag is supported by Ultrashock Laser and Burst Fire, both of
+      which can hit from range and apply damage/slow.
+    - The 'scaling' tag is supported by Lightning Crash, which grants increasing
+      damage and stacking Move Speed over time in fights.
+    - No engage/lockdown tag is added because Zeri has slows only; she does not
+      have a stun, root, knockup, pull, or suppression.
+    - No enchanter/peel tag is added because her kit does not provide ally
+      heals, shields, buffs, or displacement for allies; her passive shield
+      interaction is self-focused.
+    - No immobile tag is added because Spark Surge is a dash, so she is not
+      immobile.
+    - No tank tag is added because she lacks strong defensive steroids, shields
+      for allies, or defense scaling beyond a self-shield interaction from her
+      passive.
+    - No waveclear tag is added because the source text does not show
+      substantial AoE waveclear; her damage is primarily single-target or
+      conditional chaining in ultimate form.
+    - No shortRange tag is added because Zeri is a ranged marksman, not melee or
+      low-range.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/zeri/

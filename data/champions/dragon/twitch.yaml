@@ -1,0 +1,41 @@
+id: twitch
+name: Twitch
+status: candidate
+roles:
+  - dragon
+tags:
+  - poke
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A stealthy damage dealer who can pick fights from camouflage and
+    threaten teamfights with long-range piercing ultimate damage.
+  synergyHooks:
+    - Allies who can help Twitch survive long enough to enter fights and keep
+      firing benefit from his burst window after Ambush.
+    - Teammates who can slow or hold enemies in place can make it easier for
+      Twitch to land Venom Cask and line up Spray and Pray.
+  threatHooks:
+    - Enemies with reliable reveal, burst, or hard crowd control can punish
+      Twitch before or after he exits camouflage.
+    - Champions that can force him out of position or deny his setup reduce the
+      value of his short-range basic attacks.
+  uncertainties:
+    - Removed the assassin tag because the official source gives Twitch
+      camouflage and move speed, but no dash, blink, leap, or teleport; by the
+      strict rule, dive/assassin requires mobility skills.
+    - Removed the shortRange tag because Twitch's ultimate explicitly shoots
+      bolts over a great distance, and the source does not establish him as
+      melee or low-range in a way that satisfies the strict shortRange rule.
+    - Kept waveclear because Spray and Pray fires piercing bolts over a great
+      distance and Venom Cask is an area explosion, which together support
+      substantial AoE damage.
+    - Did not add engage/lockdown, enchanter/peel, immobile, or tank because the
+      source text does not show a stun/root/knockup/pull/suppress, ally
+      shielding/healing/buffing or displacement, nor defensive
+      steroids/shields/defense scaling, and Ambush provides move speed so
+      immobile would be incorrect.
+    - Kept the dragon role as provided since the source text does not specify
+      lane role, and the schema only requires that roles not be empty.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/twitch/

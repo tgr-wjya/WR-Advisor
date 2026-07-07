@@ -1,0 +1,44 @@
+id: zilean
+name: Zilean
+status: candidate
+roles:
+  - support
+  - mid
+tags:
+  - peel
+  - poke
+  - scaling
+  - waveclear
+profile:
+  draftIdentity: A utility mage support/mid who offers experience acceleration,
+    ranged poke, area slow control, and a powerful revive to swing fights.
+  synergyHooks:
+    - Pairs well with allies who can capitalize on Time Bomb stun setups and
+      movement-speed buffs to reach or finish targets.
+    - Works with carries that benefit from protection and revive insurance from
+      Chronoshift.
+  threatHooks:
+    - Can be pressured by champions who can quickly reach him before he sets up
+      bombs or shields.
+    - Enemy teams with strong burst or hard engage can force his defensive tools
+      early and reduce his impact.
+  uncertainties:
+    - "Removed the engage tag: Zilean has a stun only through Time Bomb
+      detonation setup, but he does not have a reliable engage tool in the
+      strict sense required for an engage/lockdown tag."
+    - Kept peel because Twisted Timeflow grants a shield and movement speed to
+      Zilean and his nearest ally, and Chronoshift provides a
+      revive/untargetable protection effect that clearly supports allies.
+    - Kept waveclear because Time Bomb deals area damage to the target and
+      nearby enemies, which is enough to qualify as substantial AoE damage for
+      this profile.
+    - "Did not add immobile: Chronoshift teleports the bearer back in time, but
+      the immobile rule is about movement skills like dashes, blinks, leaps, or
+      teleports as active mobility; Zilean himself does not have a
+      dash/blink/leap/teleport in his basic kit, but the presence of
+      Chronoshift's teleport-like revive effect is not treated as a standard
+      mobility spell for this tag."
+    - Roles support and mid remain appropriate for his utility mage pattern, and
+      the roles array is not empty.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/zilean/

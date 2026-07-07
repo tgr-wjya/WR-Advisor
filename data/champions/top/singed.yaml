@@ -1,0 +1,45 @@
+id: singed
+name: Singed
+status: candidate
+roles:
+  - top
+tags:
+  - engage
+  - lockdown
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A disruptive frontline top laner who can run through fights, slow
+    and ground enemies, and create pick opportunities with displacement and
+    roots.
+  synergyHooks:
+    - Works well with allies who can follow up on his fling and grounding setup
+      to secure kills.
+    - Benefits from teammates who can capitalize on enemies trapped in his
+      poison trail and adhesive zone.
+  threatHooks:
+    - Enemy champions with strong mobility or range can make it harder for him
+      to stick to targets.
+    - Teams that can avoid or disengage from his crowd control may reduce his
+      ability to start favorable fights.
+  uncertainties:
+    - Kept engage because Fling is a hard displacement that can start fights,
+      and kept lockdown because Mega Adhesive grounds enemies and Fling can also
+      root targets that land in it.
+    - Removed tanks because the source text only shows increased combat stats on
+      ultimate, which is not enough by itself to prove strong defensive
+      steroids, shields, or defense scaling.
+    - Removed any implied peel/enchanter interpretation because Singed does not
+      provide ally heals, shields, buffs, or carry-protecting displacement in
+      the source text.
+    - Removed immobile-style assumptions from consideration because Singed's
+      passive grants movement speed and the source does not support an immobile
+      classification.
+    - Kept waveclear because Poison Trail is a persistent area damage spell that
+      can clear waves effectively.
+    - Kept shortRange because Singed is a melee champion and his kit requires
+      close-range positioning to use Fling and Poison Trail effectively.
+    - The source does not provide lane recommendations beyond the required
+      standard role selection, so top remains the appropriate role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/singed/

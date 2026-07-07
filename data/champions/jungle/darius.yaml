@@ -1,0 +1,42 @@
+id: darius
+name: Darius
+status: candidate
+roles:
+  - top
+tags:
+  - engage
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A short-range top lane bruiser who can pull targets in, slow
+    them, and threaten lethal execute damage once he has stacked his passive.
+  synergyHooks:
+    - Works well with allies who can help him reach or hold targets in place so
+      he can stack Hemorrhage and finish with his ultimate.
+    - Benefits from teammates who can start fights or force enemies into
+      close-range skirmishes where his healing and damage are strongest.
+  threatHooks:
+    - Can be kited by enemies who keep distance and avoid extended melee trades.
+    - Relies on landing his pull and stacking Hemorrhage, so champions with
+      mobility or disengage can reduce his impact.
+  uncertainties:
+    - Kept top as the primary role because Darius is commonly drafted there and
+      the source text does not contradict it.
+    - "The engage and lockdown tags are valid: Apprehend pulls enemies to
+      Darius, which satisfies hard crowd control requirements."
+    - ShortRange is valid because Darius is a melee champion.
+    - Did not add dive/assassin because Noxian Guillotine is a leap, but the
+      profile does not clearly establish him as a dive/assassin champion overall
+      under the strict tagging rules.
+    - Did not add enchanter/peel because his kit lacks ally heals, shields,
+      buffs, or displacement away from carries.
+    - Did not add immobile because he has a leap on his ultimate, so he fails
+      the immobile rule.
+    - Did not add tanks because the source shows healing and armor shred, but
+      not strong defensive steroids, shields, or defense scaling.
+    - Did not add waveclear because Decimate is an AoE damage spell and does
+      support waveclear, but the existing profile did not request a broader
+      reclassification; if tagging strictly by source, waveclear would also be
+      reasonable to include.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/darius/

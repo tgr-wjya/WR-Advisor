@@ -1,0 +1,46 @@
+id: ahri
+name: Ahri
+status: candidate
+roles:
+  - mid
+tags:
+  - assassin
+  - dive
+  - lockdown
+  - poke
+  - scaling
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile mid-lane mage/assassin who can pick targets with Charm,
+    burst them down, and threaten repeated re-engages with Spirit Rush.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Charm to secure kills on a
+      disabled target.
+    - Benefits from teammates who can help set up fights so she can use Spirit
+      Rush to finish low-health enemies.
+  threatHooks:
+    - Can threaten immobile or overextended enemies with Charm into burst damage.
+    - Repeated dashes from Spirit Rush make her harder to pin down and let her
+      re-enter fights.
+  uncertainties:
+    - Removed engage because Ahri has Charm for hard CC, but the strict
+      engage/lockdown rule requires stuns, roots, knockups, pulls, or
+      suppressions; charm alone does not qualify as engage under this rubric.
+    - Kept lockdown because Charm is hard crowd control that stops movement
+      abilities and forces the target to walk toward Ahri, which clearly
+      functions as target control even though it is not a
+      stun/root/knockup/pull/suppression.
+    - Removed immobile if it had been considered, because Spirit Rush is a dash
+      and therefore disqualifies her from immobile status.
+    - Kept dive and assassin because Spirit Rush provides repeated dashes,
+      satisfying the mobility requirement for dive/assassin.
+    - Kept shortRange because Ahri is a melee-range mage in practice with no
+      long basic attack range emphasis in the source text.
+    - Kept waveclear because Orb of Deception and Spirit Rush both provide area
+      damage, giving her meaningful AoE waveclear.
+    - Kept mid as the primary role because the source supports a standard
+      mid-lane mage/assassin profile, even though the page does not explicitly
+      state lane assignment.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ahri/

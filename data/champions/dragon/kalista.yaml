@@ -1,0 +1,42 @@
+id: kalista
+name: Kalista
+status: candidate
+roles:
+  - dragon
+tags:
+  - dive
+  - lockdown
+  - shortRange
+profile:
+  draftIdentity: A mobile marksman that can reposition while attacking, set up
+    burst damage with spears, and enable a bonded ally to engage or escape.
+  synergyHooks:
+    - Pairs well with an Oathsworn ally who can follow up on her ultimate
+      teleport and use the granted dash to reach targets.
+    - Benefits from teammates who can help keep enemies in place so Rend can be
+      activated for escalating damage.
+  threatHooks:
+    - Can be pressured by enemies who can punish her short attack range and
+      limit her ability to kite safely.
+    - Her ultimate depends on the Oathsworn ally, so disrupting that partner or
+      denying coordinated follow-up reduces her impact.
+  uncertainties:
+    - "Removed waveclear: the source only shows Pierce passing through enemies
+      it kills, which is not enough to qualify as substantial AoE waveclear
+      under the strict rule."
+    - Kept dive because Martial Poise provides a short lunge and Fate's Call
+      grants the Oathsworn ally a dash, which satisfies the mobility
+      requirement.
+    - Kept lockdown because Fate's Call knocks enemy champions back, which is
+      valid displacement/lockdown support, and Rend provides a slow but the tag
+      is justified by the knockback rather than the slow.
+    - Kept shortRange because Kalista is a marksman with very short attack range
+      in practice, and the profile's threat hook correctly reflects that
+      vulnerability.
+    - "Did not add enchanter/peel or tank: the kit has no ally heals, shields,
+      or defensive steroids/scaling, and no strong tank profile is supported by
+      the source."
+    - Role was left as dragon because the candidate already had a non-empty role
+      and the source does not explicitly assign a lane role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kalista/

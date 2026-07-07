@@ -1,0 +1,44 @@
+id: akshan
+name: Akshan
+status: candidate
+roles:
+  - mid
+  - dragon
+tags:
+  - assassin
+  - dive
+  - poke
+  - shortRange
+profile:
+  draftIdentity: A mobile skirmishing marksman who can pick targets, pressure from
+    range, and threaten backline access with camouflage and a swing-based engage
+    tool.
+  synergyHooks:
+    - Works well with allies who can start fights or hold enemies in place so he
+      can follow up with his swing and ultimate.
+    - Benefits from teammates who can create skirmishes and capitalize on his
+      ability to punish isolated or recently damaged targets.
+  threatHooks:
+    - Can be pressured by hard crowd control that stops his movement-based play
+      and prevents him from swinging safely.
+    - May struggle into opponents who can deny his target access or punish him
+      before he can build repeated hits and reposition.
+  uncertainties:
+    - Kept the roles as mid/dragon because the source does not assign a lane,
+      and these are reasonable inferred lanes for a mobile marksman/skirmisher.
+    - "Kept assassin and dive: Heroic Swing is a real mobility tool (a rope
+      swing), and Going Rogue adds camouflage plus movement-speed-based target
+      access, which supports backline threat and pick potential."
+    - "Removed any temptation to add engage or lockdown: the source text does
+      not show stuns, roots, knockups, pulls, or suppressions."
+    - "Removed any temptation to add enchanter/peel or tank: Akshan has a brief
+      damage shield from his passive, but not the kind of ally shielding,
+      healing, defensive steroid, or tank scaling required by those tags."
+    - "Did not add waveclear: Avengerang is a strong poke/AoE-style spell, but
+      the source does not clearly establish substantial waveclear by the strict
+      criteria."
+    - shortRange is acceptable here because Akshan is a marksman with no
+      long-range basic attack listed in the source, and his kit is centered on
+      close-to-mid range skirmishing rather than true long-range artillery.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/akshan/

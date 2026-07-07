@@ -1,0 +1,47 @@
+id: rammus
+name: Rammus
+status: candidate
+roles:
+  - jungle
+  - top
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - shortRange
+profile:
+  draftIdentity: A durable initiator who rolls into fights, taunts key targets,
+    and becomes harder to kill while disrupting enemies up close.
+  synergyHooks:
+    - Works well with allies who can follow up quickly on his Powerball and
+      taunt setup.
+    - Benefits from teammates who can capitalize on locked-down targets while he
+      absorbs attention.
+  threatHooks:
+    - Can be hindered by enemies who can avoid or disengage from his short-range
+      engage tools.
+    - His defensive stance and taunt may be less effective against compositions
+      that do not rely on basic attacks or that can kite him.
+  uncertainties:
+    - "engage/lockdown is valid: Powerball provides a fast engage tool and
+      Frenzying Taunt is hard crowd control, so the tag is supported."
+    - dive/assassin was not added because Rammus has mobility from Powerball and
+      Soaring Slam, but his kit is not primarily assassin-like; his role is more
+      tanky engage than burst assassination.
+    - tanks is valid because Defensive Ball Curl vastly increases Armor and
+      Magic Resistance and returns damage, giving him a strong defensive
+      steroid.
+    - shortRange is valid because Rammus is fundamentally melee and his threat
+      pattern is close-range, even though he has movement-based engage.
+    - scaling was removed because the source text does not explicitly establish
+      scaling in the strict tagging sense; his durability increases are
+      defensive, not enough to justify a scaling tag by the stated criteria.
+    - immobile was not added because Rammus has multiple mobility tools,
+      including Powerball's acceleration and Soaring Slam's hop.
+    - waveclear was not added because the source does not clearly show
+      substantial AoE waveclear as a defining trait, despite Soaring Slam
+      creating aftershocks.
+    - The roles array was already non-empty and appropriate for a jungle/top
+      tank engager, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/rammus/

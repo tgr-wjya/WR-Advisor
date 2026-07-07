@@ -1,0 +1,38 @@
+id: ziggs
+name: Ziggs
+status: candidate
+roles:
+  - mid
+  - dragon
+tags:
+  - poke
+  - waveclear
+profile:
+  draftIdentity: A long-range magic damage artillery champion who pressures lanes,
+    threatens structures, and controls space with bombs and mines.
+  synergyHooks:
+    - Pairs well with allies who can hold enemies in place so his bombs and
+      minefield are easier to land.
+    - Benefits from teammates who can protect him while he chips away from
+      safety and sieges turrets.
+  threatHooks:
+    - Can be pressured by champions who can quickly close distance and punish
+      his limited self-displacement.
+    - Enemies with strong engage or gap-closing tools can force him away from
+      safe poke positions.
+  uncertainties:
+    - Removed the shortRange tag because Ziggs is a long-range artillery mage,
+      not a melee or low-range champion.
+    - "Kept waveclear because his kit includes multiple AoE damage tools:
+      Bouncing Bomb, Hexplosive Minefield, and Mega Inferno Bomb all provide
+      substantial area damage."
+    - "Did not add engage/lockdown, dive/assassin, enchanter/peel, immobile, or
+      tank tags because the source does not support them under the strict
+      criteria: he has no stun/root/knockup/pull/suppress, no
+      dash/blink/leap/teleport, no ally heals/shields/buffs, and no strong
+      defensive steroid or defense scaling."
+    - Kept the roles array unchanged because it is not empty and mid/dragon are
+      reasonable inferred roles for Ziggs in Wild Rift context, though the
+      source page itself does not explicitly assign roles.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ziggs/

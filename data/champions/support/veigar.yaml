@@ -1,0 +1,37 @@
+id: veigar
+name: Veigar
+status: candidate
+roles:
+  - mid
+  - support
+tags:
+  - lockdown
+  - scaling
+  - waveclear
+  - immobile
+profile:
+  draftIdentity: A scaling burst mage who can threaten picks with a stun cage and
+    high single-target damage while also contributing waveclear.
+  synergyHooks:
+    - Pairs well with allies who can hold enemies in place so he can land Event
+      Horizon and follow-up damage.
+    - Benefits from teammates who can protect him while he stacks passive power
+      and waits for his cooldowns.
+  threatHooks:
+    - Can be pressured by champions that can reach him quickly before he sets up
+      Event Horizon.
+    - Enemies with mobility or ways to avoid his cage can reduce his ability to
+      lock targets down.
+  uncertainties:
+    - Lockdown is valid because Event Horizon explicitly stuns enemies that pass
+      through the cage.
+    - Waveclear is valid because Dark Matter is a substantial area-of-effect
+      damage spell, and Baleful Strike can also hit multiple enemies in a line.
+    - Immobile is valid because the listed abilities do not include any dash,
+      blink, leap, or teleport.
+    - Poke was removed because the source text does not clearly establish a
+      poke-specific pattern beyond general ranged spell damage.
+    - The source text does not explicitly state his lane roles, so mid and
+      support remain conservative draft assignments.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/veigar/

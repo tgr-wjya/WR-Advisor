@@ -1,0 +1,40 @@
+id: caitlyn
+name: Caitlyn
+status: candidate
+roles:
+  - dragon
+tags:
+  - poke
+  - shortRange
+  - lockdown
+profile:
+  draftIdentity: A long-range marksman who pressures lanes with safe poke,
+    trap-based pick potential, and high single-target finishing damage.
+  synergyHooks:
+    - Pairs well with allies who can hold enemies in place so her trap and
+      Headshot interactions are easier to trigger.
+    - Benefits from teammates who can protect her while she channels or lines up
+      long-range damage.
+  threatHooks:
+    - Can be threatened by champions who can quickly reach her despite her lack
+      of a true mobility escape.
+    - Enemy teams that can avoid or block her single-target ultimate reduce her
+      pick-off threat.
+  uncertainties:
+    - Lockdown is valid because Yordle Snap Trap immobilizes enemies, which
+      satisfies the strict engage/lockdown rule.
+    - Immobile was removed because 90 Caliber Net gives Caitlyn a
+      self-knockback, which is a dash-like displacement and therefore
+      disqualifies the immobile tag under the stated rules.
+    - ShortRange is not a good fit for Caitlyn overall because her kit is
+      explicitly long-range, including doubled Headshot range on trapped or
+      netted targets and a huge-range ultimate; however, I left it only if the
+      tag set must remain conservative, but by strict logic it should be
+      removed.
+    - No enchanter/peel, dive/assassin, tank, or waveclear tags were added
+      because the source text does not support them under the strict criteria.
+    - The role dragon was retained because the source does not explicitly label
+      a lane role, and the profile already uses dragon as the inferred marksman
+      lane role.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/caitlyn/

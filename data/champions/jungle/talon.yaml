@@ -1,0 +1,39 @@
+id: talon
+name: Talon
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile melee assassin who can access targets over terrain,
+    burst isolated enemies, and threaten skirmishes with repeated damage and
+    invisibility.
+  synergyHooks:
+    - Works well with allies who can set up targets or keep enemies in place so
+      Talon can reach and finish them.
+    - Benefits from teammates who create pressure elsewhere, giving him room to
+      flank and use terrain access for picks.
+  threatHooks:
+    - Can threaten immobile or isolated backline champions by leaping in and
+      bursting them quickly.
+    - His terrain vault and invisibility make him harder to track, so teams need
+      vision and peel to limit his flanks.
+  uncertainties:
+    - "Removed the poke tag: the official text for RAKE only confirms a damaging
+      returning blade with a slow, which does not meet the strict poke criterion
+      by itself."
+    - Kept dive because NOXIAN DIPLOMACY explicitly lets Talon leap to targets
+      outside melee range, and ASSASSIN'S PATH gives terrain vault mobility.
+    - Kept shortRange because Talon is a melee champion and NOXIAN DIPLOMACY has
+      a melee-range critical strike clause.
+    - Kept waveclear because RAKE and Shadow Assault both provide substantial
+      area damage through repeated hits across multiple enemies.
+    - Kept the listed roles as mid and jungle since the source page does not
+      explicitly assign roles, but these are reasonable draft roles for Talon.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/talon/

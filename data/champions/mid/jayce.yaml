@@ -1,0 +1,41 @@
+id: jayce
+name: Jayce
+status: candidate
+roles:
+  - mid
+  - top
+tags:
+  - dive
+  - poke
+  - waveclear
+profile:
+  draftIdentity: A flexible stance-swapping fighter who can threaten both
+    long-range poke and short-range all-in pressure, with mobility and utility
+    for skirmishes.
+  synergyHooks:
+    - Benefits from allies who can speed him up or help him line up Shock Blast
+      through Acceleration Gate for stronger poke.
+    - Works well with teammates who can follow his leap and knockback setup to
+      convert short-range engages into kills.
+  threatHooks:
+    - Can be punished if forced into extended fights without room to swap
+      stances or use his movement-speed window.
+    - Enemies who can avoid or block his Shock Blast poke reduce much of his
+      ranged pressure.
+  uncertainties:
+    - "Removed shortRange: Jayce is not strictly melee/low-range overall because
+      his Cannon Stance grants increased range and his kit is explicitly built
+      around ranged poke."
+    - Kept dive because To the Skies! is a leap, which satisfies the mobility
+      requirement for dive/assassin.
+    - Kept waveclear because Lightning Field and Shock Blast both provide
+      substantial area damage, especially in Cannon Stance.
+    - Kept mid and top as reasonable lane roles for a flexible solo-lane
+      champion; no role was empty, so no role addition was needed.
+    - "Did not add engage/lockdown, enchanter/peel, immobile, or tanks: Jayce
+      has a knockback and slow, but the strict engage/lockdown rule requires
+      hard CC like stun/root/knockup/pull/suppress; he also has mobility, lacks
+      ally shielding/healing, is not immobile, and does not have tank-style
+      defensive steroids or scaling."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/jayce/

@@ -1,0 +1,44 @@
+id: kayn
+name: Kayn
+status: candidate
+roles:
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+profile:
+  draftIdentity: A mobile jungle champion with strong target access and
+    burst-oriented form choices that can threaten backline carries.
+  synergyHooks:
+    - Allies who can provide crowd control can help Kayn connect his damage and
+      set up his ultimate burst.
+    - Teammates who create skirmishes and extended fights can give Kayn
+      opportunities to benefit from his form-dependent combat patterns.
+  threatHooks:
+    - Champions with reliable lockdown can punish Kayn when he commits with his
+      dash and terrain-walking access.
+    - Teams that can deny safe entry or force him to fight before he is ready
+      may reduce the value of his assassination pattern.
+  uncertainties:
+    - Kept jungle as the only role because the source page is clearly presenting
+      Kayn as a jungle champion and no other role is supported by the provided
+      text.
+    - "Removed poke: Blade's Reach only says Kayn damages and slows targets in a
+      line, and slows alone do not qualify as poke under the requested tagging
+      rules."
+    - Kept assassin because Reaping Slash is a dash and Umbral Trespass provides
+      high burst damage, which satisfies the mobility requirement for
+      dive/assassin.
+    - "Did not add engage/lockdown: the source text includes no stun, root,
+      knockup, pull, or suppression. A slow does not qualify."
+    - "Did not add enchanter/peel: the only ally-facing defensive effect in the
+      source is a self-heal on Darkin form, not ally healing, shielding, buffs,
+      or displacement away from carries."
+    - "Did not add immobile: Kayn has Reaping Slash, which is a dash, so he is
+      not immobile."
+    - "Did not add tanks or waveclear: the source text does not show strong
+      defensive steroids, shields, defense scaling, or substantial AoE
+      waveclear."
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/kayn/

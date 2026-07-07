@@ -1,0 +1,42 @@
+id: fizz
+name: Fizz
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - engage
+  - shortRange
+profile:
+  draftIdentity: A mobile melee skirmisher who can dash onto targets, become
+    untargetable, and set up picks with a knockup ultimate.
+  synergyHooks:
+    - Works well with allies who can follow up on his knockup and slow from Chum
+      the Waters.
+    - Benefits from teammates who can help him reach priority targets after he
+      uses Urchin Strike and Playful / Trickster.
+  threatHooks:
+    - Can threaten immobile backline champions by dashing through them and
+      forcing a delayed knockup.
+    - His untargetability from Playful / Trickster can make him difficult to
+      punish during an all-in.
+  uncertainties:
+    - Kept assassin and dive because Urchin Strike is a dash and Playful /
+      Trickster provides a second mobility option, which satisfies the mobility
+      requirement for dive/assassin.
+    - Kept engage because Chum the Waters explicitly knocks up the target and
+      nearby enemies aside, which satisfies the lockdown requirement.
+    - Kept shortRange because Fizz is a melee champion.
+    - Removed waveclear because the source text does not clearly show
+      substantial AoE waveclear; Rending Wave is single-target empowered attack
+      damage with a reset on unit kill, which is not enough to qualify.
+    - Removed enchanter/peel because Fizz has no ally heals, shields, buffs, or
+      displacement used to protect carries.
+    - Removed tanks because the source text does not show strong defensive
+      steroids, shields, or defense scaling.
+    - The source text does not explicitly state his intended lane or jungle
+      role, so roles are still inferred conservatively from kit.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/fizz/

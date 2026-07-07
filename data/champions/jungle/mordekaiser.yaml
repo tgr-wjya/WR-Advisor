@@ -1,0 +1,42 @@
+id: mordekaiser
+name: Mordekaiser
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - engage
+  - lockdown
+  - tanks
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A durable melee skirmisher who can pull enemies together, isolate
+    a target, and threaten extended fights with shielded sustain and stat theft.
+  synergyHooks:
+    - Works well with allies who can follow up on his area pull and keep enemies
+      in place after he starts a fight.
+    - Benefits from teammates who can help him reach or isolate a priority
+      target before he uses Realm of Death.
+  threatHooks:
+    - Can be pressured by opponents who can kite him or deny his ability to stay
+      in range after he commits.
+    - May struggle against teams that can avoid grouped fights or punish his
+      short-range approach before he lands his pull.
+  uncertainties:
+    - "Corrected tags to match the source text and strict rules: engage is valid
+      because Death's Grasp pulls enemies, lockdown is valid because the pull
+      and Realm of Death can isolate a target, tanks is valid because
+      Indestructible creates a shield and can heal, waveclear is valid because
+      Obliterate and Darkness Rise provide AoE damage, and shortRange is valid
+      because Mordekaiser is melee."
+    - Removed no tags because all existing tags are supported by the source text
+      under the provided criteria.
+    - Kept roles as top and jungle because the source text does not explicitly
+      assign roles, and these are reasonable draft inferences rather than
+      source-claimed roles.
+    - Did not add dive/assassin or enchanter/peel because the source text does
+      not show the required mobility or ally-protection tools under the strict
+      rules.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/mordekaiser/

@@ -1,0 +1,45 @@
+id: mel
+name: Mel
+status: candidate
+roles:
+  - mid
+tags:
+  - lockdown
+  - poke
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A ranged damage dealer with repeated spell-based pressure,
+    self-protection, and a long-range execute that rewards stacking damage over
+    time.
+  synergyHooks:
+    - Allies who can keep enemies in place may help Mel land Solar Snare and
+      build Overwhelm stacks more reliably.
+    - Frontline teammates can buy time for Mel to cycle abilities and capitalize
+      on her repeated damage and execute.
+  threatHooks:
+    - Enemies with projectile-based damage may be blunted by Rebuttal, which
+      reflects enemy projectiles and prevents her from taking damage.
+    - Targets that can avoid being hit repeatedly may reduce the value of
+      Overwhelm stacking and delay Golden Eclipse's payoff.
+  uncertainties:
+    - The source text clearly supports the lockdown tag because Solar Snare
+      roots enemies at its center; it does not support engage by itself because
+      Mel has no dash, pull, knockup, or suppression.
+    - Waveclear is supported by Radiant Volley, which deals repeated area damage
+      to enemies within the area.
+    - "ShortRange is not supported: Mel is a ranged champion, and the source
+      does not indicate melee or low attack range."
+    - The source does not state Mel's intended lane or class, so the role
+      assignment remains conservative as mid.
+    - The source does not support dive/assassin because Mel has no mobility
+      skill such as a dash, blink, leap, or teleport.
+    - The source does not support enchanter/peel because Rebuttal is
+      self-protection only; it does not heal, shield allies, buff allies, or
+      displace enemies away from carries.
+    - The source does not support tanks because it does not show strong
+      defensive steroids, shields, or defense scaling beyond a self-protective
+      barrier effect.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/mel/

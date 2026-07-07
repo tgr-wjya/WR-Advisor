@@ -1,0 +1,49 @@
+id: ryze
+name: Ryze
+status: candidate
+roles:
+  - mid
+tags:
+  - lockdown
+  - poke
+  - scaling
+  - waveclear
+  - shortRange
+profile:
+  draftIdentity: A scaling mid mage who offers repeated spell damage, target
+    lockdown, and team repositioning through Realm Warp.
+  synergyHooks:
+    - Pairs well with allies who can follow up on Rune Prison roots and Spell
+      Flux setup.
+    - Can enable coordinated team movement with Realm Warp for grouped engages
+      or rotations.
+  threatHooks:
+    - Can be pressured by opponents who punish his lack of listed dashes or
+      blinks before he scales.
+    - Enemies with strong mobility or disengage may reduce the value of his
+      single-target setup and portal timing.
+  uncertainties:
+    - "Corrected the lockdown tag to fit the source: Rune Prison explicitly
+      slows, and only roots if the target already has Flux, so the champion does
+      qualify for lockdown."
+    - Added the enchanter/peel tag because Realm Warp provides ally
+      repositioning/teleportation, which is a valid peel/supportive utility hook
+      under the rules.
+    - Kept waveclear because Spell Flux affects nearby enemies and Overload can
+      bounce to nearby enemies with Flux, giving Ryze substantial AoE damage
+      patterns.
+    - Kept shortRange because the source does not state a long attack range, and
+      Ryze is functionally a close-to-mid range spellcaster; this is a
+      conservative classification.
+    - Did not add dive/assassin because the source shows no dash, blink, leap,
+      or similar mobility skill for personal engage.
+    - Did not add immobile because Realm Warp teleports allies, but the rule
+      requires the champion themselves to lack dashes/blinks/leaps/teleports;
+      Ryze does not have a personal mobility spell, so immobile is not
+      contradicted by the source.
+    - Did not add tank because the source does not show strong defensive
+      steroids, shields, or defense scaling.
+    - Role remains mid because the profile already had a valid role and the
+      source does not provide a conflicting lane classification.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ryze/

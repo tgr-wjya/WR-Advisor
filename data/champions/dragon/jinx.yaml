@@ -1,0 +1,18 @@
+id: jinx
+name: Jinx
+status: approved
+roles:
+  - dragon
+tags:
+  - immobile
+  - scaling
+profile:
+  draftIdentity: Immobile scaling marksman who becomes a major late-fight reset threat when protected.
+  synergyHooks:
+    - Benefits from peel and front-to-back protection.
+  threatHooks:
+    - Can be attacked early by lane pressure before scaling breakpoints.
+  uncertainties:
+    - Profile is a first-pass human-approved draft summary pending official-source refresh.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/jinx/

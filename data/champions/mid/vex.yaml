@@ -1,0 +1,38 @@
+id: vex
+name: Vex
+status: candidate
+roles:
+  - mid
+tags:
+  - assassin
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A burst mage with anti-dash disruption who can punish mobile
+    enemies and follow up with a targeted dash ultimate.
+  synergyHooks:
+    - Works well with allies who can force enemies to dash or stay grouped so
+      her fear and dash punishment can trigger more often.
+    - Benefits from teammates who can set up targets for her ultimate recast and
+      zone control.
+  threatHooks:
+    - Threatens champions that rely on dashes, since her passive interrupts
+      dashes and marks nearby dashers for bonus damage.
+    - Can lock down and burst enemies with fear and a targeted dash ultimate.
+  uncertainties:
+    - Removed poke because the source text does not provide a reliable
+      poke-specific hook beyond general ranged damage.
+    - Kept engage and lockdown because Doom 'N Gloom fears enemies and
+      interrupts dashes, which satisfies hard CC criteria.
+    - Kept assassin because Shadow Surge includes a dash to the marked target,
+      satisfying the mobility requirement for dive/assassin-style tagging.
+    - Kept shortRange because Vex is a mage with no long-range basic attack
+      profile stated in the source, but this is a conservative classification
+      rather than a directly quantified stat.
+    - Kept waveclear because Looming Darkness is a damaging zone and Mistral
+      Bolt plus Personal Space provide AoE or multi-target damage patterns,
+      though the source does not explicitly label her as a waveclear specialist.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/vex/

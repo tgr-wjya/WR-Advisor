@@ -1,0 +1,43 @@
+id: milio
+name: Milio
+status: candidate
+roles:
+  - support
+tags:
+  - enchanter
+  - peel
+profile:
+  draftIdentity: An enchanter support who protects and empowers allies with
+    healing, shields, range increase, movement speed, and crowd-control removal,
+    while also providing a knockback for peel and limited ranged poke.
+  synergyHooks:
+    - Pairs well with carries that benefit from extra attack range, healing,
+      shields, movement speed, and on-hit style bonus damage from his passive
+      and zone buffs.
+    - Works especially well with sustained damage dealers who want to stay
+      protected in teamfights while Milio keeps them healthy and cleanses crowd
+      control.
+  threatHooks:
+    - Can be pressured by enemies who can reach him quickly, since his kit is
+      primarily supportive rather than self-mobile.
+    - Enemy teams with strong engage or repeated crowd control may force him to
+      spend his ultimate defensively.
+  uncertainties:
+    - Support is appropriate because his kit is overwhelmingly ally-focused,
+      even though the source page does not explicitly label a role.
+    - The enchanter and peel tags are confirmed by healing, shielding, ally
+      buffs, crowd-control removal, and the knockback on Ultra Mega Fire Kick.
+    - Poke is not kept as a tag because the rules require substantial
+      poke-oriented damage, and Milio's source text only shows limited ranged
+      damage from his passive and a single damaging ability.
+    - He is not tagged as engage/lockdown because his only hard CC is a
+      knockback, which is primarily peel rather than engage, and the rules
+      require stuns, roots, knockups, pulls, or suppressions.
+    - He is not tagged as immobile because the source does not give him any
+      dash, blink, leap, or teleport, but this profile does not need an immobile
+      tag.
+    - He is not tagged as shortRange because his kit includes ranged
+      spellcasting and an attack-range increase, so the short-range criterion is
+      not clearly met.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/milio/

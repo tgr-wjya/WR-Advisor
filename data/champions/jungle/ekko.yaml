@@ -1,0 +1,40 @@
+id: ekko
+name: Ekko
+status: candidate
+roles:
+  - mid
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: Ekko is a mobile burst assassin who can threaten backline targets
+    with a dash/teleport, has some self-peel and setup through his stun zone,
+    and can contribute meaningful area damage in fights.
+  synergyHooks:
+    - Works well with allies who can hold enemies in place so he can land
+      Parallel Convergence and follow up with Phase Dive.
+    - Benefits from teammates who can create skirmishes or force enemies into
+      tight areas where Chronobreak and Timewinder can hit multiple targets.
+  threatHooks:
+    - Can be pressured by enemies who can punish his engage timing before he
+      reaches Parallel Convergence or after he commits with Phase Dive.
+    - Enemies with strong burst or displacement may make it harder for him to
+      safely use Chronobreak and re-enter fights.
+  uncertainties:
+    - "Removed engage and lockdown tags: the source gives Ekko a stun only when
+      he enters Parallel Convergence, but that is not enough to classify him as
+      a primary engage/lockdown champion under the strict criteria."
+    - Removed scaling tag because the provided rules only validate specific
+      functional tags; while Ekko does scale in practice, the tag was not part
+      of the required rule set and is not directly verified here.
+    - Kept dive because Phase Dive provides a teleport, which satisfies the
+      mobility requirement for dive/assassin classification.
+    - Kept shortRange because Ekko is a melee champion.
+    - Kept waveclear because Timewinder and Chronobreak both deal area damage,
+      which is sufficient for substantial AoE waveclear.
+    - Roles were already present and valid, so no role changes were needed.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/ekko/

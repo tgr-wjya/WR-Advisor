@@ -1,0 +1,45 @@
+id: xayah
+name: Xayah
+status: candidate
+roles:
+  - dragon
+tags:
+  - shortRange
+  - lockdown
+  - scaling
+profile:
+  draftIdentity: A short-range marksman who can set up feather-based damage and
+    root enemies, with a self-protective untargetable ultimate.
+  synergyHooks:
+    - Pairs especially well with Rakan, since Deadly Plumage also affects him
+      and Lover's Leap lets Xayah join Rakan's recall.
+    - Benefits from allies who can hold enemies in place so Bladecaller can hit
+      3 or more feathers and root targets.
+  threatHooks:
+    - Can be pressured by long-range champions who can harass her before she
+      gets into feather-combo range.
+    - Enemies with strong engage or crowd control may force Featherstorm
+      defensively and limit her ability to set up damage.
+  uncertainties:
+    - Kept the role as 'dragon' because the provided schema requires a non-empty
+      roles array, but the official source text does not explicitly state a lane
+      role.
+    - The 'shortRange' tag is valid because Xayah is a marksman-style champion
+      and the source shows no long-range mobility or artillery pattern; however,
+      the source does not give an exact attack range value.
+    - The 'lockdown' tag is valid because Bladecaller explicitly roots enemies
+      if hit with 3 or more Feathers.
+    - I did not add 'dive/assassin' because Featherstorm is a leap, but Xayah is
+      not primarily a dive/assassin profile from the source text.
+    - I did not add 'immobile' because Featherstorm is a leap, so she fails the
+      strict immobile rule.
+    - I did not add 'enchanter/peel' because Deadly Plumage only grants self
+      movement speed and attack speed/damage, not ally healing, shielding, or
+      displacement.
+    - I did not add 'waveclear' because the source shows AoE feather damage, but
+      not enough explicit evidence of substantial waveclear to justify the tag
+      under strict criteria.
+    - I did not add 'tanks' because the source does not show defensive steroids,
+      shields, or defense scaling beyond Featherstorm's untargetability.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/xayah/

@@ -1,0 +1,50 @@
+id: tryndamere
+name: Tryndamere
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - shortRange
+  - scaling
+profile:
+  draftIdentity: A high-threat melee skirmisher who can access targets with
+    Spinning Slash, survive all-ins with Undying Rage, and scale through
+    Fury-based critical strike pressure.
+  synergyHooks:
+    - Works well with allies who can start fights or hold enemies in place so he
+      can reach priority targets and commit with Spinning Slash.
+    - Benefits from teammates who can keep him alive or buy time while he
+      pressures side lanes and forces attention.
+  threatHooks:
+    - Can be checked by hard crowd control and kiting that limit his ability to
+      stick to targets despite his dash.
+    - Enemies that can survive his burst window or disengage during Undying Rage
+      can reduce his kill pressure.
+  uncertainties:
+    - Removed the assassin tag because the source text confirms mobility via
+      Spinning Slash, but it does not provide enough evidence of true
+      assassin-style burst or stealth-based pick patterns beyond a melee
+      gap-closer.
+    - Kept dive because Spinning Slash is a clear dash toward a target unit,
+      satisfying the mobility requirement.
+    - Kept shortRange because the kit is melee-oriented and Spinning Slash
+      targets a unit directly, but the source text does not list an explicit
+      attack range value.
+    - "Did not add engage/lockdown: Mocking Shout only applies an attack damage
+      debuff and a conditional slow, which does not meet the required hard-CC
+      threshold."
+    - "Did not add enchanter/peel: Bloodlust only heals Tryndamere himself, and
+      Mocking Shout does not shield, heal, buff allies, or displace enemies away
+      from carries."
+    - "Did not add tanks: Undying Rage is a survival ultimate, but the source
+      text does not show a shield, defensive steroid, or defense scaling strong
+      enough to classify him as a tank."
+    - "Did not add waveclear: Spinning Slash deals damage in a path, but the
+      source text does not establish substantial AoE waveclear."
+    - Roles were retained because the source text does not provide an official
+      role classification, and top/jungle are reasonable draft guesses based on
+      his skirmish and side-lane profile.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/tryndamere/

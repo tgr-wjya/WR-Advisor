@@ -1,0 +1,42 @@
+id: wukong
+name: Wukong
+status: candidate
+roles:
+  - top
+  - jungle
+tags:
+  - dive
+  - assassin
+  - engage
+  - lockdown
+  - shortRange
+  - waveclear
+profile:
+  draftIdentity: A mobile melee skirmisher who can dash into fights, create
+    confusion with clones, and threaten knockups for teamfights and picks.
+  synergyHooks:
+    - Works well with allies who can follow up on his knockup and target access
+      after he dashes in.
+    - Benefits from teammates who can capitalize on the clone pressure and
+      grouped enemies created by Cyclone.
+  threatHooks:
+    - Can be checked by enemies with strong crowd control or tools that punish
+      his commit after dashing in.
+    - May struggle into opponents who can keep distance and avoid his
+      short-range engage pattern.
+  uncertainties:
+    - The source does not explicitly label his lane roles, so top and jungle are
+      inferred from general champion context rather than the page text.
+    - The source does not explicitly state waveclear, but the tag is supported
+      by Nimbus Strike's area damage to nearby enemies and Cyclone's repeated
+      AoE damage.
+    - The engage/lockdown tags are valid because Cyclone explicitly knocks
+      enemies up, and Wukong also has two dashes for reliable access.
+    - The dive/assassin tag is valid because Warrior Trickster and Nimbus Strike
+      both provide dash-based mobility.
+    - The shortRange tag is valid because Wukong is a melee champion with only
+      bonus range on his empowered attack, not a true ranged kit.
+    - No tank tag was added because the source shows healing and mobility, but
+      not strong defensive steroids, shields, or defense scaling.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/wukong/

@@ -1,0 +1,40 @@
+id: khazix
+name: Kha'Zix
+status: candidate
+roles:
+  - jungle
+tags:
+  - assassin
+  - dive
+  - shortRange
+profile:
+  draftIdentity: An isolation-focused jungle assassin who uses invisibility, a
+    leap, and burst damage to pick off vulnerable targets.
+  synergyHooks:
+    - Works well with allies who can separate enemies or create isolated picks
+      so Taste Their Fear deals more damage.
+    - Benefits from teammates who can start fights or provide vision control to
+      help him approach unseen.
+  threatHooks:
+    - Enemy teams with strong grouping and nearby protection can reduce the
+      value of his isolation damage.
+    - Champions with reveal, slows, or crowd control can make it harder for him
+      to enter, reset, or escape.
+  uncertainties:
+    - Kept jungle as the primary role because the source text does not specify
+      lane roles, and jungle is the standard fit for Kha'Zix's kit.
+    - Removed poke because the source abilities are primarily burst, isolation
+      damage, and mobility rather than sustained long-range poke.
+    - Removed immobile because Leap is a true mobility skill, so Kha'Zix does
+      not meet the immobile rule.
+    - Removed enchanter/peel, engage/lockdown, tank, and waveclear because the
+      source text does not show ally healing/shielding, hard CC like
+      stun/root/knockup/pull/suppress, strong defensive steroids, or substantial
+      AoE waveclear.
+    - Added no extra role tags beyond jungle because the source text supports
+      him as an assassin/diver rather than a support, tank, or waveclear-focused
+      pick.
+    - ShortRange is valid because Kha'Zix is melee and his basic combat pattern
+      is close-range, even though some evolved effects increase range.
+sources:
+  - https://wildrift.leagueoflegends.com/en-us/champions/khazix/
