@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import DraftBoard from "../components/DraftBoard";
 import { loadAdvisorData } from "../data";
 
 const data = loadAdvisorData();
@@ -18,10 +19,7 @@ const approvedData = {
       <h1>Wild Rift Advisor</h1>
       <p class="subtitle">Premium Real-Time Draft Recommendation Engine</p>
     </header>
-    <div id="advisor-app-mount">
-      <!-- DraftBoard component will go here in Task 3 -->
-      <p>Database loaded: {approvedData.championProfiles.length} champions active.</p>
-    </div>
+    <DraftBoard client:load data={approvedData} />
   </main>
 </Layout>
 
