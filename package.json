@@ -8,7 +8,9 @@
     "profiles:generate": "bun run src/research/generate-champion-profile.ts",
     "test": "bun test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "puppeteer": "^25.3.0"
+  },
   "dependencies": {
     "yaml": "^2.9.0",
     "zod": "^4.4.3"
