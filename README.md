@@ -1,12 +1,12 @@
 # Wild Rift Advisor
 
-Wild Rift Advisor is a data-first ADC draft recommendation engine. V1 focuses on
-the user's playable core ADC pool and uses curated structured dossiers instead
-of generic League of Legends memory.
+Wild Rift Advisor is a customizable, data-first draft recommendation engine. While it is configured by default for an ADC comfort pool, it is designed for easy customization to support any developer's personal champion roster, comfort parameters, and drafting positions.
 
-## V1 Scope
+Rather than relying on generic model memory, the advisor utilizes structured comfort dossiers and an offline knowledge database covering all 139 Wild Rift champions to evaluate real-time draft synergy and counter-pick threat scores.
 
-The first version recommends only these fully supported ADCs:
+## Personalization & Scope
+
+By default, the advisor includes comfort dossiers for these playable carries:
 
 - Zeri
 - Tristana
@@ -15,8 +15,7 @@ The first version recommends only these fully supported ADCs:
 - Lucian
 - Sivir
 
-Other champions in `ROSTER.md` are player context only until they receive full
-dossiers.
+Any champion in the game can be added to your active recommendation pool by creating their corresponding comfort dossier under `data/dossiers/` (see the customization guide below).
 
 ## How It Works
 
