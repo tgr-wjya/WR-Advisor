@@ -6,3 +6,4 @@ coverage/
 .env
 data/source-cache/
 .worktrees/
+.astro/

@@ -9,21 +9,92 @@ import DraftBoard, {
   MAX_ENEMIES,
   MAX_BANS
 } from "../src/components/DraftBoard";
-import { loadAdvisorData } from "../src/index";
+import type { AdvisorData } from "../src/types";
+
+const mockData: AdvisorData = {
+  playerProfile: {
+    role: "adc",
+    champions: [
+      {
+        championId: "jinx",
+        totalGames: 100,
+        winRate: 55,
+        averageKda: "3.5",
+        comfortLevel: "High",
+        notes: ""
+      }
+    ]
+  },
+  dossiers: [
+    {
+      id: "jinx",
+      name: "Jinx",
+      playerFit: {
+        comfortLevel: "High",
+        playstyleFit: "high",
+        statisticalConfidence: "high",
+        rosterNotes: ""
+      },
+      pickProfile: {
+        identity: "immobile hypercarry",
+        blindPickSafety: 40,
+        lanePattern: "farm",
+        scalingCurve: "late",
+        damageProfile: "physical",
+        mobility: "low",
+        selfPeel: "poor",
+        objectiveDps: "high"
+      },
+      supportSynergies: [],
+      enemyThreatRules: [],
+      teamNeedRules: [],
+      execution: {
+        lanePlan: "Play safe and scale.",
+        teamfightPlan: "Stay in backline and reset.",
+        defaultWarnings: []
+      },
+      patch: {
+        reviewedPatch: "14.1",
+        status: "stable",
+        notes: ""
+      }
+    }
+  ],
+  championProfiles: [
+    {
+      id: "jinx",
+      name: "Jinx",
+      status: "approved" as const,
+      roles: ["dragon"],
+      tags: ["immobile", "scaling"],
+      profile: {
+        draftIdentity: "immobile hypercarry",
+        synergyHooks: [],
+        threatHooks: [],
+        uncertainties: []
+      },
+      sources: []
+    },
+    {
+      id: "lux",
+      name: "Lux",
+      status: "approved" as const,
+      roles: ["support", "mid"],
+      tags: ["poke"],
+      profile: {
+        draftIdentity: "mage support",
+        synergyHooks: [],
+        threatHooks: [],
+        uncertainties: []
+      },
+      sources: []
+    }
+  ]
+};
 
 describe("DraftBoard component", () => {
   test("renders DraftBoard correctly with advisor data", () => {
-    const data = loadAdvisorData();
-    // Ensure status is approved
-    const approvedData = {
-      ...data,
-      championProfiles: data.championProfiles.map((p) => ({
-        ...p,
-        status: "approved" as const,
-      })),
-    };
-
-    const html = ReactDOMServer.renderToString(<DraftBoard data={approvedData} />);
+    const html = ReactDOMServer.renderToString(<DraftBoard data={mockData} />);
     
     // Check key structural elements
     expect(html).toContain("Recommendations");
@@ -34,7 +105,7 @@ describe("DraftBoard component", () => {
     expect(html).toContain("Reset Draft");
 
     // Check that at least some champions are listed in the selection grid
-    for (const dossier of approvedData.dossiers) {
+    for (const dossier of mockData.dossiers) {
       const escapedName = dossier.name.replace("'", "&#x27;");
       expect(html).toContain(escapedName);
     }

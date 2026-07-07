@@ -31,12 +31,14 @@ export function addBanHelper(currentBans: string[], newChampId: string): string[
   return [...currentBans, newChampId];
 }
 
+export const DEFAULT_PICK_ORDER = 3;
+
 interface Props {
   data: AdvisorData;
 }
 
 export default function DraftBoard({ data }: Props) {
-  const [pickOrder, setPickOrder] = useState<number>(3);
+  const [pickOrder, setPickOrder] = useState<number>(DEFAULT_PICK_ORDER);
   const [allies, setAllies] = useState<DraftChampion[]>([]);
   const [enemies, setEnemies] = useState<DraftChampion[]>([]);
   const [bans, setBans] = useState<string[]>([]);
