@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { recommendAdcs } from "../recommend";
 import type { AdvisorData, DraftInput, DraftChampion } from "../types";
-import "./DraftBoard.css";
+import styles from "./DraftBoard.module.css";
 
 interface Props {
   data: AdvisorData;
@@ -50,12 +50,15 @@ export default function DraftBoard({ data }: Props) {
     if (unavailableIds.includes(champId)) return;
 
     if (team === "ban") {
+      if (bans.length >= 10) return;
       setBans([...bans, champId]);
     } else if (team === "ally") {
+      if (allies.length >= 4) return;
       const roles: Array<"support" | "mid" | "jungle" | "top"> = ["support", "mid", "jungle", "top"];
       const nextRole = roles[allies.length] || "mid";
       setAllies([...allies, { champion: champId, role: nextRole }]);
     } else {
+      if (enemies.length >= 5) return;
       const roles: Array<"dragon" | "support" | "mid" | "jungle" | "top"> = ["dragon", "support", "mid", "jungle", "top"];
       const nextRole = roles[enemies.length] || "dragon";
       setEnemies([...enemies, { champion: champId, role: nextRole }]);
@@ -85,75 +88,78 @@ export default function DraftBoard({ data }: Props) {
   };
 
   return (
-    <div className="draft-container">
-      <div className="draft-grid">
+    <div className={styles.draftContainer}>
+      <div className={styles.draftGrid}>
         {/* Left Panel: Selection Controls and Board */}
-        <div className="left-panel">
-          <div className="controls">
-            <button onClick={handleReset} className="btn-reset">Reset Draft</button>
+        <div className={styles.leftPanel}>
+          <div className={styles.controls}>
+            <button onClick={handleReset} className={styles.btnReset}>Reset Draft</button>
             
-            <label className="control-label">
+            <label className={styles.controlLabel}>
               Pick Order:
-              <select value={pickOrder} onChange={(e) => setPickOrder(Number(e.target.value))} className="select-pick-order">
+              <select value={pickOrder} onChange={(e) => setPickOrder(Number(e.target.value))} className={styles.selectPickOrder}>
                 {[1, 2, 3, 4, 5].map((num) => (
                   <option key={num} value={num}>{num}</option>
                 ))}
               </select>
             </label>
 
-            <div className="click-mode-selector">
-              <span className="selector-title">Click Action:</span>
-              {(["ally", "enemy", "ban"] as const).map((mode) => (
-                <button
-                  key={mode}
-                  type="button"
-                  onClick={() => setClickMode(mode)}
-                  className={`btn-mode-tab ${clickMode === mode ? `active-${mode}` : ""}`}
-                >
-                  {mode.charAt(0).toUpperCase() + mode.slice(1)}
-                </button>
-              ))}
+            <div className={styles.clickModeSelector}>
+              <span className={styles.selectorTitle}>Click Action:</span>
+              {(["ally", "enemy", "ban"] as const).map((mode) => {
+                const activeStyle = mode === "ally" ? styles.activeAlly : mode === "enemy" ? styles.activeEnemy : styles.activeBan;
+                return (
+                  <button
+                    key={mode}
+                    type="button"
+                    onClick={() => setClickMode(mode)}
+                    className={`${styles.btnModeTab} ${clickMode === mode ? activeStyle : ""}`}
+                  >
+                    {mode.charAt(0).toUpperCase() + mode.slice(1)}
+                  </button>
+                );
+              })}
             </div>
           </div>
 
-          <div className="team-lists">
-            <div className="team-column allies-col">
+          <div className={styles.teamLists}>
+            <div className={`${styles.teamColumn} ${styles.alliesCol}`}>
               <h3>Allies</h3>
               {allies.length === 0 ? (
-                <p className="empty-text">No allies selected</p>
+                <p className={styles.emptyText}>No allies selected</p>
               ) : (
                 allies.map((a, idx) => (
-                  <div key={idx} className="team-item">
-                    <span>{getChampName(a.champion)} <span className="item-role">({a.role})</span></span>
-                    <button onClick={() => handleRemovePick(a.champion, "ally")} className="btn-remove" title="Remove">×</button>
+                  <div key={idx} className={styles.teamItem}>
+                    <span>{getChampName(a.champion)} <span className={styles.itemRole}>({a.role})</span></span>
+                    <button onClick={() => handleRemovePick(a.champion, "ally")} className={styles.btnRemove} title="Remove">×</button>
                   </div>
                 ))
               )}
             </div>
             
-            <div className="team-column enemies-col">
+            <div className={`${styles.teamColumn} ${styles.enemiesCol}`}>
               <h3>Enemies</h3>
               {enemies.length === 0 ? (
-                <p className="empty-text">No enemies selected</p>
+                <p className={styles.emptyText}>No enemies selected</p>
               ) : (
                 enemies.map((e, idx) => (
-                  <div key={idx} className="team-item">
-                    <span>{getChampName(e.champion)} <span className="item-role">({e.role})</span></span>
-                    <button onClick={() => handleRemovePick(e.champion, "enemy")} className="btn-remove" title="Remove">×</button>
+                  <div key={idx} className={styles.teamItem}>
+                    <span>{getChampName(e.champion)} <span className={styles.itemRole}>({e.role})</span></span>
+                    <button onClick={() => handleRemovePick(e.champion, "enemy")} className={styles.btnRemove} title="Remove">×</button>
                   </div>
                 ))
               )}
             </div>
 
-            <div className="team-column bans-col">
+            <div className={`${styles.teamColumn} ${styles.bansCol}`}>
               <h3>Bans</h3>
               {bans.length === 0 ? (
-                <p className="empty-text">No bans selected</p>
+                <p className={styles.emptyText}>No bans selected</p>
               ) : (
                 bans.map((b, idx) => (
-                  <div key={idx} className="team-item">
+                  <div key={idx} className={styles.teamItem}>
                     <span>{getChampName(b)}</span>
-                    <button onClick={() => handleRemovePick(b, "ban")} className="btn-remove" title="Remove">×</button>
+                    <button onClick={() => handleRemovePick(b, "ban")} className={styles.btnRemove} title="Remove">×</button>
                   </div>
                 ))
               )}
@@ -161,30 +167,30 @@ export default function DraftBoard({ data }: Props) {
           </div>
 
           {/* Champion Selection Search & Grid */}
-          <div className="champ-select-box">
-            <div className="search-row">
+          <div className={styles.champSelectBox}>
+            <div className={styles.searchRow}>
               <input
                 type="text"
                 placeholder="Search champion..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="search-input"
+                className={styles.searchInput}
               />
             </div>
             
-            <div className="role-filters">
+            <div className={styles.roleFilters}>
               {["all", "top", "jungle", "mid", "dragon", "support"].map((role) => (
                 <button
                   key={role}
                   onClick={() => setSelectedRole(role)}
-                  className={`btn-role-tab ${selectedRole === role ? "active" : ""}`}
+                  className={`${styles.btnRoleTab} ${selectedRole === role ? styles.active : ""}`}
                 >
                   {role.toUpperCase()}
                 </button>
               ))}
             </div>
 
-            <div className="champ-grid">
+            <div className={styles.champGrid}>
               {filteredChampions.map((champ) => {
                 const isPicked = unavailableIds.includes(champ.id);
                 // Determine status badge if picked/banned
@@ -192,6 +198,8 @@ export default function DraftBoard({ data }: Props) {
                 if (bans.includes(champ.id)) statusLabel = "Banned";
                 else if (allies.some((a) => a.champion === champ.id)) statusLabel = "Ally";
                 else if (enemies.some((e) => e.champion === champ.id)) statusLabel = "Enemy";
+
+                const statusStyle = statusLabel === "Banned" ? styles.statusBanned : statusLabel === "Ally" ? styles.statusAlly : statusLabel === "Enemy" ? styles.statusEnemy : "";
 
                 return (
                   <button
@@ -202,11 +210,11 @@ export default function DraftBoard({ data }: Props) {
                       e.preventDefault();
                       handleAddPick(champ.id, "enemy");
                     }}
-                    className={`champ-card ${isPicked ? "disabled" : ""} ${statusLabel ? `status-${statusLabel.toLowerCase()}` : ""}`}
+                    className={`${styles.champCard} ${isPicked ? styles.disabled : ""} ${statusStyle}`}
                     title={isPicked ? `${champ.name} (${statusLabel})` : `Left click to add to ${clickMode}, Right click for Enemy`}
                   >
-                    <span className="card-name">{champ.name}</span>
-                    {statusLabel && <span className="card-badge">{statusLabel}</span>}
+                    <span className={styles.cardName}>{champ.name}</span>
+                    {statusLabel && <span className={styles.cardBadge}>{statusLabel}</span>}
                   </button>
                 );
               })}
@@ -215,31 +223,31 @@ export default function DraftBoard({ data }: Props) {
         </div>
 
         {/* Right Panel: Recommendations Output */}
-        <div className="right-panel">
+        <div className={styles.rightPanel}>
           <h2>Draft Recommendations</h2>
           {recommendations.recommendations.length === 0 ? (
-            <p className="no-recs-text">No recommendations available. Reset draft or change pick order.</p>
+            <p className={styles.noRecsText}>No recommendations available. Reset draft or change pick order.</p>
           ) : (
             recommendations.recommendations.map((rec, idx) => (
-              <div key={rec.championId} className="rec-card">
-                <div className="rec-header">
-                  <span className="rec-rank">#{idx + 1}</span>
-                  <div className="rec-title-block">
+              <div key={rec.championId} className={styles.recCard}>
+                <div className={styles.recHeader}>
+                  <span className={styles.recRank}>#{idx + 1}</span>
+                  <div className={styles.recTitleBlock}>
                     <h3>{rec.championName}</h3>
-                    <span className="rec-score">Score: {rec.score}</span>
+                    <span className={styles.recScore}>Score: {rec.score}</span>
                   </div>
                 </div>
 
-                <div className="score-breakdown">
-                  <span className="breakdown-item" title="Player comfort score">Comfort: {rec.scoreBreakdown.playerFit}</span>
-                  <span className="breakdown-item" title="Support synergy score">Synergy: {rec.scoreBreakdown.supportSynergy}</span>
-                  <span className="breakdown-item" title="Enemy threat defense score">Threats: {rec.scoreBreakdown.enemyThreats}</span>
-                  <span className="breakdown-item" title="Team dynamic alignment score">Team Needs: {rec.scoreBreakdown.teamNeeds}</span>
-                  <span className="breakdown-item" title="Blind pick safety value">Blind Safety: {rec.scoreBreakdown.blindPickSafety}</span>
-                  <span className="breakdown-item" title="Patch balancing adjustment">Patch: {rec.scoreBreakdown.patch}</span>
+                <div className={styles.scoreBreakdown}>
+                  <span className={styles.breakdownItem} title="Player comfort score">Comfort: {rec.scoreBreakdown.playerFit}</span>
+                  <span className={styles.breakdownItem} title="Support synergy score">Synergy: {rec.scoreBreakdown.supportSynergy}</span>
+                  <span className={styles.breakdownItem} title="Enemy threat defense score">Threats: {rec.scoreBreakdown.enemyThreats}</span>
+                  <span className={styles.breakdownItem} title="Team dynamic alignment score">Team Needs: {rec.scoreBreakdown.teamNeeds}</span>
+                  <span className={styles.breakdownItem} title="Blind pick safety value">Blind Safety: {rec.scoreBreakdown.blindPickSafety}</span>
+                  <span className={styles.breakdownItem} title="Patch balancing adjustment">Patch: {rec.scoreBreakdown.patch}</span>
                 </div>
 
-                <div className="rec-section reasons-section">
+                <div className={`${styles.recSection} ${styles.reasonsSection}`}>
                   <h4>Reasons for Recommendation</h4>
                   <ul>
                     {rec.reasons.map((reason, i) => (
@@ -249,18 +257,18 @@ export default function DraftBoard({ data }: Props) {
                 </div>
 
                 {rec.warnings.length > 0 && (
-                  <div className="rec-section warnings-section">
+                  <div className={`${styles.recSection} ${styles.warningsSection}`}>
                     <h4>Draft & Playstyle Warnings</h4>
-                    <div className="warning-box">
-                      {rec.warnings.map((w, i) => <div key={i} className="warning-item">[Warning] {w}</div>)}
+                    <div className={styles.warningBox}>
+                      {rec.warnings.map((w, i) => <div key={i} className={styles.warningItem}>[Warning] {w}</div>)}
                     </div>
                   </div>
                 )}
 
-                <div className="rec-section execution-section">
+                <div className={`${styles.recSection} ${styles.executionSection}`}>
                   <h4>Execution Blueprint</h4>
-                  <div className="plan-item"><strong>Lane Plan:</strong> {rec.executionPlan.lanePlan}</div>
-                  <div className="plan-item"><strong>Teamfight Plan:</strong> {rec.executionPlan.teamfightPlan}</div>
+                  <div className={styles.planItem}><strong>Lane Plan:</strong> {rec.executionPlan.lanePlan}</div>
+                  <div className={styles.planItem}><strong>Teamfight Plan:</strong> {rec.executionPlan.teamfightPlan}</div>
                 </div>
               </div>
             ))

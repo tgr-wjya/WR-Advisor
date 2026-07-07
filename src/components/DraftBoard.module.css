@@ -1,0 +1,645 @@
+/* Premium Draft Board CSS Module */
+
+.draftContainer {
+  /* Local styling variables for premium look & feel */
+  --panel-bg: rgba(20, 26, 40, 0.45);
+  --panel-border: 1px solid rgba(255, 255, 255, 0.08);
+  --panel-blur: blur(12px) saturate(120%);
+  --panel-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  --glow-ally: 0 0 15px rgba(59, 130, 246, 0.35);
+  --glow-enemy: 0 0 15px rgba(244, 63, 94, 0.35);
+  --glow-ban: 0 0 15px rgba(156, 163, 175, 0.35);
+  --glow-warn: 0 0 15px rgba(245, 158, 11, 0.3);
+
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.draftGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .draftGrid {
+    grid-template-columns: 1.4fr 1fr;
+  }
+}
+
+/* Left Panel */
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Controls - Glassmorphic */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  background: var(--panel-bg);
+  backdrop-filter: var(--panel-blur);
+  -webkit-backdrop-filter: var(--panel-blur);
+  border: var(--panel-border);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: var(--panel-shadow);
+}
+
+.btnReset {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnReset:hover {
+  background: rgba(239, 68, 68, 0.22);
+  border-color: #ef4444;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+}
+
+.controlLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.selectPickOrder {
+  background: #0f172a;
+  color: var(--text-primary);
+  border: var(--panel-border);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s;
+}
+
+.selectPickOrder:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.clickModeSelector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .clickModeSelector {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.selectorTitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.btnModeTab {
+  background: rgba(255, 255, 255, 0.02);
+  border: var(--panel-border);
+  color: var(--text-secondary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnModeTab:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btnModeTab.activeAlly {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #3b82f6;
+  box-shadow: var(--glow-ally);
+}
+
+.btnModeTab.activeEnemy {
+  background: rgba(244, 63, 94, 0.15);
+  border-color: rgba(244, 63, 94, 0.5);
+  color: #f43f5e;
+  box-shadow: var(--glow-enemy);
+}
+
+.btnModeTab.activeBan {
+  background: rgba(156, 163, 175, 0.15);
+  border-color: rgba(156, 163, 175, 0.5);
+  color: #d1d5db;
+  box-shadow: var(--glow-ban);
+}
+
+/* Team Lists Columns - Glassmorphic with clear sectioning and borders */
+.teamLists {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .teamLists {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.teamColumn {
+  background: var(--panel-bg);
+  backdrop-filter: var(--panel-blur);
+  -webkit-backdrop-filter: var(--panel-blur);
+  border: var(--panel-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  min-height: 140px;
+  box-shadow: var(--panel-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.alliesCol {
+  border-left: 4px solid #3b82f6;
+}
+.alliesCol:hover {
+  box-shadow: var(--glow-ally), var(--panel-shadow);
+  border-color: #60a5fa;
+}
+
+.enemiesCol {
+  border-left: 4px solid #f43f5e;
+}
+.enemiesCol:hover {
+  box-shadow: var(--glow-enemy), var(--panel-shadow);
+  border-color: #fb7185;
+}
+
+.bansCol {
+  border-left: 4px solid #9ca3af;
+}
+.bansCol:hover {
+  box-shadow: var(--glow-ban), var(--panel-shadow);
+  border-color: #e5e7eb;
+}
+
+.teamColumn h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.03em;
+}
+
+.emptyText {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.teamItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.teamItem:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.itemRole {
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 0.05rem 0.3rem;
+  border-radius: 4px;
+}
+
+.btnRemove {
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 0.25rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.btnRemove:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.15);
+}
+
+/* Champion Selection Box */
+.champSelectBox {
+  background: var(--panel-bg);
+  backdrop-filter: var(--panel-blur);
+  -webkit-backdrop-filter: var(--panel-blur);
+  border: var(--panel-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--panel-shadow);
+}
+
+.searchRow {
+  margin-bottom: 1rem;
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  background: #0f172a;
+  color: var(--text-primary);
+  border: var(--panel-border);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.roleFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.btnRoleTab {
+  background: transparent;
+  border: var(--panel-border);
+  color: var(--text-secondary);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnRoleTab:hover {
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.btnRoleTab.active {
+  background: var(--accent-blue);
+  border-color: var(--accent-blue);
+  color: #ffffff;
+  box-shadow: var(--glow-ally);
+}
+
+/* Champion Grid */
+.champGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.65rem;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+/* Custom scrollbar for grid */
+.champGrid::-webkit-scrollbar {
+  width: 6px;
+}
+.champGrid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 3px;
+}
+.champGrid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+.champGrid::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Champion Card - With premium hover scale, translate, and shadow transitions */
+.champCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: var(--panel-border);
+  color: var(--text-primary);
+  padding: 0.85rem 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.champCard:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.champCard:active:not(:disabled) {
+  transform: translateY(-1px) scale(1.01);
+}
+
+.champCard.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.champCard.statusAlly {
+  border-color: rgba(59, 130, 246, 0.5);
+  background: rgba(59, 130, 246, 0.08);
+}
+.champCard.statusAlly:hover:not(:disabled) {
+  border-color: #60a5fa;
+  box-shadow: var(--glow-ally);
+}
+
+.champCard.statusEnemy {
+  border-color: rgba(244, 63, 94, 0.5);
+  background: rgba(244, 63, 94, 0.08);
+}
+.champCard.statusEnemy:hover:not(:disabled) {
+  border-color: #fb7185;
+  box-shadow: var(--glow-enemy);
+}
+
+.champCard.statusBanned {
+  border-color: rgba(156, 163, 175, 0.35);
+  background: rgba(156, 163, 175, 0.08);
+}
+.champCard.statusBanned:hover:not(:disabled) {
+  border-color: #d1d5db;
+  box-shadow: var(--glow-ban);
+}
+
+.cardName {
+  font-weight: 600;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 0.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.1rem 0.4rem;
+  border-bottom-left-radius: 6px;
+  letter-spacing: 0.05em;
+}
+
+.champCard.statusAlly .cardBadge {
+  color: #60a5fa;
+}
+
+.champCard.statusEnemy .cardBadge {
+  color: #fb7185;
+}
+
+.champCard.statusBanned .cardBadge {
+  color: #d1d5db;
+}
+
+/* Right Panel: Recommendations */
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.rightPanel h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.noRecsText {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* Glassmorphic Recommendation Card */
+.recCard {
+  background: var(--panel-bg);
+  backdrop-filter: var(--panel-blur);
+  -webkit-backdrop-filter: var(--panel-blur);
+  border: var(--panel-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: var(--panel-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.recCard:hover {
+  box-shadow: var(--glow-ally), var(--panel-shadow);
+  border-color: rgba(59, 130, 246, 0.35);
+  transform: translateY(-2px);
+}
+
+.recHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+
+.recRank {
+  background: var(--accent-blue);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 800;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.recTitleBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.recTitleBlock h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.recScore {
+  font-size: 0.8rem;
+  color: #60a5fa;
+  font-weight: 700;
+  margin-top: 0.15rem;
+}
+
+/* Score Breakdown Badges */
+.scoreBreakdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.6rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.breakdownItem {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.breakdownItem:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+/* Sections in Recommendation Card */
+.recSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.recSection h4 {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  font-weight: 800;
+}
+
+.reasonsSection ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.reasonsSection li {
+  margin-bottom: 0.35rem;
+}
+
+/* Warnings - Prominent alert container styled beautifully */
+.warningsSection .warningBox {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  box-shadow: var(--glow-warn);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.warningsSection .warningBox::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--accent-warning);
+}
+
+.warningItem {
+  color: var(--accent-warning);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Execution */
+.executionSection {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.planItem {
+  margin-bottom: 0.5rem;
+}
+
+.planItem:last-child {
+  margin-bottom: 0;
+}
+
+.planItem strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}

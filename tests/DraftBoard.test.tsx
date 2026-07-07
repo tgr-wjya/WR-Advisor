@@ -32,4 +32,16 @@ describe("DraftBoard component", () => {
       expect(html).toContain(escapedName);
     }
   });
+
+  test("enforces draft size constraints in source code", async () => {
+    const fs = await import("fs/promises");
+    const path = await import("path");
+    const codePath = path.resolve(__dirname, "../src/components/DraftBoard.tsx");
+    const code = await fs.readFile(codePath, "utf-8");
+
+    // Check constraint checks in code
+    expect(code).toContain("allies.length >= 4");
+    expect(code).toContain("enemies.length >= 5");
+    expect(code).toContain("bans.length >= 10");
+  });
 });
