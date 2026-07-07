@@ -3,6 +3,34 @@ import { recommendAdcs } from "../recommend";
 import type { AdvisorData, DraftInput, DraftChampion } from "../types";
 import styles from "./DraftBoard.module.css";
 
+export const MAX_ALLIES = 4;
+export const MAX_ENEMIES = 5;
+export const MAX_BANS = 10;
+
+export function addAllyPickHelper(currentAllies: DraftChampion[], newChampId: string): DraftChampion[] {
+  if (currentAllies.length >= MAX_ALLIES) return currentAllies;
+  if (currentAllies.some((a) => a.champion === newChampId)) return currentAllies;
+  const roles: Array<"support" | "mid" | "jungle" | "top"> = ["support", "mid", "jungle", "top"];
+  const activeRoles = currentAllies.map((a) => a.role);
+  const nextRole = roles.find((r) => !activeRoles.includes(r)) || "mid";
+  return [...currentAllies, { champion: newChampId, role: nextRole }];
+}
+
+export function addEnemyPickHelper(currentEnemies: DraftChampion[], newChampId: string): DraftChampion[] {
+  if (currentEnemies.length >= MAX_ENEMIES) return currentEnemies;
+  if (currentEnemies.some((e) => e.champion === newChampId)) return currentEnemies;
+  const roles: Array<"dragon" | "support" | "mid" | "jungle" | "top"> = ["dragon", "support", "mid", "jungle", "top"];
+  const activeRoles = currentEnemies.map((e) => e.role);
+  const nextRole = roles.find((r) => !activeRoles.includes(r)) || "dragon";
+  return [...currentEnemies, { champion: newChampId, role: nextRole }];
+}
+
+export function addBanHelper(currentBans: string[], newChampId: string): string[] {
+  if (currentBans.length >= MAX_BANS) return currentBans;
+  if (currentBans.includes(newChampId)) return currentBans;
+  return [...currentBans, newChampId];
+}
+
 interface Props {
   data: AdvisorData;
 }
@@ -17,7 +45,8 @@ export default function DraftBoard({ data }: Props) {
   const [clickMode, setClickMode] = useState<"ally" | "enemy" | "ban">("ally");
 
   const allChampions = useMemo(() => {
-    return [...data.championProfiles].sort((a, b) => a.name.localeCompare(b.name));
+    const profiles = data?.championProfiles || [];
+    return [...profiles].sort((a, b) => a.name.localeCompare(b.name));
   }, [data]);
 
   const unavailableIds = useMemo(() => {
@@ -50,18 +79,11 @@ export default function DraftBoard({ data }: Props) {
     if (unavailableIds.includes(champId)) return;
 
     if (team === "ban") {
-      if (bans.length >= 10) return;
-      setBans([...bans, champId]);
+      setBans(addBanHelper(bans, champId));
     } else if (team === "ally") {
-      if (allies.length >= 4) return;
-      const roles: Array<"support" | "mid" | "jungle" | "top"> = ["support", "mid", "jungle", "top"];
-      const nextRole = roles[allies.length] || "mid";
-      setAllies([...allies, { champion: champId, role: nextRole }]);
+      setAllies(addAllyPickHelper(allies, champId));
     } else {
-      if (enemies.length >= 5) return;
-      const roles: Array<"dragon" | "support" | "mid" | "jungle" | "top"> = ["dragon", "support", "mid", "jungle", "top"];
-      const nextRole = roles[enemies.length] || "dragon";
-      setEnemies([...enemies, { champion: champId, role: nextRole }]);
+      setEnemies(addEnemyPickHelper(enemies, champId));
     }
   };
 
