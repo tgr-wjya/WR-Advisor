@@ -1,18 +1,30 @@
 {
   "name": "wild-rift-advisor",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "research:cache": "bun run src/research/cache-official-sources.ts",
     "profiles:generate": "bun run src/research/generate-champion-profile.ts",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "test": "bun test"
   },
-  "devDependencies": {
-    "puppeteer": "^25.3.0"
-  },
   "dependencies": {
-    "yaml": "^2.9.0",
-    "zod": "^4.4.3"
+    "yaml": "^2.3.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^4.0.0",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^7.0.6",
+    "puppeteer": "^25.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.0.0"
   }
 }
+
